@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Database (generated from CSV exports)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+# Source dataset (too large for GitHub)
+data/*.sas7bdat
+# Keep CSV.gz exports for deployment
+!data/*.csv.gz
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

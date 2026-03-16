@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubTrack — Corporate Subsidiary Intelligence Platform</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Enterprise-grade subsidiary intelligence platform. Track, analyze, and visualize 1,180,000+ corporate subsidiary relationships across 21,700+ companies with AI-powered timeline computation.">
+    <meta name="keywords"
+        content="subsidiary tracker, SEC filings, Exhibit 21, corporate subsidiaries, M&A research, acquisition timeline, divestiture tracking, EDGAR, corporate structure, financial research, subsidiary intelligence">
+    <meta name="author" content="Sri Vardhan Reddy Gutta — University of Central Florida">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="/">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SubTrack — Corporate Subsidiary Intelligence Platform">
+    <meta property="og:description"
+        content="Enterprise subsidiary intelligence. Track 1,180,000+ corporate relationships with AI-powered timeline analysis, network visualization, and SEC Exhibit 21 integration.">
+    <meta property="og:site_name" content="SubTrack">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="/">
+    <meta property="og:image" content="/static/images/og-preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SubTrack — Corporate Subsidiary Intelligence Platform">
+    <meta name="twitter:description"
+        content="Enterprise subsidiary intelligence. Analyze 1,180,000+ relationships with AI-powered enrichment and interactive network visualization.">
+    <meta name="twitter:image" content="/static/images/og-preview.png">
+
+    <!-- Favicon & App Icons -->
+    <link rel="icon" type="image/svg+xml" href="/static/images/favicon.svg">
+    <link rel="apple-touch-icon" href="/static/images/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Performance & Compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#06070a">
+    <meta name="color-scheme" content="dark">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "SubTrack — Corporate Subsidiary Intelligence Platform",
+        "alternateName": "Subsidiary Tracker",
+        "description": "Enterprise-grade subsidiary intelligence platform for tracking corporate subsidiary timelines using SEC Exhibit 21 filings with AI-powered enrichment",
+        "applicationCategory": "FinanceApplication",
+        "url": "/",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Sri Vardhan Reddy Gutta",
+            "affiliation": {
+                "@type": "CollegeOrUniversity",
+                "name": "University of Central Florida"
+            }
+        },
+        "about": {
+            "@type": "Dataset",
+            "name": "SEC Exhibit 21 Subsidiary Data",
+            "description": "Corporate subsidiary listings from SEC Exhibit 21 filings (1998-2025)",
+            "variableMeasured": ["TimeIn", "TimeOut", "Confidence", "SubsidiaryType"],
+            "measurementTechnique": "Algorithmic filing comparison + AI enrichment"
+        },
+        "featureList": [
+            "Algorithmic TimeIn/TimeOut computation for 1,180,000+ subsidiaries",
+            "AI-powered enrichment via Google Gemini, SEC EDGAR, and Wikipedia",
+            "Interactive timeline visualizations with Chart.js",
+            "Company comparison and network graph explorer",
+            "CSV export for research use"
+        ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="//unpkg.com/globe.gl"></script>
+    <style>
+        /* ============================================================
+           SUBTRACK PREMIUM SHELL STYLES
+           Scoped to the HTML shell — app-level styles remain in styles.css
+           ============================================================ */
+
+        /* --- CSS Custom Properties --- */
+        :root {
+            --st-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --st-bg-deep: #06070a;
+            --st-bg-base: #0c0d12;
+            --st-bg-surface: rgba(255, 255, 255, 0.04);
+            --st-bg-surface-hover: rgba(255, 255, 255, 0.07);
+            --st-glass: rgba(12, 13, 18, 0.8);
+            --st-glass-border: rgba(255, 255, 255, 0.06);
+            --st-text-primary: #e8eaed;
+            --st-text-secondary: rgba(232, 234, 237, 0.6);
+            --st-text-tertiary: rgba(232, 234, 237, 0.35);
+            --st-accent: #7c5cfc;
+            --st-accent-light: #9b85fd;
+            --st-accent-glow: rgba(124, 92, 252, 0.25);
+            --st-gradient-start: #7c5cfc;
+            --st-gradient-mid: #5b8def;
+            --st-gradient-end: #00d4aa;
+            --st-success: #00d4aa;
+            --st-radius: 12px;
+            --st-radius-lg: 20px;
+            --st-transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            --st-nav-height: 72px;
+        }
+
+        /* --- Base Reset & Typography --- */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--st-font);
+            background: radial-gradient(ellipse at 50% 0%, rgba(124, 92, 252, 0.03) 0%, transparent 60%), var(--st-bg-deep);
+            color: var(--st-text-primary);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* --- Skip Link --- */
+        .skip-link {
+            position: absolute;
+            top: -100%;
+            left: 16px;
+            z-index: 10000;
+            padding: 12px 24px;
+            background: var(--st-accent);
+            color: #fff;
+            border-radius: var(--st-radius);
+            font-weight: 600;
+            text-decoration: none;
+            transition: top 0.2s;
+        }
+
+        .skip-link:focus {
+            top: 16px;
+        }
+
+        /* ============================================================
+           ANIMATED BACKGROUND — particles + aurora mesh
+           ============================================================ */
+        .particle-bg {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(124, 92, 252, 0.35);
+            animation: particleFloat linear infinite;
+            will-change: transform, opacity;
+        }
+
+        .particle:nth-child(odd) {
+            background: rgba(124, 92, 252, 0.3);
+        }
+
+        .particle:nth-child(3n) {
+            background: rgba(0, 212, 170, 0.25);
+        }
+
+        @keyframes particleFloat {
+            0% {
+                transform: translateY(0) translateX(0) scale(1);
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 1;
+            }
+
+            90% {
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-100vh) translateX(40px) scale(0.4);
+                opacity: 0;
+            }
+        }
+
+        /* Aurora / Mesh Gradient Blobs */
+        .aurora {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.12;
+            z-index: 0;
+            pointer-events: none;
+            will-change: transform;
+        }
+
+        .aurora--1 {
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, var(--st-gradient-start), transparent 70%);
+            top: -10%;
+            left: -8%;
+            animation: auroraDrift1 18s ease-in-out infinite alternate;
+        }
+
+        .aurora--2 {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, var(--st-gradient-mid), transparent 70%);
+            top: 40%;
+            right: -10%;
+            animation: auroraDrift2 22s ease-in-out infinite alternate;
+        }
+
+        .aurora--3 {
+            width: 450px;
+            height: 450px;
+            background: radial-gradient(circle, var(--st-gradient-end), transparent 70%);
+            bottom: -5%;
+            left: 30%;
+            animation: auroraDrift3 20s ease-in-out infinite alternate;
+        }
+
+        @keyframes auroraDrift1 {
+            0% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            100% {
+                transform: translate(80px, 60px) scale(1.15);
+            }
+        }
+
+        @keyframes auroraDrift2 {
+            0% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            100% {
+                transform: translate(-70px, -50px) scale(1.1);
+            }
+        }
+
+        @keyframes auroraDrift3 {
+            0% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            100% {
+                transform: translate(50px, -40px) scale(1.2);
+            }
+        }
+
+        /* ============================================================
+           NAVBAR — Frosted Glass
+           ============================================================ */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            height: var(--st-nav-height);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 32px;
+            background: var(--st-glass);
+            backdrop-filter: blur(24px) saturate(1.4);
+            -webkit-backdrop-filter: blur(24px) saturate(1.4);
+            border-bottom: 1px solid var(--st-glass-border);
+            transition: background var(--st-transition), box-shadow var(--st-transition);
+        }
+
+        .navbar.scrolled {
+            background: rgba(12, 13, 18, 0.95);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Brand */
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            text-decoration: none;
+            flex-shrink: 0;
+            outline: none;
+        }
+
+        .nav-brand:focus-visible {
+            outline: 2px solid var(--st-accent);
+            outline-offset: 4px;
+            border-radius: 6px;
+        }
+
+        .nav-brand-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1;
+        }
+
+        .nav-brand-name {
+            font-size: 1.25rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            background: linear-gradient(135deg, #fff 0%, rgba(255, 255, 255, 0.7) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-brand-tagline {
+            font-size: 0.625rem;
+            font-weight: 500;
+            color: var(--st-text-tertiary);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+
+        /* Desktop Nav Links */
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .nav-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: var(--st-text-secondary);
+            text-decoration: none;
+            border-radius: 8px;
+            transition: color var(--st-transition), background var(--st-transition);
+            white-space: nowrap;
+        }
+
+        .nav-links a .nav-icon {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            width: 18px;
+            text-align: center;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--st-text-primary);
+            background: var(--st-bg-surface-hover);
+        }
+
+        .nav-links a.active {
+            background: rgba(124, 92, 252, 0.12);
+            color: var(--st-accent-light);
+        }
+
+        /* === Nav Dropdown System === */
+        .nav-dropdown {
+            position: relative;
+        }
+
+        .nav-dropdown-trigger {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 8px 14px;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            color: var(--st-text-secondary);
+            text-decoration: none;
+            border-radius: 8px;
+            transition: color var(--st-transition), background var(--st-transition);
+            white-space: nowrap;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .nav-dropdown-trigger:hover,
+        .nav-dropdown.open .nav-dropdown-trigger,
+        .nav-dropdown-trigger.parent-active {
+            color: var(--st-text-primary);
+            background: var(--st-bg-surface-hover);
+        }
+
+        .nav-dropdown-trigger.parent-active {
+            background: rgba(124, 92, 252, 0.12);
+            color: var(--st-accent-light);
+        }
+
+        .nav-chevron {
+            transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            opacity: 0.5;
+            flex-shrink: 0;
+        }
+
+        .nav-dropdown.open .nav-chevron {
+            transform: rotate(180deg);
+            opacity: 0.8;
+        }
+
+        /* Dropdown Panel */
+        .nav-dropdown-menu {
+            position: absolute;
+            top: calc(100% + 8px);
+            left: 50%;
+            transform: translateX(-50%) translateY(4px);
+            min-width: 240px;
+            padding: 6px;
+            background: rgba(12, 13, 18, 0.96);
+            backdrop-filter: blur(24px) saturate(1.4);
+            -webkit-backdrop-filter: blur(24px) saturate(1.4);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.03);
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+                transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+                visibility 0.2s;
+            z-index: 1100;
+        }
+
+        .nav-dropdown.open .nav-dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        /* Dropdown Items */
+        .nav-dropdown-menu a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background var(--st-transition);
+        }
+
+        .nav-dropdown-menu a:hover {
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .nav-dropdown-menu a:hover .nav-dd-icon {
+            color: var(--st-accent-light);
+        }
+
+        .nav-dd-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.04);
+            color: var(--st-text-secondary);
+            flex-shrink: 0;
+            transition: color var(--st-transition), background var(--st-transition);
+        }
+
+        .nav-dd-label {
+            font-size: 0.8125rem;
+            font-weight: 550;
+            color: var(--st-text-primary);
+            line-height: 1.2;
+        }
+
+        .nav-dd-desc {
+            font-size: 0.6875rem;
+            color: var(--st-text-tertiary);
+            line-height: 1.3;
+            margin-top: 2px;
+        }
+
+        /* Direct link icon alignment */
+        .nav-direct-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .nav-direct-link svg {
+            opacity: 0.6;
+            flex-shrink: 0;
+        }
+
+        /* Mobile nav group labels */
+        .mobile-nav-group-label {
+            font-size: 0.6875rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--st-text-tertiary);
+            padding: 16px 16px 6px;
+            margin-top: 4px;
+        }
+
+        /* CTA Button */
+        .nav-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-left: 12px;
+            padding: 9px 22px;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            color: #fff;
+            background: linear-gradient(135deg, var(--st-gradient-start), var(--st-gradient-mid));
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform var(--st-transition), box-shadow var(--st-transition);
+            box-shadow: 0 2px 12px var(--st-accent-glow);
+            flex-shrink: 0;
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px var(--st-accent-glow);
+        }
+
+        /* Hamburger Toggle */
+        .nav-toggle {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background: none;
+            border: 1px solid var(--st-glass-border);
+            border-radius: 8px;
+            cursor: pointer;
+            padding: 0;
+            gap: 5px;
+            transition: background var(--st-transition);
+        }
+
+        .nav-toggle:hover {
+            background: var(--st-bg-surface-hover);
+        }
+
+        .nav-toggle span {
+            display: block;
+            width: 18px;
+            height: 2px;
+            background: var(--st-text-primary);
+            border-radius: 2px;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+
+        .nav-toggle.open span:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+
+        .nav-toggle.open span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .nav-toggle.open span:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+
+        /* ============================================================
+           MOBILE NAV OVERLAY
+           ============================================================ */
+        .mobile-nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 320px;
+            max-width: 85vw;
+            z-index: 1001;
+            background: rgba(12, 13, 18, 0.97);
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
+            border-left: 1px solid var(--st-glass-border);
+            transform: translateX(100%);
+            transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            overflow-y: auto;
+        }
+
+        .mobile-nav.open {
+            transform: translateX(0);
+        }
+
+        .mobile-nav-backdrop {
+            position: fixed;
+            inset: 0;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.35s;
+        }
+
+        .mobile-nav-backdrop.open {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .mobile-nav-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--st-glass-border);
+        }
+
+        .mobile-nav-header span {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--st-text-primary);
+        }
+
+        .mobile-nav-close {
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--st-bg-surface);
+            border: 1px solid var(--st-glass-border);
+            border-radius: 8px;
+            cursor: pointer;
+            color: var(--st-text-primary);
+            font-size: 1.2rem;
+            transition: background var(--st-transition);
+        }
+
+        .mobile-nav-close:hover {
+            background: var(--st-bg-surface-hover);
+        }
+
+        .mobile-nav-links {
+            display: flex;
+            flex-direction: column;
+            padding: 16px;
+            gap: 2px;
+        }
+
+        .mobile-nav-links a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 16px;
+            font-size: 0.9375rem;
+            font-weight: 500;
+            color: var(--st-text-secondary);
+            text-decoration: none;
+            border-radius: 10px;
+            transition: color var(--st-transition), background var(--st-transition);
+        }
+
+        .mobile-nav-links a .nav-icon {
+            font-size: 1.1rem;
+            width: 24px;
+            text-align: center;
+            opacity: 0.7;
+        }
+
+        .mobile-nav-links a:hover,
+        .mobile-nav-links a.active {
+            color: var(--st-text-primary);
+            background: var(--st-bg-surface-hover);
+        }
+
+        .mobile-nav-cta-wrapper {
+            padding: 16px 16px 32px;
+            margin-top: auto;
+        }
+
+        .mobile-nav-cta {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            padding: 14px;
+            font-size: 0.9375rem;
+            font-weight: 600;
+            color: #fff;
+            background: linear-gradient(135deg, var(--st-gradient-start), var(--st-gradient-mid));
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 2px 16px var(--st-accent-glow);
+        }
+
+        /* ============================================================
+           MAIN CONTENT AREA
+           ============================================================ */
+        #app {
+            position: relative;
+            z-index: 1;
+            min-height: calc(100vh - var(--st-nav-height));
+            margin-top: var(--st-nav-height);
+        }
+
+        /* Loading screen */
+        .loading-screen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100vh - var(--st-nav-height) - 80px);
+            gap: 24px;
+        }
+
+        .loading-screen .spinner {
+            width: 44px;
+            height: 44px;
+            border: 3px solid var(--st-glass-border);
+            border-top-color: var(--st-accent);
+            border-radius: 50%;
+            animation: spinnerRotate 0.8s linear infinite;
+        }
+
+        @keyframes spinnerRotate {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .loading-screen p {
+            font-size: 0.9375rem;
+            font-weight: 500;
+            color: var(--st-text-secondary);
+            letter-spacing: -0.01em;
+        }
+
+        /* ============================================================
+           SCROLL-TO-TOP BUTTON
+           ============================================================ */
+        .scroll-top-btn {
+            position: fixed;
+            bottom: 32px;
+            right: 32px;
+            z-index: 900;
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--st-glass);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--st-glass-border);
+            border-radius: 12px;
+            color: var(--st-text-primary);
+            font-size: 1.1rem;
+            cursor: pointer;
+            opacity: 0;
+            transform: translateY(16px);
+            transition: opacity 0.3s, transform 0.3s, background var(--st-transition);
+            pointer-events: none;
+        }
+
+        .scroll-top-btn.visible {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+
+        .scroll-top-btn:hover {
+            background: var(--st-bg-surface-hover);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        /* ============================================================
+           TOAST CONTAINER
+           ============================================================ */
+        #toast-container {
+            position: fixed;
+            top: calc(var(--st-nav-height) + 16px);
+            right: 24px;
+            z-index: 2000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            pointer-events: none;
+        }
+
+        #toast-container>* {
+            pointer-events: auto;
+        }
+
+        /* ============================================================
+           PREMIUM FOOTER
+           ============================================================ */
+        .site-footer {
+            position: relative;
+            z-index: 1;
+            margin-top: 80px;
+            border-top: 2px solid transparent;
+            border-image: linear-gradient(90deg, var(--st-gradient-start), var(--st-gradient-mid), var(--st-gradient-end)) 1;
+            background: rgba(6, 7, 10, 0.9);
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 64px 32px 40px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr repeat(3, 1fr);
+            gap: 48px;
+            margin-bottom: 56px;
+        }
+
+        /* Footer brand column */
+        .footer-brand-col .footer-logo-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .footer-brand-col .footer-brand-name {
+            font-size: 1.125rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            color: var(--st-text-primary);
+        }
+
+        .footer-brand-col .footer-brand-desc {
+            font-size: 0.8125rem;
+            line-height: 1.7;
+            color: var(--st-text-secondary);
+            margin: 0 0 24px;
+            max-width: 280px;
+        }
+
+        /* Newsletter */
+        .footer-newsletter {
+            display: flex;
+            gap: 8px;
+        }
+
+        .footer-newsletter input {
+            flex: 1;
+            min-width: 0;
+            padding: 10px 14px;
+            font-size: 0.8125rem;
+            font-family: var(--st-font);
+            color: var(--st-text-primary);
+            background: var(--st-bg-surface);
+            border: 1px solid var(--st-glass-border);
+            border-radius: 8px;
+            outline: none;
+            transition: border-color var(--st-transition);
+        }
+
+        .footer-newsletter input::placeholder {
+            color: var(--st-text-tertiary);
+        }
+
+        .footer-newsletter input:focus {
+            border-color: var(--st-accent);
+        }
+
+        .footer-newsletter button {
+            padding: 10px 18px;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            font-family: var(--st-font);
+            color: #fff;
+            background: linear-gradient(135deg, var(--st-gradient-start), var(--st-gradient-mid));
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: transform var(--st-transition), box-shadow var(--st-transition);
+        }
+
+        .footer-newsletter button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 3px 14px var(--st-accent-glow);
+        }
+
+        /* Footer link columns */
+        .footer-col h4 {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--st-text-primary);
+            margin: 0 0 20px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-col ul li a {
+            font-size: 0.8125rem;
+            color: var(--st-text-secondary);
+            text-decoration: none;
+            transition: color var(--st-transition);
+        }
+
+        .footer-col ul li a:hover {
+            color: var(--st-text-primary);
+        }
+
+        /* Social links */
+        .footer-social {
+            display: flex;
+            gap: 10px;
+            margin-top: 8px;
+        }
+
+        .footer-social a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            background: var(--st-bg-surface);
+            border: 1px solid var(--st-glass-border);
+            color: var(--st-text-secondary);
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background var(--st-transition), color var(--st-transition), border-color var(--st-transition);
+        }
+
+        .footer-social a:hover {
+            background: var(--st-bg-surface-hover);
+            color: var(--st-text-primary);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        /* Footer bottom bar */
+        .footer-bottom {
+            border-top: 1px solid var(--st-glass-border);
+            padding-top: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .footer-bottom-left {
+            font-size: 0.75rem;
+            color: var(--st-text-tertiary);
+        }
+
+        .footer-bottom-left a {
+            color: var(--st-accent-light);
+            text-decoration: none;
+        }
+
+        .footer-bottom-left a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-bottom-right {
+            font-size: 0.6875rem;
+            color: var(--st-text-tertiary);
+        }
+
+        /* ============================================================
+           RESPONSIVE
+           ============================================================ */
+        @media (max-width: 1024px) {
+            .nav-links {
+                gap: 2px;
+            }
+
+            .nav-links>a {
+                padding: 8px 10px;
+                font-size: 0.75rem;
+            }
+
+            .nav-dropdown-trigger {
+                padding: 8px 10px;
+                font-size: 0.75rem;
+            }
+
+            .nav-cta {
+                padding: 8px 16px;
+                font-size: 0.75rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 0 20px;
+            }
+
+            .nav-links,
+            .nav-cta {
+                display: none;
+            }
+
+            .nav-toggle {
+                display: flex;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 32px;
+            }
+
+            .footer-brand-col {
+                grid-column: 1 / -1;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .scroll-top-btn {
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+
+            .footer-inner {
+                padding: 48px 20px 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Constellation particle canvas — ambient background effect -->
+    <canvas id="particleCanvas"
+        style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:0.7;"
+        aria-hidden="true"></canvas>
+
+    <a href="#app" class="skip-link">Skip to main content</a>
+
+    <!-- ============================================================
+         ANIMATED BACKGROUND
+         ============================================================ -->
+    <div class="particle-bg" aria-hidden="true">
+        <span class="particle"
+            style="left:5%;width:3px;height:3px;animation-duration:14s;animation-delay:0s;bottom:-10px"></span>
+        <span class="particle"
+            style="left:12%;width:2px;height:2px;animation-duration:18s;animation-delay:2s;bottom:-10px"></span>
+        <span class="particle"
+            style="left:22%;width:4px;height:4px;animation-duration:12s;animation-delay:4s;bottom:-10px"></span>
+        <span class="particle"
+            style="left:30%;width:2px;height:2px;animation-duration:20s;animation-delay:1s;bottom:-10px"></span>
+        <span class="particle"
+            style="left:38%;width:3px;height:3px;animation-duration:16s;animation-delay:6s;bottom:-10px"></span>
+        <span class="particle"
+            style="left:45%;width:2px;height:2px;animation-duration:22s;animation-delay:3s;bottom:-10px"></span>
+        <span class="particle"
+            style="left:55%;width:4px;height:4px;animation-duration:13s;animation-delay:5s;bottom:-10px"></span>
+        <span class="particle"
+            style="left:62%;width:2px;height:2px;animation-duration:17s;animation-delay:0s;bottom:-10px"></span>
+        <span class="particle"
+            style="left:70%;width:3px;height:3px;animation-duration:15s;animation-delay:7s;bottom:-10px"></span>
+        <span class="particle"
+            style="left:78%;width:2px;height:2px;animation-duration:19s;animation-delay:2s;bottom:-10px"></span>
+        <span class="particle"
+            style="left:85%;width:3px;height:3px;animation-duration:14s;animation-delay:8s;bottom:-10px"></span>
+        <span class="particle"
+            style="left:93%;width:2px;height:2px;animation-duration:21s;animation-delay:4s;bottom:-10px"></span>
+    </div>
+
+    <!-- Aurora mesh gradient blobs -->
+    <div class="aurora aurora--1" aria-hidden="true"></div>
+    <div class="aurora aurora--2" aria-hidden="true"></div>
+    <div class="aurora aurora--3" aria-hidden="true"></div>
+
+    <!-- ============================================================
+         NAVBAR
+         ============================================================ -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <!-- Brand -->
+            <div class="nav-brand" onclick="navigate('dashboard')" role="banner" tabindex="0" aria-label="SubTrack Home"
+                onkeydown="if(event.key==='Enter') navigate('dashboard')">
+                <span class="logo" aria-hidden="true" style="background: transparent; box-shadow: none;">
+                    <img src="/static/images/subtrack_logo.png" alt="SubTrack Logo"
+                        style="width: 100%; height: 100%; object-fit: contain;">
+                </span>
+                <span class="nav-brand-text">
+                    <span class="nav-brand-name">SubTrack</span>
+                    <span class="nav-brand-tagline">by Subsidiary Tracker</span>
+                </span>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-links" role="menubar">
+                <!-- Dashboard — direct link -->
+                <a href="#dashboard" onclick="navigate('dashboard')" role="menuitem" class="nav-direct-link"
+                    data-page="dashboard">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="7" height="7" rx="1" />
+                        <rect x="14" y="3" width="7" height="7" rx="1" />
+                        <rect x="3" y="14" width="7" height="7" rx="1" />
+                        <rect x="14" y="14" width="7" height="7" rx="1" />
+                    </svg>
+                    Dashboard
+                </a>
+
+                <!-- Explore dropdown -->
+                <div class="nav-dropdown" data-pages="companies,search,network,geo">
+                    <a href="#" class="nav-dropdown-trigger" role="menuitem" onclick="event.preventDefault()">
+                        Explore
+                        <svg class="nav-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2.5">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="#companies" onclick="navigate('companies')">
+                            <span class="nav-dd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M3 21h18" />
+                                    <path d="M5 21V7l8-4v18" />
+                                    <path d="M19 21V11l-6-4" />
+                                    <path d="M9 9h1" />
+                                    <path d="M9 13h1" />
+                                    <path d="M9 17h1" />
+                                </svg></span>
+                            <div>
+                                <div class="nav-dd-label">Companies</div>
+                                <div class="nav-dd-desc">Browse 21,700+ companies</div>
+                            </div>
+                        </a>
+                        <a href="#search" onclick="navigate('search')">
+                            <span class="nav-dd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8" />
+                                    <path d="M21 21l-4.35-4.35" />
+                                </svg></span>
+                            <div>
+                                <div class="nav-dd-label">Search</div>
+                                <div class="nav-dd-desc">Find subsidiaries & filings</div>
+                            </div>
+                        </a>
+                        <a href="#network" onclick="navigate('network')">
+                            <span class="nav-dd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <circle cx="12" cy="5" r="3" />
+                                    <circle cx="5" cy="19" r="3" />
+                                    <circle cx="19" cy="19" r="3" />
+                                    <path d="M12 8v4M9.5 14.5L7 17M14.5 14.5L17 17" />
+                                </svg></span>
+                            <div>
+                                <div class="nav-dd-label">Network Graph</div>
+                                <div class="nav-dd-desc">Visualize corporate structures</div>
+                            </div>
+                        </a>
+                        <a href="#geo" onclick="navigate('geo')">
+                            <span class="nav-dd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="M2 12h20" />
+                                    <ellipse cx="12" cy="12" rx="4" ry="10" />
+                                </svg></span>
+                            <div>
+                                <div class="nav-dd-label">Map</div>
+                                <div class="nav-dd-desc">Geographic distribution</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Analytics dropdown -->
+                <div class="nav-dropdown" data-pages="analytics,insights,timeline,compare,crossref">
+                    <a href="#" class="nav-dropdown-trigger" role="menuitem" onclick="event.preventDefault()">
+                        Analytics
+                        <svg class="nav-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2.5">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="#analytics" onclick="navigate('analytics')">
+                            <span class="nav-dd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M3 3v18h18" />
+                                    <path d="M7 16l4-8 4 4 4-8" />
+                                </svg></span>
+                            <div>
+                                <div class="nav-dd-label">Analytics</div>
+                                <div class="nav-dd-desc">Charts, trends & distributions</div>
+                            </div>
+                        </a>
+                        <a href="#timeline" onclick="navigate('timeline')">
+                            <span class="nav-dd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg></span>
+                            <div>
+                                <div class="nav-dd-label">Timeline</div>
+                                <div class="nav-dd-desc">Acquisition & divestiture history</div>
+                            </div>
+                        </a>
+                        <a href="#compare" onclick="navigate('compare')">
+                            <span class="nav-dd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <rect x="2" y="4" width="8" height="16" rx="1" />
+                                    <rect x="14" y="4" width="8" height="16" rx="1" />
+                                </svg></span>
+                            <div>
+                                <div class="nav-dd-label">Compare</div>
+                                <div class="nav-dd-desc">Side-by-side company analysis</div>
+                            </div>
+                        </a>
+                        <a href="#crossref" onclick="navigate('crossref')">
+                            <span class="nav-dd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg></span>
+                            <div>
+                                <div class="nav-dd-label">Insights</div>
+                                <div class="nav-dd-desc">Cross-reference & enrichment</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tools dropdown -->
+                <div class="nav-dropdown" data-pages="data-quality,status,techstack">
+                    <a href="#" class="nav-dropdown-trigger" role="menuitem" onclick="event.preventDefault()">
+                        Tools
+                        <svg class="nav-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2.5">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="#data-quality" onclick="navigate('data-quality')">
+                            <span class="nav-dd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                    <path d="M9 12l2 2 4-4" />
+                                </svg></span>
+                            <div>
+                                <div class="nav-dd-label">Data Quality</div>
+                                <div class="nav-dd-desc">Validation & cleaning tools</div>
+                            </div>
+                        </a>
+                        <a href="#status" onclick="navigate('status')">
+                            <span class="nav-dd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                                </svg></span>
+                            <div>
+                                <div class="nav-dd-label">System Status</div>
+                                <div class="nav-dd-desc">API health & performance</div>
+                            </div>
+                        </a>
+                        <a href="#techstack" onclick="navigate('techstack')">
+                            <span class="nav-dd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                                    <path d="M2 17l10 5 10-5" />
+                                    <path d="M2 12l10 5 10-5" />
+                                </svg></span>
+                            <div>
+                                <div class="nav-dd-label">Tech Stack</div>
+                                <div class="nav-dd-desc">Architecture & dependencies</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Command Palette Shortcut Hint -->
+            <button class="nav-shortcut-hint" onclick="toggleCommandPalette()" title="Command palette (⌘K)">
+                <kbd>⌘</kbd><kbd>K</kbd>
+            </button>
+
+            <!-- CTA / Auth -->
+            <a href="#login" onclick="navigate('login')" class="nav-cta">
+                Sign In &#8594;
+            </a>
+
+            <!-- Mobile Hamburger -->
+            <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ============================================================
+         MOBILE NAV OVERLAY
+         ============================================================ -->
+    <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+    <aside class="mobile-nav" aria-label="Mobile navigation">
+        <div class="mobile-nav-header">
+            <span>Navigation</span>
+            <button class="mobile-nav-close" aria-label="Close navigation menu">&#10005;</button>
+        </div>
+        <div class="mobile-nav-links">
+            <a href="#dashboard" onclick="navigate('dashboard'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="7" height="7" rx="1" />
+                    <rect x="14" y="3" width="7" height="7" rx="1" />
+                    <rect x="3" y="14" width="7" height="7" rx="1" />
+                    <rect x="14" y="14" width="7" height="7" rx="1" />
+                </svg>
+                Dashboard
+            </a>
+
+            <div class="mobile-nav-group-label">Explore</div>
+            <a href="#companies" onclick="navigate('companies'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 21h18" />
+                    <path d="M5 21V7l8-4v18" />
+                    <path d="M19 21V11l-6-4" />
+                    <path d="M9 9h1" />
+                    <path d="M9 13h1" />
+                    <path d="M9 17h1" />
+                </svg>
+                Companies
+            </a>
+            <a href="#search" onclick="navigate('search'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="M21 21l-4.35-4.35" />
+                </svg>
+                Search
+            </a>
+            <a href="#network" onclick="navigate('network'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="5" r="3" />
+                    <circle cx="5" cy="19" r="3" />
+                    <circle cx="19" cy="19" r="3" />
+                    <path d="M12 8v4M9.5 14.5L7 17M14.5 14.5L17 17" />
+                </svg>
+                Network Graph
+            </a>
+            <a href="#geo" onclick="navigate('geo'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M2 12h20" />
+                    <ellipse cx="12" cy="12" rx="4" ry="10" />
+                </svg>
+                Map
+            </a>
+
+            <div class="mobile-nav-group-label">Analytics</div>
+            <a href="#analytics" onclick="navigate('analytics'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 3v18h18" />
+                    <path d="M7 16l4-8 4 4 4-8" />
+                </svg>
+                Analytics
+            </a>
+            <a href="#timeline" onclick="navigate('timeline'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                </svg>
+                Timeline
+            </a>
+            <a href="#compare" onclick="navigate('compare'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="8" height="16" rx="1" />
+                    <rect x="14" y="4" width="8" height="16" rx="1" />
+                </svg>
+                Compare
+            </a>
+            <a href="#crossref" onclick="navigate('crossref'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                    <circle cx="12" cy="12" r="3" />
+                </svg>
+                Insights
+            </a>
+
+            <div class="mobile-nav-group-label">Tools</div>
+            <a href="#data-quality" onclick="navigate('data-quality'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    <path d="M9 12l2 2 4-4" />
+                </svg>
+                Data Quality
+            </a>
+            <a href="#status" onclick="navigate('status'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                </svg>
+                System Status
+            </a>
+            <a href="#techstack" onclick="navigate('techstack'); closeMobileNav();">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                    <path d="M2 17l10 5 10-5" />
+                    <path d="M2 12l10 5 10-5" />
+                </svg>
+                Tech Stack
+            </a>
+        </div>
+        <div class="mobile-nav-cta-wrapper">
+            <a href="#dashboard" onclick="navigate('dashboard'); closeMobileNav();" class="mobile-nav-cta">
+                Try Free &#8594;
+            </a>
+        </div>
+    </aside>
+
+    <!-- ============================================================
+         TOAST CONTAINER
+         ============================================================ -->
+    <div id="toast-container" aria-live="polite"></div>
+
+    <!-- ============================================================
+         MAIN CONTENT
+         ============================================================ -->
+    <main id="app" role="main" aria-live="polite">
+        <div class="loading-screen" aria-label="Loading application">
+            <div class="spinner" role="status" aria-label="Loading"></div>
+            <p>Initializing SubTrack...</p>
+        </div>
+    </main>
+
+    <!-- ============================================================
+         SCROLL TO TOP
+         ============================================================ -->
+    <button class="scroll-top-btn" aria-label="Scroll to top" title="Back to top">&#8593;</button>
+
+    <!-- ============================================================
+         PREMIUM FOOTER
+         ============================================================ -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-brand-col">
+                    <div class="footer-logo-row">
+                        <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true">
+                            <defs>
+                                <linearGradient id="footLogoGrad" x1="8" y1="44" x2="40" y2="4"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0%" stop-color="#00d4aa" />
+                                    <stop offset="50%" stop-color="#5b8def" />
+                                    <stop offset="100%" stop-color="#7c5cfc" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="24" cy="6" r="4.5" fill="url(#footLogoGrad)" />
+                            <circle cx="24" cy="6" r="2.2" fill="white" opacity="0.9" />
+                            <circle cx="24" cy="18" r="3.5" fill="url(#footLogoGrad)" />
+                            <circle cx="14" cy="28" r="3" fill="url(#footLogoGrad)" opacity="0.85" />
+                            <circle cx="34" cy="28" r="3" fill="url(#footLogoGrad)" opacity="0.85" />
+                            <path d="M24 10 L24 14.5" stroke="white" stroke-width="2" stroke-linecap="round"
+                                opacity="0.7" />
+                            <path d="M24 21.5 L14 25" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                opacity="0.5" />
+                            <path d="M24 21.5 L34 25" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                opacity="0.5" />
+                        </svg>
+                        <span class="footer-brand-name">SubTrack</span>
+                    </div>
+                    <p class="footer-brand-desc">
+                        Enterprise-grade corporate subsidiary intelligence. Track, analyze, and visualize complex
+                        ownership structures with AI-powered enrichment.
+                    </p>
+                    <form class="footer-newsletter" onsubmit="event.preventDefault();" aria-label="Newsletter signup">
+                        <input type="email" placeholder="you@company.com" aria-label="Email address for newsletter">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+                <!-- Product -->
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#dashboard" onclick="navigate('dashboard')">Dashboard</a></li>
+                        <li><a href="#analytics" onclick="navigate('analytics')">Analytics</a></li>
+                        <li><a href="#network" onclick="navigate('network')">Network Explorer</a></li>
+                        <li><a href="#compare" onclick="navigate('compare')">Company Compare</a></li>
+                        <li><a href="#search" onclick="navigate('search')">Search</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#techstack" onclick="navigate('techstack')">Tech Stack</a></li>
+                        <li><a href="#status" onclick="navigate('status')">System Status</a></li>
+                        <li><a href="#">API Documentation</a></li>
+                        <li><a href="#">Data Methodology</a></li>
+                        <li><a href="#">SEC EDGAR Guide</a></li>
+                    </ul>
+                </div>
+
+                <!-- Connect -->
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">About the Research</a></li>
+                        <li><a href="#">University of Central Florida</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn" title="LinkedIn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="X (Twitter)" title="X (Twitter)">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="GitHub" title="GitHub">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    &copy; 2026 SubTrack. Built with care by
+                    <a href="#">Sri Vardhan Reddy Gutta</a> &middot;
+                    University of Central Florida &middot;
+                    Advisors: Dr. Pirinsky, Dr. Gatchev, Dr. Ndum
+                </div>
+                <div class="footer-bottom-right">
+                    SEC Exhibit 21 Filings (1994&ndash;2025) &middot; 1,180,000+ subsidiaries &middot; 21,700+ companies
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================
+         SHELL SCRIPTS (navbar, mobile nav, scroll-to-top)
+         ============================================================ -->
+    <script>
+        /* --- Navbar scroll effect --- */
+        (function () {
+            var navbar = document.querySelector('.navbar');
+            var scrollBtn = document.querySelector('.scroll-top-btn');
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 32) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+                if (window.scrollY > 400) {
+                    scrollBtn.classList.add('visible');
+                } else {
+                    scrollBtn.classList.remove('visible');
+                }
+            }, { passive: true });
+
+            scrollBtn.addEventListener('click', function () {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        })();
+
+        /* --- Mobile nav --- */
+        var mobileNav = document.querySelector('.mobile-nav');
+        var mobileBackdrop = document.querySelector('.mobile-nav-backdrop');
+        var navToggle = document.querySelector('.nav-toggle');
+        var mobileClose = document.querySelector('.mobile-nav-close');
+
+        function openMobileNav() {
+            mobileNav.classList.add('open');
+            mobileBackdrop.classList.add('open');
+            navToggle.classList.add('open');
+            navToggle.setAttribute('aria-expanded', 'true');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeMobileNav() {
+            mobileNav.classList.remove('open');
+            mobileBackdrop.classList.remove('open');
+            navToggle.classList.remove('open');
+            navToggle.setAttribute('aria-expanded', 'false');
+            document.body.style.overflow = '';
+        }
+        navToggle.addEventListener('click', function () {
+            if (mobileNav.classList.contains('open')) {
+                closeMobileNav();
+            } else {
+                openMobileNav();
+            }
+        });
+        mobileClose.addEventListener('click', closeMobileNav);
+        mobileBackdrop.addEventListener('click', closeMobileNav);
+    </script>
+
+    <!-- ============================================================
+         APPLICATION SCRIPTS (keep all existing)
+         ============================================================ -->
+    <!-- Constellation Particle System -->
+    <script src="/static/js/particles.js"></script>
+
+    <!-- Fuse.js for fuzzy search (Command Palette) -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+
+    <!-- GSAP Animation Platform -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="/static/js/animations.js"></script>
+
+    <!-- 3D Force Graph -->
+    <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/3d-force-graph@1.73.3/dist/3d-force-graph.min.js"></script>
+
+    <script src="/static/js/command-palette.js"></script>
+
+    <script src="/static/js/auth.js"></script>
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/dashboard.js"></script>
+    <script src="/static/js/company.js"></script>
+    <script src="/static/js/search.js"></script>
+    <script src="/static/js/techstack.js"></script>
+    <script src="/static/js/status.js"></script>
+    <script src="/static/js/analytics.js"></script>
+    <script src="/static/js/compare.js"></script>
+    <script src="/static/js/network.js"></script>
+    <script src="/static/js/geo.js"></script>
+    <script src="/static/js/crossref.js"></script>
+    <script src="/static/js/billing.js"></script>
+    <script src="/static/js/data-quality.js"></script>
+    <script src="/static/js/timeline.js"></script>
+</body>
+
+</html>
