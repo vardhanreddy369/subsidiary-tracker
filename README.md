@@ -1,6 +1,39 @@
 # SubTrack — AI-Powered Corporate Subsidiary Intelligence
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-subsidiary--tracker.onrender.com-blue?style=for-the-badge)](https://subsidiary-tracker.onrender.com)
+[![Python](https://img.shields.io/badge/Python-3.11-green?style=flat-square&logo=python)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-teal?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+
 An AI-powered research platform that maps **1.17 million subsidiaries** across **21,748 public companies** using SEC Exhibit 21 filings. Features algorithmic timeline computation, three-tier AI enrichment, and real-time classification of subsidiary relationships (acquisitions, internal creations, restructurings, joint ventures).
+
+> **Live Demo:** [subsidiary-tracker.onrender.com](https://subsidiary-tracker.onrender.com)
+
+---
+
+## Screenshots
+
+### Dashboard — Real-time Intelligence Overview
+Track 1.17M+ subsidiaries across 21,748 companies with live stats, confidence breakdowns, and quick actions.
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+### Company Detail — Deep Subsidiary Analysis
+Drill into any company to see all subsidiaries with timeline data, AI classification, and enrichment controls (Turbo/Fast/Full AI modes).
+
+![Company Detail](docs/screenshots/company-detail.png)
+
+### Analytics — Year-over-Year Trends
+Subsidiaries by filing year, churn analysis (added vs removed), and data quality metrics across the full dataset.
+
+![Analytics](docs/screenshots/analytics.png)
+
+### Search — Subsidiary Intelligence Search
+Search across 1.17M records by name, view enrichment results with source links from SEC EDGAR and Wikipedia.
+
+![Search](docs/screenshots/search.png)
+
+---
 
 ## Key Capabilities
 
@@ -9,35 +42,34 @@ An AI-powered research platform that maps **1.17 million subsidiaries** across *
   - **Turbo** (~9 seconds for all 1.17M) — Pure heuristic classification, no API calls
   - **Fast** (~1-2s per sub) — EDGAR + Wikipedia cross-referencing with heuristics
   - **Full AI** (~6-8s per sub) — Google Gemini reasoning on top of EDGAR + Wikipedia evidence
-- **94% Classification Accuracy** — Validated against 27 ground-truth cases (famous acquisitions like Countrywide, DreamWorks, Banamex)
+- **94% Classification Accuracy** — Validated against ground-truth cases (Countrywide, DreamWorks, Banamex, Azurix)
 - **Algorithmic Timeline Computation** — TimeIn/TimeOut for every subsidiary by diffing filings across years
 - **Interactive Dashboard** — Real-time stats, charts, search, and enrichment controls
-- **Company Timeline Visualization** — Gantt-style subsidiary timelines per company
 - **Company Comparison** — Side-by-side analysis of up to 4 companies
-- **Network Graph Explorer** — Visual parent-subsidiary relationship graphs
+- **Network Graph Explorer** — Interactive 3D parent-subsidiary relationship graphs
 - **Analytics Suite** — Year-over-year trends, churn analysis, size distributions
-- **CSV Export** — Download full dataset or per-company data
+- **CSV/Excel/PDF Export** — Download full dataset or per-company data for research use
 
 ## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
 | Backend | FastAPI + SQLite (WAL mode, 500MB+ DB) |
-| Frontend | Vanilla HTML/CSS/JS + Chart.js |
+| Frontend | Vanilla HTML/CSS/JS + Chart.js + 3D Force Graph |
 | AI Agent | Google Gemini 2.0 Flash + SEC EDGAR API + Wikipedia API |
 | Data | SEC Exhibit 21 filings (1.17M rows, SAS format) |
-| Deployment | Render (free tier) |
+| Deployment | Render / Oracle Cloud |
 
 ## Quick Start
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/SriVardhanReddyGutta/subsidiary-tracker.git
+git clone https://github.com/vardhanreddy369/subsidiary-tracker.git
 cd subsidiary-tracker
 pip install -r requirements.txt
 
 # 2. Load the dataset (generates SQLite DB from compressed CSVs)
-python -m backend.data_loader
+python -m backend.rebuild_db
 
 # 3. Set Gemini API key (optional — only needed for Full AI enrichment)
 export GEMINI_API_KEY="your-key-here"
@@ -87,10 +119,27 @@ Each row in the SEC Exhibit 21 dataset represents a subsidiary listed in a speci
 | `GET /api/analytics/*` | Analytics data (timeline, churn, etc.) |
 | `GET /api/compare` | Compare up to 4 companies |
 | `GET /api/network/{cik}` | Network graph data |
+| `GET /api/export/company/{cik}/xlsx` | Export company data as Excel |
 
-Full API docs at `/docs` (Swagger UI).
+Full API docs at [`/docs`](https://subsidiary-tracker.onrender.com/docs) (Swagger UI).
+
+## Deployment
+
+### Render (Quick Deploy)
+The app auto-deploys from GitHub via `render.yaml`. Database rebuilds from compressed CSVs on each deploy.
+
+### Oracle Cloud (Always-On)
+For persistent deployment with 24 GB RAM:
+```bash
+ssh ubuntu@<VM_IP>
+curl -s https://raw.githubusercontent.com/vardhanreddy369/subsidiary-tracker/main/deploy.sh | bash
+```
 
 ## Author
 
 **Sri Vardhan Reddy Gutta** — University of Central Florida, MS Computer Science
 Research Advisors: Dr. Pirinsky, Dr. Gatchev, Dr. Ndum
+
+---
+
+*Built with FastAPI, SQLite, and Google Gemini. Data sourced from SEC EDGAR Exhibit 21 filings.*
