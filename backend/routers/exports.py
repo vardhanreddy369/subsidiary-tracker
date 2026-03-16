@@ -1,4 +1,4 @@
-"""Export router — Excel, PDF, CSV exports behind paywall."""
+"""Export router — Excel, PDF, CSV exports."""
 
 import io
 from datetime import datetime
@@ -14,7 +14,7 @@ router = APIRouter(prefix="/api/export", tags=["exports"])
 
 @router.get("/company/{cik}/xlsx")
 def export_company_xlsx(cik: str, request: Request):
-    require_plan(request, "pro")
+    # require_plan(request, "pro")  # Removed paywall for research use
     from openpyxl import Workbook
     from openpyxl.styles import Font, PatternFill, Alignment
 
@@ -93,7 +93,7 @@ def export_company_xlsx(cik: str, request: Request):
 
 @router.get("/company/{cik}/pdf")
 def export_company_pdf(cik: str, request: Request):
-    require_plan(request, "pro")
+    # require_plan(request, "pro")  # Removed paywall for research use
     from reportlab.lib.pagesizes import letter, landscape
     from reportlab.lib import colors
     from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
@@ -167,7 +167,7 @@ def export_company_pdf(cik: str, request: Request):
 
 @router.get("/company/{cik}/csv")
 def export_company_csv(cik: str, request: Request):
-    require_plan(request, "pro")
+    # require_plan(request, "pro")  # Removed paywall for research use
 
     with get_db() as conn:
         company = conn.execute("SELECT * FROM companies WHERE cik = ?", (cik,)).fetchone()
@@ -201,7 +201,7 @@ def export_company_csv(cik: str, request: Request):
 
 @router.get("/bulk/xlsx")
 def export_bulk_xlsx(request: Request):
-    require_plan(request, "enterprise")
+    # require_plan(request, "enterprise")  # Removed paywall for research use
     from openpyxl import Workbook
     from openpyxl.styles import Font, PatternFill, Alignment
 
