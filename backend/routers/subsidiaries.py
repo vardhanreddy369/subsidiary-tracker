@@ -33,8 +33,8 @@ def get_stats():
                 SUM(CASE WHEN confidence = 'HIGH' THEN 1 ELSE 0 END) AS high_confidence,
                 SUM(CASE WHEN confidence = 'MEDIUM' THEN 1 ELSE 0 END) AS medium_confidence,
                 SUM(CASE WHEN confidence = 'LOW' THEN 1 ELSE 0 END) AS low_confidence,
-                SUM(CASE WHEN time_out LIKE 'Active%' THEN 1 ELSE 0 END) AS active_subs,
-                SUM(CASE WHEN time_out NOT LIKE 'Active%' THEN 1 ELSE 0 END) AS divested_subs,
+                SUM(CASE WHEN time_out IS NULL OR time_out LIKE 'Active%' THEN 1 ELSE 0 END) AS active_subs,
+                SUM(CASE WHEN time_out IS NOT NULL AND time_out NOT LIKE 'Active%' THEN 1 ELSE 0 END) AS divested_subs,
                 SUM(CASE WHEN enriched = 1 THEN 1 ELSE 0 END) AS enriched
             FROM subsidiaries
         """).fetchone()
