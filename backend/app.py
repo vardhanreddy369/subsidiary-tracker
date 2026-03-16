@@ -79,6 +79,25 @@ app.mount("/static", StaticFiles(directory=str(FRONTEND_DIR)), name="static")
 @app.on_event("startup")
 async def startup():
     init_db()
+    # Self-ping to prevent Render free tier cold starts (sleeps after 15 min)
+    asyncio.create_task(_keepalive_ping())
+
+
+async def _keepalive_ping():
+    """Ping /health every 14 minutes to keep the Render instance awake."""
+    import httpx
+    await asyncio.sleep(60)  # wait for server to be fully ready
+    base = os.environ.get("RENDER_EXTERNAL_URL", "")
+    if not base:
+        return  # only run on Render
+    url = f"{base}/health"
+    async with httpx.AsyncClient() as client:
+        while True:
+            try:
+                await client.get(url, timeout=10)
+            except Exception:
+                pass
+            await asyncio.sleep(840)  # 14 minutes
 
 
 @app.get("/", include_in_schema=False)

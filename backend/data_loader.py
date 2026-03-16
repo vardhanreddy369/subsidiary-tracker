@@ -101,7 +101,23 @@ def compute_timelines(df):
                 confidence_out = "LOW"
 
         # Overall confidence
-        if confidence_in == "HIGH" and confidence_out in ("HIGH", "ACTIVE"):
+        # Entity suffix → real registered entity → HIGH confidence
+        _ENTITY_SUFFIXES = (
+            ' LLC', ' L.L.C.', ' Inc', ' Inc.', ' Incorporated',
+            ' Corp', ' Corp.', ' Corporation', ' Ltd', ' Ltd.',
+            ' Limited', ' PLC', ' P.L.C.', ' GmbH', ' AG', ' SA',
+            ' S.A.', ' BV', ' B.V.', ' NV', ' N.V.', ' KG',
+            ' SAS', ' S.A.S.', ' SARL', ' S.A.R.L.', ' Pty',
+            ' LP', ' L.P.', ' LLP', ' L.L.P.', ' NA', ' N.A.',
+            ' Co.', ' SE', ' AB', ' AS', ' A/S', ' Sdn Bhd',
+            ' K.K.', ' SpA', ' S.p.A.',
+        )
+        name = row['sub_name_display']
+        has_suffix = any(name.endswith(s) or name.upper().endswith(s.upper()) for s in _ENTITY_SUFFIXES)
+
+        if has_suffix:
+            confidence = "HIGH"
+        elif confidence_in == "HIGH" and confidence_out in ("HIGH", "ACTIVE"):
             confidence = "HIGH"
         elif confidence_in == "LOW" and confidence_out == "LOW":
             confidence = "LOW"

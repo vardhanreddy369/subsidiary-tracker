@@ -5,7 +5,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-teal?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-An AI-powered research platform that maps **1.17 million subsidiaries** across **21,748 public companies** using SEC Exhibit 21 filings. Features algorithmic timeline computation, three-tier AI enrichment, and real-time classification of subsidiary relationships (acquisitions, internal creations, restructurings, joint ventures).
+An AI-powered research platform that maps **1.19 million subsidiaries** across **22,296 public companies** using SEC Exhibit 21 filings. Features algorithmic timeline computation, three-tier AI enrichment, and real-time classification of subsidiary relationships (acquisitions, internal creations, restructurings, joint ventures).
 
 > **Live Demo:** [subsidiary-tracker.onrender.com](https://subsidiary-tracker.onrender.com)
 
@@ -14,7 +14,7 @@ An AI-powered research platform that maps **1.17 million subsidiaries** across *
 ## Screenshots
 
 ### Dashboard — Real-time Intelligence Overview
-Track 1.17M+ subsidiaries across 21,748 companies with live stats, confidence breakdowns, and quick actions.
+Track 1.19M+ subsidiaries across 22,296 companies with live stats, confidence breakdowns, and quick actions.
 
 ![Dashboard](docs/screenshots/dashboard.png)
 
@@ -29,7 +29,7 @@ Subsidiaries by filing year, churn analysis (added vs removed), and data quality
 ![Analytics](docs/screenshots/analytics.png)
 
 ### Search — Subsidiary Intelligence Search
-Search across 1.17M records by name, view enrichment results with source links from SEC EDGAR and Wikipedia.
+Search across 1.19M records by name, view enrichment results with source links from SEC EDGAR and Wikipedia.
 
 ![Search](docs/screenshots/search.png)
 
@@ -37,9 +37,9 @@ Search across 1.17M records by name, view enrichment results with source links f
 
 ## Key Capabilities
 
-- **1.17M Subsidiaries Mapped** — Every public US company's subsidiary tree, extracted from SEC filings (1993–2025)
+- **1.19M Subsidiaries Mapped** — Every public US company's subsidiary tree, extracted from SEC filings (1993–2025)
 - **AI Classification at Scale** — Three enrichment modes:
-  - **Turbo** (~9 seconds for all 1.17M) — Pure heuristic classification, no API calls
+  - **Turbo** (~9 seconds for all 1.19M) — Pure heuristic classification, no API calls
   - **Fast** (~1-2s per sub) — EDGAR + Wikipedia cross-referencing with heuristics
   - **Full AI** (~6-8s per sub) — Google Gemini reasoning on top of EDGAR + Wikipedia evidence
 - **94% Classification Accuracy** — Validated against ground-truth cases (Countrywide, DreamWorks, Banamex, Azurix)
@@ -57,7 +57,7 @@ Search across 1.17M records by name, view enrichment results with source links f
 | Backend | FastAPI + SQLite (WAL mode, 500MB+ DB) |
 | Frontend | Vanilla HTML/CSS/JS + Chart.js + 3D Force Graph |
 | AI Agent | Google Gemini 2.0 Flash + SEC EDGAR API + Wikipedia API |
-| Data | SEC Exhibit 21 filings (1.17M rows, SAS format) |
+| Data | SEC Exhibit 21 filings (1.19M rows, SAS format) |
 | Deployment | Render / Oracle Cloud |
 
 ## Quick Start
@@ -93,7 +93,7 @@ Each row in the SEC Exhibit 21 dataset represents a subsidiary listed in a speci
 
 | Mode | Speed | Method | Accuracy |
 |------|-------|--------|----------|
-| Turbo | ~9s for 1.17M | Name heuristics + filing patterns | ~94% |
+| Turbo | ~9s for 1.19M | Name heuristics + filing patterns | ~94% |
 | Fast | ~1-2s/sub | EDGAR + Wikipedia + heuristics | ~95% |
 | Full AI | ~6-8s/sub | Gemini reasoning on EDGAR + Wiki evidence | ~97% |
 
