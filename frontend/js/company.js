@@ -526,6 +526,36 @@ async function renderSubsidiaryDetail(subId) {
                         </div>
                     `).join('')}
                 </div>
+            ` : subsidiary.type ? `
+                <div>
+                    <div style="display: flex; align-items: center; gap: 0.75rem; margin: 2rem 0 1.25rem;">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7c5cfc" stroke-width="1.5"><path d="M12 2a4 4 0 014 4c0 1.95-2 5-4 5s-4-3.05-4-5a4 4 0 014-4z"/><circle cx="12" cy="12" r="10"/></svg>
+                        <h3 class="text-gradient" style="font-size: 1.2rem; margin: 0;">AI Classification</h3>
+                    </div>
+                    <div class="glass-card depth-card" style="border-radius: 16px; overflow: hidden;">
+                        <div style="padding: 1.25rem 1.5rem;">
+                            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;">
+                                <div style="padding: 0.9rem 1rem; background: rgba(124,92,252,0.05); border: 1px solid rgba(124,92,252,0.12); border-radius: 10px;">
+                                    <div style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(124,92,252,0.7); margin-bottom: 0.4rem; font-weight: 600;">Classification</div>
+                                    <div><span class="badge badge-enriched">${escapeHtml(subsidiary.type)}</span></div>
+                                </div>
+                                <div style="padding: 0.9rem 1rem; background: rgba(0,212,170,0.05); border: 1px solid rgba(0,212,170,0.12); border-radius: 10px;">
+                                    <div style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(0,212,170,0.7); margin-bottom: 0.4rem; font-weight: 600;">Confidence</div>
+                                    <div style="font-weight: 600; color: #00d4aa; font-size: 0.95rem;">${escapeHtml(subsidiary.confidence || 'N/A')}</div>
+                                </div>
+                                <div style="padding: 0.9rem 1rem; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px;">
+                                    <div style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(232,234,237,0.4); margin-bottom: 0.4rem; font-weight: 600;">Method</div>
+                                    <div style="font-size: 0.85rem; color: #e8eaed;">Heuristic (Turbo)</div>
+                                </div>
+                            </div>
+                            <div style="margin-top: 1rem; padding: 0.75rem 1rem; background: rgba(255,255,255,0.02); border-radius: 8px; border-left: 3px solid rgba(124,92,252,0.4);">
+                                <p style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.6; margin: 0;">
+                                    Classified via name heuristics and filing pattern analysis. Run <strong>AI Search</strong> above for deeper enrichment with SEC EDGAR + Wikipedia sources.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             ` : ''}
         </div>
     `;
