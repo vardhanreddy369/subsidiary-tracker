@@ -21,14 +21,14 @@ async def turbo_enrich_stream(cik: str = ""):
         with get_db() as conn:
             if cik:
                 rows = conn.execute("""
-                    SELECT s.id, s.sub_name, c.company_name, s.first_seen, c.first_filing
+                    SELECT s.id, s.sub_name, c.company_name, s.first_seen, c.first_filing, s.cik
                     FROM subsidiaries s
                     JOIN companies c ON s.cik = c.cik
                     WHERE s.enriched = 0 AND s.cik = ?
                 """, (cik,)).fetchall()
             else:
                 rows = conn.execute("""
-                    SELECT s.id, s.sub_name, c.company_name, s.first_seen, c.first_filing
+                    SELECT s.id, s.sub_name, c.company_name, s.first_seen, c.first_filing, s.cik
                     FROM subsidiaries s
                     JOIN companies c ON s.cik = c.cik
                     WHERE s.enriched = 0
@@ -52,6 +52,16 @@ async def turbo_enrich_stream(cik: str = ""):
             for bcik, bdate, bcnt in batch_rows:
                 batch_sizes[(bcik, bdate)] = bcnt
 
+        # Pre-compute cross-CIK subs (same name under multiple parents = acquisition signal)
+        cross_cik_subs = set()
+        with get_db() as conn:
+            multi_parent = conn.execute("""
+                SELECT sub_name FROM subsidiaries
+                GROUP BY sub_name HAVING COUNT(DISTINCT cik) > 1
+            """).fetchall()
+            for (name,) in multi_parent:
+                cross_cik_subs.add(name.lower().strip())
+
         # Process in chunks and write to DB
         CHUNK = 5000
         processed = 0
@@ -61,10 +71,12 @@ async def turbo_enrich_stream(cik: str = ""):
         for i in range(0, total, CHUNK):
             chunk = rows[i:i + CHUNK]
             updates = []
-            for rid, sub_name, company_name, first_seen, first_filing in chunk:
-                bs = batch_sizes.get((cik, first_seen), 0) if cik else 0
+            for rid, sub_name, company_name, first_seen, first_filing, row_cik in chunk:
+                bs = batch_sizes.get((row_cik, first_seen), 0) if row_cik else 0
+                is_cross_cik = sub_name.lower().strip() in cross_cik_subs
                 inferred = _infer_type_from_name(sub_name, company_name,
-                                                  first_seen or "", first_filing or "", bs)
+                                                  first_seen or "", first_filing or "", bs,
+                                                  is_cross_cik)
                 updates.append((inferred, "SEC Exhibit 21 (heuristic)", rid))
                 type_counts[inferred] += 1
 

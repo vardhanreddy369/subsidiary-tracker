@@ -264,7 +264,7 @@ def _fallback_reasoning(algorithmic_estimate, edgar_results, wiki_results,
 
 def _infer_type_from_name(subsidiary: str, parent_company: str,
                           first_seen: str = "", first_filing: str = "",
-                          batch_size: int = 0) -> str:
+                          batch_size: int = 0, is_cross_cik: bool = False) -> str:
     """Infer subsidiary type from naming patterns + filing signals.
 
     Key design principles:
@@ -278,6 +278,8 @@ def _infer_type_from_name(subsidiary: str, parent_company: str,
       stripping entity suffixes and filler), that's a strong acquisition signal.
     - Filing pattern signals: present from first filing = likely original/internal,
       appeared later in a large batch = likely acquisition/restructuring.
+    - Cross-CIK signal: if the same subsidiary name appears under multiple
+      parent CIKs, it likely changed ownership (acquisition).
     """
     sub = subsidiary.lower().strip()
     parent = parent_company.lower().strip()
@@ -342,6 +344,16 @@ def _infer_type_from_name(subsidiary: str, parent_company: str,
         return "Internal Creation"
 
     # --- Sub does NOT contain parent name — evaluate acquisition vs internal ---
+
+    # Cross-CIK signal: same sub name under multiple parent CIKs = ownership changed
+    # This is a strong acquisition signal that overrides most other heuristics
+    if is_cross_cik:
+        # Even cross-CIK subs that were present from first filing are acquisitions
+        # (the parent acquired an already-existing company)
+        generic_creation = ["trust", "funding", "limited partnership",
+                            "national association"]
+        if not any(kw in sub for kw in generic_creation):
+            return "External Acquisition"
 
     # Functional/descriptive keywords that suggest the parent created a purpose-built entity
     # (these are BUSINESS FUNCTIONS, not entity form suffixes)
