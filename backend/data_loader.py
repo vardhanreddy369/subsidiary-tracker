@@ -37,6 +37,62 @@ def load_sas_data():
     return df
 
 
+def fill_subsidiary_gaps(df):
+    """Fill gaps in subsidiary presence across years.
+
+    If a subsidiary appears under a CIK in the year before AND the year after
+    a gap year, carry it through (synthesize a record for the gap year).
+    This addresses missing filing data (e.g. original 2010-11 gap).
+    """
+    print("Filling subsidiary gaps across years...")
+
+    df['year'] = pd.to_datetime(df['FDATE']).dt.year
+
+    # For each CIK, get all filing years
+    cik_years = df.groupby('CIK')['year'].apply(lambda x: sorted(x.unique())).to_dict()
+
+    # For each CIK+sub, get their presence years
+    sub_years = df.groupby(['CIK', 'SUB_NAME_NORM'])['year'].apply(set).to_dict()
+
+    # Also need a representative row per (CIK, SUB_NAME_NORM) for display name, comp_name
+    sub_info = df.groupby(['CIK', 'SUB_NAME_NORM']).agg(
+        comp_name=('COMP_NAME', 'first'),
+        sub_name=('SUB_NAME', 'first'),
+    ).to_dict('index')
+
+    synthetic_rows = []
+    for (cik, sub_norm), years_present in sub_years.items():
+        all_years = cik_years.get(cik, [])
+        for y in all_years:
+            if y not in years_present:
+                # Check if sub exists in year before AND year after
+                if (y - 1) in years_present and (y + 1) in years_present:
+                    info = sub_info[(cik, sub_norm)]
+                    # Use mid-year date as synthetic filing date
+                    synthetic_rows.append({
+                        'CIK': cik,
+                        'FDATE': pd.Timestamp(f'{y}-06-30'),
+                        'COMP_NAME': info['comp_name'],
+                        'SUB_NAME': info['sub_name'],
+                        'SUB_NAME_NORM': sub_norm,
+                        'year': y,
+                    })
+
+    if synthetic_rows:
+        synthetic_df = pd.DataFrame(synthetic_rows)
+        print(f"  Synthesized {len(synthetic_df):,} gap-fill records across {synthetic_df['year'].nunique()} years")
+        print(f"  Year breakdown: {dict(synthetic_df['year'].value_counts().sort_index())}")
+        df = pd.concat([df, synthetic_df], ignore_index=True)
+        # Drop the temp year column
+        df = df.drop(columns=['year'])
+    else:
+        df = df.drop(columns=['year'])
+        print("  No gaps found — data is continuous")
+
+    print(f"  Total rows after gap-fill: {len(df):,}")
+    return df
+
+
 def compute_timelines(df):
     """Compute TimeIn/TimeOut for each subsidiary based on filing date comparisons."""
     print("Computing timelines...")
@@ -223,6 +279,7 @@ def run_pipeline(force=False):
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     df = load_sas_data()
+    df = fill_subsidiary_gaps(df)
     results, cik_filings = compute_timelines(df)
     store_in_database(df, results, cik_filings)
 
