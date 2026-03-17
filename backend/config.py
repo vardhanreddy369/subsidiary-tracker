@@ -15,7 +15,7 @@ if _env_file.exists():
 DATA_DIR = BASE_DIR / "data"
 DB_PATH = DATA_DIR / "tracker.db"
 
-SAS_FILE = DATA_DIR / "subs_all_new.sas7bdat"
+SAS_FILE = DATA_DIR / "subs_all_latest.sas7bdat"
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
