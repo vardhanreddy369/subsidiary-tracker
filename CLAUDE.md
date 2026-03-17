@@ -1,7 +1,7 @@
 # Subsidiary Tracker (SubTrack)
 
 ## What This Is
-An AI-powered research platform for tracking corporate subsidiary timelines using SEC Exhibit 21 filings. Built for academic research (RA project for UCF professors: Dr. Pirinsky, Dr. Gatchev, Dr. Ndum). Dataset: 1.19M subsidiaries, 22,296 companies, 1994-2025.
+An AI-powered research platform for tracking corporate subsidiary timelines using SEC Exhibit 21 filings. Built for academic research (RA project for UCF professors: Dr. Pirinsky, Dr. Gatchev, Dr. Ndum). Dataset: 1,189,794 subsidiaries, 22,296 companies, 1994-2025.
 
 ## Architecture
 - **Backend**: FastAPI (Python 3.11) + SQLite WAL mode (~500MB, rebuilt from CSV.gz on deploy)
@@ -26,6 +26,9 @@ An AI-powered research platform for tracking corporate subsidiary timelines usin
 - `frontend/css/styles.css` — All styles (glassmorphism, aurora gradients, GSAP enhancements)
 - `frontend/js/animations.js` — GSAP animation system (9 functions, ScrollTrigger)
 - `frontend/js/` — dashboard.js, company.js, search.js, analytics.js, compare.js, network.js, techstack.js, status.js, app.js, crossref.js, geo.js, data-quality.js
+- `backend/ml/` — XGBoost classifier (build_training_data.py, classifier.py)
+- `backend/agent/edgar_8k.py` — EDGAR 8-K Item 2.01 acquisition search
+- `tests/` — Test suite (test_api.py, test_classifier.py, test_data_pipeline.py)
 - `data/tracker.db` — SQLite DB (gitignored, rebuilt from CSV.gz)
 - `data/*.csv.gz` — Compressed exports (committed to git)
 
@@ -44,6 +47,7 @@ GEMINI_API_KEY="..." python3 -m uvicorn backend.app:app --port 8000
 - `python3 -m backend.data_loader` — Rebuild DB from SAS source (has safety confirmation prompt, use `--force` to skip)
 - `python3 -m backend.rebuild_db` — Rebuild DB from CSV.gz exports (for deploy)
 - `python3 -m uvicorn backend.app:app --port 8000` — Start server
+- `python3 -m pytest tests/ -v` — Run test suite (47 tests)
 
 ## Enrichment System
 Three-tier classification of subsidiaries (External Acquisition, Internal Creation, Restructuring, Joint Venture, Divestiture):
@@ -59,10 +63,35 @@ Key heuristic signals (in `backend/agent/gemini_client.py::_infer_type_from_name
 - **First filing alignment**: Present from company's first filing = Internal Creation
 - **Entity suffixes** (LLC, Inc, Corp): Stripped as noise for classification, but used for confidence scoring
 
+**Gap-Fill Logic** (in `data_loader.py::fill_subsidiary_gaps`):
+- If a subsidiary appears under a CIK in year Y-1 and Y+1 but not Y, synthesizes a record for year Y
+- Addresses Dr. Pirinsky's suggestion to ensure continuous coverage across missing filing years
+- Found and filled 172 gaps across 6 years (1998-2000, 2002-2003, 2019)
+
 Bug fix history:
 - batch_size was always 0 in bulk turbo runs (query didn't include s.cik, used query param instead of row CIK). Fixed by adding s.cik to SELECT and using row_cik.
 
 Confidence scoring: Entity suffix detection (LLC, Inc, Corp, Ltd, GmbH, etc.) → HIGH. Otherwise uses TimeIn/TimeOut filing bracket logic.
+
+## ML Classification Pipeline
+- **XGBoost classifier** trained on 40K examples (20K acquisition, 20K internal)
+- 9 features: cross_cik, name_similarity, suffix_type, first_seen_lag, batch_size, has_functional, has_geographic, token_count, is_active
+- Feature importance: cross_cik=0.83, name_similarity=0.16
+- Training data built from Wikidata M&A ground truth + cross-CIK labels + parent name match
+- Model stored at `data/classifier_model.joblib` (gitignored)
+- Estimated accuracy: ~85-90% with ML, ~70% with heuristics alone
+
+## Dashboard Features
+- **M&A Timeline Chart**: Stacked bar chart showing subsidiary type distribution by year (1994-2025)
+- **Acquisition Radar**: 20 most recent high-confidence external acquisitions
+- **Classification Engine Badge**: Shows ML method, estimated accuracy, type distribution bars
+- **CSV Export**: Streaming endpoint (`/api/subsidiaries/export/csv`) for downloading all records
+
+## Tests
+47 tests across 3 files, all passing:
+- `tests/test_api.py` (19): Dashboard stats, search/pagination, subsidiary detail, company endpoints, timeline, acquisitions, classification stats, CSV export
+- `tests/test_classifier.py` (19): Joint ventures, internal creation, external acquisition, restructuring, edge cases
+- `tests/test_data_pipeline.py` (9): Gap-fill logic, timeline computation, confidence scoring
 
 ## Enrichment Accuracy Research
 
@@ -140,7 +169,8 @@ Remaining failures: Instagram (only 1 CIK, no cross-CIK signal), some Merrill Ly
 - Tables: `companies`, `subsidiaries`, `enrichments`, `filing_dates`, `users`, `api_keys`, `jobs`
 - `subsidiaries.enriched` = 1 means turbo-classified (type set, but no enrichments rows)
 - `enrichments` table has detailed data only from Fast/Full AI enrichment
-- Confidence distribution (after entity suffix fix): HIGH ~928K, MEDIUM ~262K
+- Confidence distribution: HIGH ~1,122K, MEDIUM ~68K
+- Active: 173,138 | Divested: 1,016,656
 
 ## Don't
 - Don't add Node.js, npm, or any build tooling
