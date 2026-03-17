@@ -113,6 +113,74 @@ def classification_stats():
     }
 
 
+@router.get("/timeline")
+def ma_timeline():
+    """Return yearly counts of subsidiary types for M&A timeline chart."""
+    with get_db() as conn:
+        rows = conn.execute("""
+            SELECT
+                SUBSTR(first_seen, 1, 4) AS year,
+                type,
+                COUNT(*) AS cnt
+            FROM subsidiaries
+            WHERE first_seen IS NOT NULL AND LENGTH(first_seen) >= 4
+                AND CAST(SUBSTR(first_seen, 1, 4) AS INTEGER) >= 1994
+                AND type IS NOT NULL
+            GROUP BY year, type
+            ORDER BY year
+        """).fetchall()
+    timeline = {}
+    for r in rows:
+        y = r[0]
+        if y not in timeline:
+            timeline[y] = {}
+        timeline[y][r[1]] = r[2]
+    return {"timeline": timeline}
+
+
+@router.get("/export/csv")
+def export_all_csv():
+    """Export all subsidiaries as a CSV download."""
+    import csv
+    import io
+    from fastapi.responses import StreamingResponse
+
+    def generate():
+        buf = io.StringIO()
+        writer = csv.writer(buf)
+        writer.writerow(["sub_name", "company_name", "cik", "time_in", "time_out",
+                         "first_seen", "last_seen", "confidence", "type", "source", "enriched"])
+        buf.seek(0)
+        yield buf.getvalue()
+        buf.truncate(0)
+        buf.seek(0)
+
+        with get_db() as conn:
+            cursor = conn.execute("""
+                SELECT s.sub_name, c.company_name, s.cik, s.time_in, s.time_out,
+                       s.first_seen, s.last_seen, s.confidence, s.type, s.source, s.enriched
+                FROM subsidiaries s
+                JOIN companies c ON s.cik = c.cik
+                ORDER BY c.company_name, s.sub_name
+                LIMIT 500000
+            """)
+            batch = cursor.fetchmany(5000)
+            while batch:
+                for row in batch:
+                    writer.writerow(row)
+                buf.seek(0)
+                yield buf.getvalue()
+                buf.truncate(0)
+                buf.seek(0)
+                batch = cursor.fetchmany(5000)
+
+    return StreamingResponse(
+        generate(),
+        media_type="text/csv",
+        headers={"Content-Disposition": "attachment; filename=subtrack_export.csv"}
+    )
+
+
 @router.get("")
 def search_subsidiaries(
     q: str = Query("", description="Search subsidiary name"),

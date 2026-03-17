@@ -164,11 +164,13 @@
     // Track chart instances for cleanup
     let _confidenceChart = null;
     let _statusChart = null;
+    let _timelineChart = null;
     let _chartType = { confidence: 'doughnut', status: 'doughnut' };
 
     function _destroyCharts() {
         if (_confidenceChart) { _confidenceChart.destroy(); _confidenceChart = null; }
         if (_statusChart) { _statusChart.destroy(); _statusChart = null; }
+        if (_timelineChart) { _timelineChart.destroy(); _timelineChart = null; }
     }
 
     /* ----------------------------------------------------------
@@ -340,6 +342,170 @@
         };
 
         _statusChart = new Chart(canvas, config);
+    }
+
+    /* ----------------------------------------------------------
+       7b. M&A TIMELINE CHART (stacked bar by year)
+    ---------------------------------------------------------- */
+
+    async function renderTimelineChart() {
+        const canvas = document.getElementById('timelineChart');
+        if (!canvas) return;
+
+        if (_timelineChart) _timelineChart.destroy();
+
+        try {
+            const data = await fetch('/api/subsidiaries/timeline').then(r => r.json());
+            const timeline = data.timeline || {};
+            const years = Object.keys(timeline).sort();
+
+            if (years.length === 0) return;
+
+            const typeColors = {
+                'Internal Creation': { bg: 'rgba(34,197,94,0.7)', border: THEME.green },
+                'External Acquisition': { bg: 'rgba(245,158,11,0.7)', border: THEME.amber },
+                'Restructuring': { bg: 'rgba(139,92,246,0.7)', border: '#8b5cf6' },
+                'Joint Venture': { bg: 'rgba(6,182,212,0.7)', border: '#06b6d4' },
+                'Spin-off': { bg: 'rgba(236,72,153,0.7)', border: '#ec4899' },
+            };
+
+            const allTypes = new Set();
+            years.forEach(y => Object.keys(timeline[y]).forEach(t => allTypes.add(t)));
+
+            const datasets = [...allTypes].map(type => ({
+                label: type,
+                data: years.map(y => timeline[y][type] || 0),
+                backgroundColor: (typeColors[type] || { bg: 'rgba(138,144,165,0.5)' }).bg,
+                borderColor: (typeColors[type] || { border: THEME.textDim }).border,
+                borderWidth: 1,
+                borderRadius: 3,
+            }));
+
+            _timelineChart = new Chart(canvas, {
+                type: 'bar',
+                data: { labels: years, datasets },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    animation: { duration: 1000, easing: 'easeOutQuart' },
+                    scales: {
+                        x: {
+                            stacked: true,
+                            ticks: { color: THEME.textDim, maxRotation: 45, font: { size: 10 } },
+                            grid: { color: 'rgba(255,255,255,0.04)' },
+                        },
+                        y: {
+                            stacked: true,
+                            ticks: { color: THEME.textDim, callback: v => v >= 1000 ? (v/1000).toFixed(0) + 'k' : v },
+                            grid: { color: 'rgba(255,255,255,0.04)' },
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: { color: THEME.textDim, padding: 12, usePointStyle: true, pointStyleWidth: 10, font: { size: 11, family: 'Inter, system-ui, sans-serif' } }
+                        },
+                        tooltip: {
+                            backgroundColor: THEME.surfaceAlt, titleColor: '#fff', bodyColor: THEME.textDim,
+                            borderColor: 'rgba(255,255,255,0.08)', borderWidth: 1, cornerRadius: 8, padding: 12,
+                            callbacks: { label: (c) => ` ${c.dataset.label}: ${c.parsed.y.toLocaleString()}` }
+                        }
+                    }
+                }
+            });
+        } catch (e) {
+            console.warn('Timeline chart failed:', e);
+        }
+    }
+
+    /* ----------------------------------------------------------
+       7c. ACQUISITION RADAR (recent notable acquisitions)
+    ---------------------------------------------------------- */
+
+    async function renderAcquisitionRadar() {
+        const container = document.getElementById('acquisitionRadar');
+        if (!container) return;
+
+        try {
+            const data = await fetch('/api/subsidiaries/recent-acquisitions').then(r => r.json());
+            const acqs = data.acquisitions || [];
+
+            if (acqs.length === 0) {
+                container.innerHTML = '<p style="color: var(--text-dim); padding: 1rem; text-align: center;">No acquisitions detected yet. Run Turbo Enrich to classify subsidiaries.</p>';
+                return;
+            }
+
+            container.innerHTML = acqs.map((a, i) => `
+                <div class="radar-item float-in" style="display: flex; align-items: center; gap: 0.75rem; padding: 0.65rem 0; border-bottom: 1px solid rgba(255,255,255,0.04); animation-delay: ${i * 40}ms; cursor: pointer;" onclick="navigate('company', {cik: '${a.cik}'})">
+                    <div style="width: 8px; height: 8px; border-radius: 50%; background: ${THEME.amber}; flex-shrink: 0; box-shadow: 0 0 8px rgba(245,158,11,0.4);"></div>
+                    <div style="flex: 1; min-width: 0;">
+                        <div style="font-size: 0.82rem; font-weight: 600; color: #e4e6f0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${escapeHtml(a.sub_name)}</div>
+                        <div style="font-size: 0.7rem; color: var(--text-dim);">by ${escapeHtml(a.company_name)}</div>
+                    </div>
+                    <div style="font-size: 0.65rem; color: var(--text-dim); font-family: monospace; flex-shrink: 0;">${a.first_seen ? a.first_seen.substring(0, 4) : ''}</div>
+                </div>
+            `).join('');
+        } catch (e) {
+            container.innerHTML = '<p style="color: var(--text-dim); padding: 1rem;">Could not load acquisition data.</p>';
+        }
+    }
+
+    /* ----------------------------------------------------------
+       7d. CLASSIFICATION ACCURACY BADGE
+    ---------------------------------------------------------- */
+
+    async function renderClassificationBadge() {
+        const container = document.getElementById('classificationBadge');
+        if (!container) return;
+
+        try {
+            const data = await fetch('/api/subsidiaries/classification-stats').then(r => r.json());
+            const dist = data.distribution || {};
+            const total = Object.values(dist).reduce((a, b) => a + b, 0);
+
+            const typeColors = {
+                'Internal Creation': THEME.green,
+                'External Acquisition': THEME.amber,
+                'Restructuring': '#8b5cf6',
+                'Joint Venture': '#06b6d4',
+                'Spin-off': '#ec4899',
+            };
+
+            const distHtml = Object.entries(dist)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 5)
+                .map(([type, count]) => {
+                    const pct = total > 0 ? (count / total * 100).toFixed(1) : 0;
+                    const color = typeColors[type] || THEME.textDim;
+                    return `
+                        <div style="margin-bottom: 0.5rem;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 0.2rem;">
+                                <span style="font-size: 0.75rem; color: ${color};">${escapeHtml(type)}</span>
+                                <span style="font-size: 0.7rem; color: var(--text-dim);">${count.toLocaleString()} (${pct}%)</span>
+                            </div>
+                            <div style="height: 4px; border-radius: 2px; background: var(--surface2); overflow: hidden;">
+                                <div style="height: 100%; width: ${pct}%; background: ${color}; border-radius: 2px; transition: width 1s ease;"></div>
+                            </div>
+                        </div>`;
+                }).join('');
+
+            container.innerHTML = `
+                <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+                    <div style="padding: 0.4rem 0.9rem; border-radius: 20px; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; background: rgba(${THEME.greenRgb},0.12); color: ${THEME.green}; border: 1px solid rgba(${THEME.greenRgb},0.25);">
+                        ${escapeHtml(data.method)}
+                    </div>
+                    <div style="font-size: 0.8rem; color: var(--text-dim);">
+                        Est. accuracy: <strong style="color: #e4e6f0;">${escapeHtml(data.estimated_accuracy)}</strong>
+                    </div>
+                </div>
+                <div style="font-size: 0.7rem; color: var(--text-dim); margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600;">
+                    Type Distribution (${total.toLocaleString()} classified)
+                </div>
+                ${distHtml}
+            `;
+        } catch (e) {
+            container.innerHTML = '<p style="color: var(--text-dim); padding: 1rem;">Classification data unavailable.</p>';
+        }
     }
 
     /* ----------------------------------------------------------
@@ -520,6 +686,33 @@
                 </div>
             </section>
 
+            <!-- M&A Timeline Chart -->
+            <div class="charts-section-header" style="margin-top: 1rem;">
+                <div class="section-header-line"></div>
+                <h2 class="section-header-title">M&A Timeline</h2>
+                <div class="section-header-line"></div>
+            </div>
+            <section class="chart-container glass-card" style="padding: 1.5rem; border-radius: 14px; margin-bottom: 2rem; height: 380px;">
+                <canvas id="timelineChart"></canvas>
+            </section>
+
+            <!-- Acquisition Radar + Classification Badge Row -->
+            <section class="charts-row charts-row-padded" style="margin-bottom: 2rem;">
+                <div class="chart-container chart-container-padded glass-card" style="flex: 1.2;">
+                    <div class="chart-header">
+                        <h3>Acquisition Radar</h3>
+                        <span style="font-size: 0.65rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em;">Recent High-Confidence</span>
+                    </div>
+                    <div id="acquisitionRadar" style="max-height: 320px; overflow-y: auto; padding-right: 0.25rem;"></div>
+                </div>
+                <div class="chart-container chart-container-padded glass-card" style="flex: 0.8;">
+                    <div class="chart-header">
+                        <h3>Classification Engine</h3>
+                    </div>
+                    <div id="classificationBadge"></div>
+                </div>
+            </section>
+
             <!-- Top Companies Table -->
             <section class="dashboard-table-section">
                 <div class="section-header">
@@ -621,6 +814,11 @@
 
         // Render charts on scroll (uses IntersectionObserver)
         _renderChartsOnScroll(stats);
+
+        // Render new dashboard sections (async, non-blocking)
+        renderTimelineChart();
+        renderAcquisitionRadar();
+        renderClassificationBadge();
 
         // Chart toggle buttons
         const confToggle = document.getElementById('toggleConfChart');
