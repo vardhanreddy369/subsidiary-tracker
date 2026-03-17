@@ -1,0 +1,5001 @@
+company,acquirer,date
+Gazprom,Rosneftegaz,
+Carlsberg Group,BlackRock,
+Carlsberg Group,MFS Investment Management,
+Reliance Infrastructure,Reliance Anil Dhirubhai Ambani Group,
+Atomic Skis,Amer Sports,
+Baldwin Piano Company,Gibson Brands,2001-11-01
+Tiger Electronics,Hasbro,
+Fitness First,Oaktree Capital Management,
+Paulaner Brewery,Heineken International,
+Paulaner Brewery,Schörghuber Unternehmensgruppe,
+Pixar,The Walt Disney Company,1986-01-01
+Pixar,The Walt Disney Company,2006-05-05
+AMD,BlackRock,
+AMD,The Vanguard Group,
+World Championship Wrestling,WWE,
+Reuters,Thomson Reuters,
+Scripps-Booth,General Motors,
+CCM,Reebok,
+NOS,Sonae,
+Hochtief,Grupo ACS,
+Primark,Associated British Foods,
+Sumitomo Chemical,Sumitomo Life Insurance Company,
+Sumitomo Chemical,The Master Trust Bank of Japan,
+Baume et Mercier,Richemont,
+RWE,Ruhrbahn,
+Zagat,Google,2021-09-09
+Zagat,JPMorgan Chase,2021-09-09
+Zagat,Google,2011-09-08
+Zagat,JPMorgan Chase,2011-09-08
+Zagat,Google,2018-03-05
+Zagat,JPMorgan Chase,2018-03-05
+Montblanc International GmbH,Richemont,
+Starpath,Epyx,
+Krka,Slovenian Sovereign Holding,
+TIM Group,Poste Italiane,
+Zakłady Chemiczne Police,Grupa Azoty S.A.,
+Zambian Breweries,SABMiller,
+Electrolux Italy,Electrolux,1984-01-01
+Midway Games,Bally Manufacturing,
+Penta Investments Limited,Penta Investments Group Limited,
+Lidl,SB Lidl,
+Lidl,PVG Geschäftsführungs-KG,
+Grolsch,Asahi Breweries,
+Škoda Auto,Volkswagen Finance Luxemburg,2000-01-01
+Škoda Auto,Volkswagen Finance Luxemburg,2014-01-01
+Škoda Auto,Volkswagen Finance Luxemburg,1925-01-01
+Q30113,Stellantis North America,
+Kamaz,Daimler Truck,2019-01-01
+Kamaz,Rostec,2019-01-01
+Kamaz,Avtoinvest,2019-01-01
+Kamaz,Daimler Truck,2018-01-01
+Kamaz,Rostec,2018-01-01
+Kamaz,Avtoinvest,2018-01-01
+Dell,Dell Technologies,
+Virgin Atlantic,Virgin Group,
+American Airlines,American Airlines Group,
+WWE,WME Group,
+Kia,National Pension Service,
+AT&T,BlackRock,
+AT&T,The Vanguard Group,
+Lamborghini,Volkswagen Group,
+Lancia,Stellantis Europe,2007-01-01
+Maserati,Stellantis,2021-01-01
+Maserati,Stellantis,1993-01-01
+Maserati,Stellantis,1997-01-01
+Maserati,Stellantis,2005-01-01
+Maserati,Stellantis,2014-01-01
+Mercedes-Benz,Mercedes-Benz Group,
+IBM,Berkshire Hathaway,
+IBM,The Vanguard Group,
+IBM,State Street Corporation,
+McDonald's,BlackRock,
+McDonald's,The Vanguard Group,
+McDonald's,State Street Corporation,
+European Pressphoto Agency,Austria Press Agency,
+Imperial Oil,ExxonMobil,
+ABB Oy,ASEA,1988-01-01
+ABB Oy,ABB Group,1988-01-01
+OpenTable,Booking Holdings,
+Tatra,NIKA Development,2013-01-01
+Tatra,Promet Tools,2013-01-01
+Tatra,NIKA Development,2017-01-01
+Tatra,Promet Tools,2017-01-01
+FLSmidth,Altor Equity Partners,
+Wührer,SABMiller,
+Zbrojovka Brno,Gomanold,2009-05-01
+Valspar,Sherwin-Williams,
+Toshiba,Mitsui Group,
+Bubba Gump Shrimp Company,"Landry's, Inc.",
+PPG Coatings Danmark,PPG Industries,
+Dulux,AkzoNobel,
+AutoNavi Holdings Limited,Alibaba Group,2014-04-11
+Ericsson,Investor,
+ASEA,Investor,
+ABB Group,BlackRock,
+ABB Group,Investor,
+ABB Group,Cevian Capital,
+Sharp Corporation,Meiji Yasuda Life,
+Sharp Corporation,Foxconn Group,
+Sharp Corporation,Foxconn (Far East),
+U.S. Steel,BlackRock,
+U.S. Steel,The Vanguard Group,
+U.S. Steel,Dimensional Fund Advisors,
+U.S. Steel,Renaissance Technologies,
+Extreme Championship Wrestling,WWE,1996-01-01
+Extreme Championship Wrestling,WWE,2003-01-01
+Extreme Championship Wrestling,WWE,1992-01-01
+Extreme Championship Wrestling,WWE,2003-01-01
+Kaplan International Languages,Graham Holdings Company,
+Bratislava Stock Exchange,Československá obchodní banka,
+Bratislava Stock Exchange,Slovenská sporiteľňa,
+Bratislava Stock Exchange,MH Manažment,
+Tnuva,Bright Food,
+Fox Sports,The Walt Disney Company,
+Fox Sports,Foxtel,
+Fox Sports,Mediapro,
+FPT Industrial,CNH Industrial,2013-01-01
+FPT Industrial,CNH Industrial,2011-01-01
+Airgas,Air Liquide,
+Siemens,BlackRock,
+Siemens,Qatar Investment Authority,
+Q81481,Transdev Group,
+Continental Barum,Korso Industriebeteiligungsgesellschaft,1998-01-01
+Continental Barum,Continental Holding France,1998-01-01
+Continental Barum,Korso Industriebeteiligungsgesellschaft,2008-01-01
+Continental Barum,Continental Holding France,2008-01-01
+Continental Barum,Korso Industriebeteiligungsgesellschaft,1998-01-01
+Continental Barum,Continental Holding France,1998-01-01
+Continental Barum,Korso Industriebeteiligungsgesellschaft,1996-01-01
+Continental Barum,Continental Holding France,1996-01-01
+Continental Barum,Korso Industriebeteiligungsgesellschaft,2003-01-01
+Continental Barum,Continental Holding France,2003-01-01
+General Motors,BlackRock,
+General Motors,The Vanguard Group,
+Aquatica,United Parks & Resorts,
+Zakłady Azotowe Puławy,Zakłady Azotowe w Tarnowie-Mościcach,
+A+E Global Media,Hearst Communications,
+A+E Global Media,ABC Entertainment,
+ASRock,PEGATRON,
+TotalEnergies,BlackRock,
+Shell,BlackRock,
+Shell,The Vanguard Group,
+United Parcel Service,BlackRock,
+United Parcel Service,The Vanguard Group,
+Pioneer Corporation,Onkyo,
+ExxonMobil,The Vanguard Group,
+Vimeo,IAC,2025-11-24
+Vimeo,Bending Spoons,2025-11-24
+Vimeo,IAC,2006-08-15
+Vimeo,Bending Spoons,2006-08-15
+Volkswagen Group,Hannoversche Beteiligungsgesellschaft,
+Volkswagen Group,Qatar Investment Authority,
+Volkswagen Group,Porsche Automobil Holding SE,
+Puma,Groupe Artémis,
+3M,BlackRock,
+3M,The Vanguard Group,
+3M,State Street Corporation,
+Telefónica,Sociedad Estatal de Participaciones Industriales,2024-03-25
+Diageo,BlackRock,2024-02-29
+Diageo,Capital Group Companies,2024-02-29
+Diageo,MFS Investment Management,2024-02-29
+Diageo,BlackRock,2009-12-03
+Diageo,Capital Group Companies,2009-12-03
+Diageo,MFS Investment Management,2009-12-03
+Diageo,BlackRock,2009-04-28
+Diageo,Capital Group Companies,2009-04-28
+Diageo,MFS Investment Management,2009-04-28
+"Oakley, Inc.",Luxottica,
+KUKA,Midea,2016-01-01
+KUKA,Midea,1928-01-01
+Fujitsu Technology Solutions,Fujitsu,
+Toray Industries,Mitsui Group,
+OMV,Österreichische Beteiligungs AG,
+OMV,International Petroleum Investment Company,
+METRO Group,EP Global Commerce,
+Glencore,BlackRock,
+Glencore,Qatar Investment Authority,
+Glencore,Harris Associates,
+Mercedes F1 Team,Ineos,2022-01-01
+Mercedes F1 Team,Mercedes-Benz AG,2022-01-01
+Simca,Fiat,
+Cisco,BlackRock,
+Cisco,The Vanguard Group,
+Petrol Group,Československá obchodní banka,
+Petrol Group,Splitska banka,
+Petrol Group,Slovenian Sovereign Holding,
+Tim Hortons,Restaurant Brands International,2014-01-01
+Blu,BT Group,
+Blu,Edizione,
+Blu,Caltagirone Editore,
+Blu,Banca Nazionale del Lavoro,
+Blu,MFE - MediaForEurope,
+Blu,Italgas,
+Alpine Holding,Fomento de Construcciones y Contratas,
+Atlas Elektronik,thyssenkrupp AG,
+Metro-Goldwyn-Mayer,Amazon,2022-01-01
+Rado,The Swatch Group,
+Walt Disney Animation Japan,Disney Television Animation,
+Heineken International,Heineken Holding,
+Stellantis North America,Stellantis,2021-01-01
+Stellantis North America,Stellantis,2009-01-01
+Stellantis North America,Stellantis,2014-01-01
+Suzuki Motor Corporation,JPMorgan Chase,
+Suzuki Motor Corporation,The Bank of New York Mellon,
+Suzuki Motor Corporation,The Master Trust Bank of Japan,
+Suzuki Motor Corporation,Tokio Marine Nichido,
+Suzuki Motor Corporation,Shizuoka Bank,
+Nvidia,BlackRock,
+Nvidia,The Vanguard Group,
+Nvidia,Fidelity Investments,
+Nvidia,State Street Corporation,
+EMI,Vivendi,
+Zeiss Ikon,Carl Zeiss AG,
+ABS Jets,"Arthur, Bradley & Smith",
+ABS Jets,Bridgehill Limited,
+HTC Corporation,VIA Technologies,
+H&M,Ramsbury Invest,
+Perforce Zend,Perforce Software,
+Zenith,LVMH,
+Q190815,GVL,
+Zentropa,Nordisk Film,2008-02-01
+Zentropa,Zentropa Folket,2008-02-01
+WarnerMedia,AT&T,
+JPMorgan Chase,BlackRock,
+JPMorgan Chase,The Vanguard Group,
+Czech Airlines,Smartwings,2018-02-27
+Czech Airlines,Prague City Air,2018-02-27
+Czech Airlines,Smartwings,2022-04-01
+Czech Airlines,Prague City Air,2022-04-01
+Czech Airlines,Smartwings,2022-04-01
+Czech Airlines,Prague City Air,2022-04-01
+Czech Airlines,Smartwings,2016-01-01
+Czech Airlines,Prague City Air,2016-01-01
+Goldman Sachs,BlackRock,
+Goldman Sachs,The Vanguard Group,
+Goldman Sachs,State Street Corporation,
+Texas Instruments,BlackRock,
+Texas Instruments,The Vanguard Group,
+AC Sparta Prague,1890s holdings,
+American Express,Berkshire Hathaway,
+American Express,BlackRock,
+American Express,The Vanguard Group,
+SK Slavia Prague,Fulleren,2024-01-01
+SK Slavia Prague,Fulleren,2017-01-01
+Parallels,Alludo,2018-12-20
+Q196868,HTC Investments,
+Henkell & Co. Sektkellerei,Dr. Oetker,
+VIVA,Viacom,
+SoftBank Group,JPMorgan Chase,
+SoftBank Group,The Master Trust Bank of Japan,
+RCA Records,Sony Music,
+American LaFrance,Daimler Truck North America,
+Zim Integrated Shipping Services Ltd,The Israel Corporation Ltd.,2004-01-01
+Zim Integrated Shipping Services Ltd,The Israel Corporation Ltd.,1948-01-01
+id Software,Microsoft,
+Oriental Brewery,Anheuser-Busch InBev,
+OTE,Deutsche Telekom,
+OTE,HRADF,
+Pfizer,BlackRock,
+Pfizer,The Vanguard Group,
+Pfizer,State Street Corporation,
+Q207708,News Corporation,2005-01-01
+Q207708,Ziff Davis,2005-01-01
+Q207708,News Corporation,2013-01-01
+Q207708,Ziff Davis,2013-01-01
+China Southern Power Grid,China Life Insurance Company,
+American International Group,BlackRock,
+American International Group,The Vanguard Group,
+American International Group,Capital Research Global Investors,
+Procter & Gamble,BlackRock,
+Procter & Gamble,The Vanguard Group,
+ATI Technologies,AMD,2006-01-01
+ConocoPhillips,BlackRock,
+ConocoPhillips,Capital Group Companies,
+ConocoPhillips,The Vanguard Group,
+Volvo Cars,Geely,
+Volvo Cars,AMF,
+Opera,Ferd AS,
+Opera,Clearstream,
+JVC,JVCKenwood,
+Berkshire Hathaway,Fidelity Investments,
+RCA Corporation,Hearst Communications,1987-01-01
+GE Transportation,Wabtec,
+Blohm+Voss,Lürssen,
+Saab Group,Investor,
+Citigroup,BlackRock,
+Citigroup,The Vanguard Group,
+BlackRock,BlackRock,
+BlackRock,The Vanguard Group,
+DuPont,BlackRock,
+DuPont,The Vanguard Group,
+AbeBooks,Amazon,2008-12-01
+Converse,Nike,
+Ibanez,Hoshino Gakki,
+White Star Line,International Mercantile Marine Company,1902-01-01
+White Star Line,Royal Mail Steam Packet Company,1902-01-01
+White Star Line,International Mercantile Marine Company,1927-01-01
+White Star Line,Royal Mail Steam Packet Company,1927-01-01
+Metzeler,Pirelli,
+Garanti BBVA,Banco Bilbao Vizcaya Argentaria,
+Garanti BBVA,Doğuş Holding,
+DHL Aviation,Deutsche Post AG,
+Compaq,Hewlett-Packard,2002-01-01
+Eulengebirgsbahn,AG für Verkehrswesen,
+Eulengebirgsbahn,Lenz & Co.,
+Public Power Corporation SA,HRADF,2021-01-01
+Public Power Corporation SA,HRADF,2001-01-01
+Constructa-Neff,BSH Hausgeräte GmbH,
+T-Mobile,Deutsche Telekom,
+Visa Inc.,BlackRock,
+Visa Inc.,The Vanguard Group,
+MTU Turbomeca Rolls-Royce,MTU Aero Engines,
+MTU Turbomeca Rolls-Royce,Rolls-Royce,
+Northrop Grumman Corporation,BlackRock,
+Northrop Grumman Corporation,Morgan Stanley,
+Northrop Grumman Corporation,Bank of America,
+Northrop Grumman Corporation,Capital Group Companies,
+Northrop Grumman Corporation,Franklin Templeton Investments,
+Northrop Grumman Corporation,The Vanguard Group,
+Northrop Grumman Corporation,State Street Corporation,
+Northrop Grumman Corporation,Wellington Management Company,
+Sony Music Publishing,Sony Corporation of America,http://www
+Sony Music Publishing,Sony Corporation of America,1985-01-01
+Sony Music Publishing,Sony Corporation of America,2016-01-01
+Johnson & Johnson,BlackRock,
+Johnson & Johnson,The Vanguard Group,
+Johnson & Johnson,State Street Corporation,
+Merrill,Bank of America,
+Morgan Stanley,BlackRock,
+Morgan Stanley,The Vanguard Group,
+Morgan Stanley,Mitsubishi UFJ Financial Group,
+Morgan Stanley,State Street Corporation,
+Morgan Stanley,T. Rowe Price,
+SunGard,Fidelity National Information Services,
+ČD Cargo,České dráhy,
+ČEZ Group,BlackRock,2016-06-14
+ČKD Tatra,Q336811,
+Čedok,Itaka Holdings,2018-01-01
+Čedok,Itaka Holdings,2016-01-01
+Československá obchodní banka,KBC Bank,2006-01-01
+Československá obchodní banka,KBC Bank,2007-01-01
+Đuro Đaković,DD Acquisition,2022-01-01
+Acushnet Company,"Fila, Inc.",
+AddThis,Oracle Corporation,
+Todd-AO,CSS Studios,
+General Logistics Systems,Royal Mail,
+Audible,Amazon,
+Mediaset,Fininvest,
+Vornado Realty Trust,JPMorgan Chase,
+Vornado Realty Trust,BlackRock,
+Vornado Realty Trust,The Vanguard Group,
+Vornado Realty Trust,State Street Corporation,
+Four Music,Sony Music,
+S IMMO,Q1660121,
+S IMMO,CPI Property Group,
+SK Hynix,National Pension Service,
+SK Hynix,SK Square,
+Jack Daniel's,Brown-Forman,
+Turner Entertainment,Warner Bros. Discovery,
+Royal Unibrew,Wellington Management Company,
+Royal Unibrew,Chr. Augustinus Fabrikker,
+Comarit,Fred. Olsen & Co.,
+Silicon Integrated Systems,United Microelectronics Corporation,
+Agip,Eni,
+Jaeger-LeCoultre,Richemont,
+Adtranz,ABB Group,
+PKP Cargo International,PKP Cargo,2019-01-01
+Advent International,Worldpay,1971-01-01
+Aeroméxico,Grupo Aeroméxico,
+Volvo Cars gent,Volvo Cars,
+Oji Paper Company,Mitsui Group,
+Valtra,AGCO,
+Condor Ferries,Macquarie Group,
+MOESK,Rosseti,
+LGT Group,Prince of Liechtenstein Foundation,
+Siemens Mobility,Siemens,
+Škoda Vagonka,Škoda Transportation,2001-01-01
+Škoda Vagonka,Škoda Transportation,2005-01-01
+Škoda Vagonka,Škoda Transportation,2007-01-01
+Škoda Vagonka,Škoda Transportation,2009-01-01
+Ageia,Nvidia,
+Żuławska Kolej Dojazdowa,AG für Verkehrswesen,1945-01-01
+Żuławska Kolej Dojazdowa,Allgemeine Deutsche Kleinbahn-Gesellschaft AG,1945-01-01
+Żuławska Kolej Dojazdowa,AG für Verkehrswesen,1927-01-01
+Żuławska Kolej Dojazdowa,Allgemeine Deutsche Kleinbahn-Gesellschaft AG,1927-01-01
+Japan Tobacco International,Japan Tobacco,
+Agusta,Leonardo,
+AgustaWestland,Leonardo,
+TV5 Network,MediaQuest Holdings,
+Beeline,VimpelCom,
+Valco,Hitachi,
+Valco,Salora,
+3,CK Hutchison Holdings,2002-01-01
+3,CK Hutchison Holdings,2014-01-01
+Airfix,Hornby Hobbies Limited,2006-01-01
+Airwalk,Wolverine World Wide,
+Akamai Technologies,Capital Group Companies,
+Akamai Technologies,The Vanguard Group,
+Aker Solutions,Aker,
+Akismet,Automattic,
+Firestone Tire and Rubber Company,Bridgestone,
+Yakovlev Corporation,United Aircraft Corporation,
+Komsomolsk-on-Amur Aircraft Production Association,United Aircraft Corporation,
+Disney Cruise Line,The Walt Disney Company,
+New York Shipbuilding Corporation,International Mercantile Marine Company,
+Hutschenreuther,Rosenthal,
+National Semiconductor,Texas Instruments,
+Altec Lansing,Plantronics,
+Altera,Intel,
+Altera,Silver Lake,
+QVC,QVC Group,1995-01-01
+Wistron,Acer,
+Transdev S.A.,Transdev Group,
+Bilfinger Power Systems GmbH,Bilfinger SE,
+Altos Hornos de Vizcaya,ArcelorMittal,
+Enstrom Helicopter Corporation,Chongqing Helicopter Investment Co,
+Maersk A/S,Maersk,
+Triumph,Grundig,1929-01-01
+Triumph,Triumph Engineering,1929-01-01
+Morgan Stanley Wealth Management,Morgan Stanley,
+PostFinance,Die Schweizerische Post,
+Amazon Web Services,Amazon,
+Metabo,Chequers Capital,2012-01-01
+Magyar Telekom,Deutsche Telekom,
+FedEx,BlackRock,
+FedEx,The Vanguard Group,
+FedEx,Dodge & Cox,
+FedEx,PRIMECAP,
+Iglo,Nomad Foods,
+Caterpillar Inc.,BlackRock,
+Caterpillar Inc.,The Vanguard Group,
+Caterpillar Inc.,State Street Corporation,
+Holsten Brewery,Carlsberg Group,
+The Tussauds Group,Merlin Entertainments,
+Foxconn,The Vanguard Group,
+Casinos Austria,Österreichische Beteiligungs AG,
+Casinos Austria,Bankhaus Schelhammer & Schattera,
+Casinos Austria,Novomatic,
+Casinos Austria,Medial Beteiligungs-GmbH,
+Nortel,Bell Canada,1914-01-01
+Nortel,Western Electric,1914-01-01
+Nortel,Bell Canada,1983-01-01
+Nortel,Western Electric,1983-01-01
+Miramax,The Walt Disney Company,1983-01-01
+Miramax,Toshiba,1983-01-01
+Miramax,beIN Media Group,1983-01-01
+Miramax,Paramount Global,1983-01-01
+Miramax,The Walt Disney Company,2020-04-01
+Miramax,Toshiba,2020-04-01
+Miramax,beIN Media Group,2020-04-01
+Miramax,Paramount Global,2020-04-01
+Miramax,The Walt Disney Company,1993-06-30
+Miramax,Toshiba,1993-06-30
+Miramax,beIN Media Group,1993-06-30
+Miramax,Paramount Global,1993-06-30
+Miramax,The Walt Disney Company,2016-01-01
+Miramax,Toshiba,2016-01-01
+Miramax,beIN Media Group,2016-01-01
+Miramax,Paramount Global,2016-01-01
+Miramax,The Walt Disney Company,2020-04-01
+Miramax,Toshiba,2020-04-01
+Miramax,beIN Media Group,2020-04-01
+Miramax,Paramount Global,2020-04-01
+Amoco,BP,
+Verizon Communications,BlackRock,
+Verizon Communications,The Vanguard Group,
+Avira,Gen Digital,2021-01-01
+Cencora,BlackRock,
+Cencora,The Vanguard Group,
+Hrvatski Telekom,Deutsche Telekom,
+Hrvatski Telekom,Deutsche Telekom Europe,
+EGL,Axpo Holding,
+Selgros,Transgourmet,
+The Economist Group,Exor,2015-01-01
+DHL Supply Chain,Deutsche Post AG,
+Schenker AG,DSV,2025-04-30
+Krško Nuclear Power Plant,Hrvatska elektroprivreda,
+Krško Nuclear Power Plant,GEN Energija,
+Amprion,RWE,2011-09-06
+Amprion,M31,2011-09-06
+Amprion,RWE,2011-09-06
+Amprion,M31,2011-09-06
+iHeartMedia,Bain Capital,
+Amstel Brewery,Heineken International,
+"Tesla, Inc.",Capital Group Companies,
+"Tesla, Inc.",Baillie Gifford,
+"Tesla, Inc.",Capital Ventures International,
+Distribution Select,Québecor,
+Amstrad,Comcast,
+Citect,AVEVA,
+DB Cargo Polska,DB Cargo,
+AGCO GmbH,AGCO,
+LoveFilm,Amazon,
+Q483551,BlackRock,
+Q483551,The Vanguard Group,
+Q483551,State Street Corporation,
+Q483551,Walton Enterprises,
+Stone Music Entertainment,CJ ENM,
+Korea Electric Power Corporation,Korea Development Bank,
+Korea Electric Power Corporation,National Pension Service,
+LG Chem,National Pension Service,
+Telecom Armenia,Team,
+Shinhan Bank,Shinhan Financial Group,
+Tesco,BlackRock,
+Tesco,Schroders,
+Bank of America,Berkshire Hathaway,
+Bank of America,BlackRock,
+Bank of America,The Vanguard Group,
+Ericsson-LG,Ericsson,
+Ericsson-LG,LG Electronics,
+Samsung Heavy Industries,Samsung Electronics,
+S-LCD,Samsung Electronics,
+DHL,Deutsche Post AG,
+Doosan Enerbility,National Pension Service,
+Dole plc,Pale Fire Capital,
+Sonokong,Mattel,
+East African Breweries,Diageo,
+SK Inc.,National Pension Service,
+Renault Korea Motors,Samsung Card,
+Renault Korea Motors,Geely,
+Lombardini Srl,Kohler Company,
+"Telia Lietuva, AB",Telia Company,
+Poste Italiane,Cassa Depositi e Prestiti,
+Kurzweil Music Systems,HDC Young Chang,
+onet.pl,Ringier Axel Springer Polska,2000-11-14
+onet.pl,Grupa TVN,2000-11-14
+onet.pl,ITI Holding,2000-11-14
+onet.pl,Ringier Axel Springer Polska,2012-01-01
+onet.pl,Grupa TVN,2012-01-01
+onet.pl,ITI Holding,2012-01-01
+Danziger Privat-Actien-Bank,"Bank of German Labor, Inc.",1940-01-01
+Actuate Corporation,Open Text Corporation,
+Veritas Software,Carlyle Group,
+Capio,Nordic Capital,2006-01-01
+Capio,Nordic Capital,2018-01-01
+Redback Networks,Ericsson,
+Tata Daewoo,Tata Motors Ltd,
+East Japan Railway Company,The Master Trust Bank of Japan,
+East Japan Railway Company,Mizuho Bank,
+Samsung C&T Corporation,National Pension Service,
+Alleanza Assicurazioni,Generali Italia,
+Hasbro,BlackRock,
+Hasbro,The Vanguard Group,
+Hasbro,Capital Research Global Investors,
+Friends Provident,Resolution Limited,2009-11-01
+Cooley Distillery,Suntory Global Spirits,
+GB Glace,Unilever,
+General Dynamics,BlackRock,
+General Dynamics,Bank of America,
+General Dynamics,The Vanguard Group,
+General Dynamics,State Street Corporation,
+General Dynamics,J.P. Morgan & Co.,
+General Dynamics,MFS Investment Management,
+General Dynamics,Longview Asset Management,
+General Dynamics,Capital Research Global Investors,
+Synthes,Johnson & Johnson,
+PetroChina Company Limited,China National Petroleum Corporation,
+Gillette,Procter & Gamble,
+Pentax,Ricoh,
+LVMH,Christian Dior,
+LVMH,Agache,
+LM Wind Power,Doughty Hanson & Co,
+Google Workspace,Google,
+Oticon,Demant A/S,
+Central Japan Railway Company,The Master Trust Bank of Japan,
+Central Japan Railway Company,Japan Trustee Services Bank,
+Central Japan Railway Company,The Nomura Trust & Banking Co.,
+Central Japan Railway Company,Mizuho Corporate Bank,
+Vattenfall Nederland,Vattenfall,
+DHL Global Forwarding,Deutsche Post AG,
+Starz Entertainment,Liberty Global,
+Starz Entertainment,"Discovery, Inc.",
+Konzum,Agrokor,
+Apple Inc.,Berkshire Hathaway,
+Apple Inc.,BlackRock,
+Apple Inc.,The Vanguard Group,
+Apple Inc.,State Street Global Advisors,
+Meta,BlackRock,
+Nokia,BlackRock,
+Juventus FC,Exor,
+Juventus FC,Lindsell Train,
+Gyldendal,Chr. Augustinus Fabrikker,
+Gyldendal,Museumsfonden af 7. december 1966,
+Microsoft,BlackRock,
+Microsoft,The Vanguard Group,
+Airbus SE,Sociedad Estatal de Participaciones Industriales,
+Airbus SE,Gesellschaft zur Beteiligungsverwaltung mbH & Co. KG,
+Amazon,BlackRock,
+Amazon,The Vanguard Group,
+SABMiller,Anheuser-Busch InBev,
+Yandex,Yandex IJSC,2024-01-01
+Yandex,Yandex IJSC,2000-01-01
+Hamburger Hochbahn AG,Hamburger Gesellschaft für Vermögens- und Beteiligungsmanagement,
+Lockheed Martin,BlackRock,
+Lockheed Martin,The Vanguard Group,
+Lockheed Martin,State Street Corporation,
+The Walt Disney Company,BlackRock,
+The Walt Disney Company,The Vanguard Group,
+Deutsche Telekom,SoftBank Group,
+Deutsche Telekom,BlackRock,
+Adobe,BlackRock,
+Adobe,The Vanguard Group,
+NYSE Euronext Liffe,Intercontinental Exchange,
+Waymo,Waymo Holding,
+Hutchison Whampoa,Cheung Kong Holdings,
+Maersk,A.P. Møller Holding,
+Maersk,Den A.P. Møllerske Støttefond,
+Oracle Corporation,Capital Group Companies,
+Oracle Corporation,The Vanguard Group,
+Samsung Electronics,Samsung C&T Corporation,
+Samsung Electronics,National Pension Service,
+Audi AG,Volkswagen Group,
+Agricultural Bank of China,Central Huijin Investment,
+Industrial and Commercial Bank of China,Central Huijin Investment,
+Abarth,Stellantis Europe,2007-01-01
+Alfa Romeo,Stellantis Europe,2007-01-01
+Mercedes-AMG,Mercedes-Benz AG,
+Aston Martin Lagonda,Investment Dar,
+BYD Auto,Q2608329,
+Mercedes-Benz Group,BAIC Group,
+Q27564,Stellantis North America,
+Ferrari,Ferrari,
+AOL,WarnerMedia,2001-01-11
+AOL,Verizon Communications,2001-01-11
+AOL,Apollo Global Management,2001-01-11
+AOL,Bending Spoons,2001-01-11
+AOL,WarnerMedia,2021-09-01
+AOL,Verizon Communications,2021-09-01
+AOL,Apollo Global Management,2021-09-01
+AOL,Bending Spoons,2021-09-01
+AOL,WarnerMedia,2015-06-23
+AOL,Verizon Communications,2015-06-23
+AOL,Apollo Global Management,2015-06-23
+AOL,Bending Spoons,2015-06-23
+AOL,WarnerMedia,2026-01-01
+AOL,Verizon Communications,2026-01-01
+AOL,Apollo Global Management,2026-01-01
+AOL,Bending Spoons,2026-01-01
+Fiat,Stellantis Europe,2007-01-01
+ArcelorMittal,BlackRock,
+Chrysler,Stellantis North America,
+Intel,BlackRock,
+Intel,The Vanguard Group,
+General Electric,BlackRock,
+General Electric,Capital Group Companies,
+General Electric,The Vanguard Group,
+General Electric,Northern Trust,
+General Electric,Fidelity Investments,
+General Electric,T. Rowe Price,
+RTVE,Sociedad Estatal de Participaciones Industriales,
+Allegro,Cinven,
+eBay,BlackRock,
+eBay,The Vanguard Group,
+ProSiebenSat.1 Media SE,MFE - MediaForEurope,
+Vacheron Constantin,Richemont,
+Foot Locker,The Vanguard Group,
+Foot Locker,Putnam Investments,
+Foot Locker,Vesa Equity Investment,
+Foot Locker,Boston Partners,
+Foot Locker,Sasco Capital,
+Euroset,VimpelCom,
+Euroset,MegaFon,
+"Tokuma Japan Communications Co., Ltd.",DAIICHIKOSHO,
+Q221186,Student Agency,
+FC Slovan Liberec,Preciosa,
+Box Office Mojo,Amazon,
+Powerset,Microsoft,
+Zuffa LLC,WME Group,
+3Com,Hewlett Packard Enterprise,
+Alexa Internet,Amazon,1999-01-01
+Robert Bosch,Robert Bosch Industrietreuhand,
+Robert Bosch,RB Familiengesellschaft bürgerlichen Rechts,
+Robert Bosch,Robert Bosch Familientreuhand,
+Toyota Motor Manufacturing Czech Republic,Toyota Motor Europe,2020-01-01
+Toyota Motor Manufacturing Czech Republic,Toyota Motor Europe,2021-01-01
+50Hertz Transmission,Elia,2010-01-01
+50Hertz Transmission,Elia,2018-04-26
+50Hertz Transmission,Elia,2018-04-26
+50Hertz Transmission,Elia,2018-08-01
+50Hertz Transmission,Elia,2010-01-01
+Kamov,Russian Helicopters,
+Rolls-Royce,Credit Suisse,
+Rolls-Royce,Capital Group Companies,
+Rolls-Royce,ValueAct Capital,
+Zwilling J. A. Henckels,Wilh. Werhahn KG,1970-01-01
+Skype Technologies,Microsoft,2011-10-13
+Skype Technologies,eBay,2011-10-13
+Skype Technologies,Microsoft,2005-09-01
+Skype Technologies,eBay,2005-09-01
+Merck & Co.,BlackRock,
+Merck & Co.,The Vanguard Group,
+Züblin,Strabag,
+FCC Environment CEE,Fomento de Construcciones y Contratas,2005-01-01
+Novatek,Gazprom,
+Novatek,TotalEnergies,
+Novatek,Volga Group,
+Legoland,Merlin Entertainments,
+SemGroup,Energy Transfer,
+Unibroue,Sapporo Breweries,
+VoodooPC,Hewlett-Packard,2006-01-01
+Gazprom-Media,Gazprombank,
+SanDisk,Western Digital,
+Magyar Suzuki,Suzuki Motor Corporation,
+H2,A+E Global Media,
+hotel.de,HRS Group,
+Audi Sport,Volkswagen Group,
+Infor Global Solutions,"Koch, Inc.",
+Infor Global Solutions,Golden Gate Capital,
+Infor Global Solutions,Summit Partners,
+WESTbahn,Q111064279,
+"McAfee, LLC",Intel,
+"McAfee, LLC",TPG,
+Westwood Studios,Virgin Interactive,1992-01-01
+Westwood Studios,Virgin Interactive,1998-01-01
+7 for all Mankind,Delta-galil Industries Ltd.,
+Showa Shell Sekiyu,Shell,
+Pennon Group,Invesco,
+Pennon Group,Lazard,
+Pennon Group,Ameriprise Financial,
+Pennon Group,RARE Infrastructure,
+A. Lange & Söhne,Richemont,
+Aquascutum,YGM Trading Ltd.,2012-05-01
+A1 Telekom Austria,A1 Telekom Austria Group,
+Ikegami Tsushinki,Toshiba,
+IRIVER,Dreamus,
+SAPO,Altice Portugal,
+Yamagata Television System,Asahi Shimbun Company,
+iRobot,PRIMECAP,
+Gigaset Communications,Gigaset,2005-01-01
+Gigaset Communications,Gigaset,2008-01-01
+ABB Stotz-Kontakt,ABB Group,
+Ansaldo,Leonardo,
+ADEG Österreich,Rewe International,
+ADIG,Bayerische Vereinsbank,
+ADT Inc.,Dodge & Cox,
+China Southern Airlines,China Southern Air Holding Company,
+China Southern Airlines,Nan Lung Holding,
+Ralink,MediaTek,
+Q292742,Deutsche Eisenbahn-Gesellschaft,
+AG für Verkehrswesen,Berliner Handels-Gesellschaft,
+Metro International,Modern Times Group,
+ÖSTU-Stettin,HABAU Hoch- und Tiefbaugesellschaft m.b.H,
+ALBtelecom,Çalık Holding,
+Comet Group,OpCapita,
+AMP Limited,HSBC,
+ANAS,Ferrovie dello Stato Italiane,2022-01-01
+AOpen,Wistron,2002-01-01
+AOpen,Wistron,1996-01-01
+Arm Holdings,SoftBank Group,2016-09-05
+ASB Bank,Commonwealth Bank,
+ASCII Corporation,ASCII Media Works,
+A Bathing Ape,I.T,
+OBI,Tengelmann Group,
+AAEON,ASUS,2011-01-01
+Sprint Corporation,SoftBank Group,
+Legoland Discovery Centre,Merlin Entertainments,
+Österreichische Lotterien,Casinos Austria,
+Österreichische Lotterien,Lotto-Toto Holding,
+Österreichische Lotterien,ÖLG Holding,
+MoPar,Stellantis North America,
+ARCO,Marathon Petroleum,
+First Pacific,Brandes Investment Partners,
+Intimissimi,Oniverse,
+Spolchemie,AB - Credit,2021-01-01
+Spolchemie,Kaprain Chemical,2021-01-01
+Spolchemie,AB - Credit,2021-01-01
+Spolchemie,Kaprain Chemical,2021-01-01
+Österreichisches Credit-Institut,Länderbank,1972-01-01
+OSRAM Licht AG,ams OSRAM AG,1978-01-01
+Infineon Technologies,BlackRock,
+Infineon Technologies,Capital Group Companies,
+Infineon Technologies,Sun Life Financial,
+Knorr,Unilever,1959-01-01
+Knorr,Unilever,2000-01-01
+Bosch Rexroth,Robert Bosch,
+Siemens IT Solutions and Services,Siemens,
+Pelikan Group GmbH,Pelikan Holding AG,
+Destiny Cable,Sky Cable Corporation,
+North American Aviation,General Motors,1933-01-01
+Media Factory,Kadokawa Future Publishing,
+Pride Fighting Championships,WME Group,
+Grupo Modelo,Anheuser-Busch InBev,
+Buderus Aktiengesellschaft,Robert Bosch,
+Student Agency,RegioJet holding,2013-01-01
+Sobranie,Japan Tobacco International,
+Sobranie,Japan Tobacco,
+Ortel Mobile,KPN,
+Andøya Space,Kongsberg Defence & Aerospace,
+Iveco Defence Vehicles,Leonardo,2025-07-01
+Breslau-Trebnitz-Prausnitzer Kleinbahn,AG für Verkehrswesen,
+Cortal Consors,BNP Paribas,
+Portuguese Investment Bank,CaixaBank,
+Debswana,De Beers,
+SeaWorld,United Parks & Resorts,
+Slovak Telekom,Deutsche Telekom,
+Slovak Telekom,Deutsche Telekom Europe,
+DPDgroup,GeoPost,1999-01-01
+Christian Dior,Agache,2024-01-01
+Cintra,Ferrovial,
+Parker Pen Company,Newell Brands,
+Fred. Olsen Cruise Lines,Fred. Olsen & Co.,
+MOL Group,UniCredit,
+MOL Group,OTP Bank,
+MOL Group,OQ Company,
+MOL Group,ING Bank N.V.,
+SIX Financial Information,SIX Group,
+TKMS,thyssenkrupp AG,
+SARIA,Rethmann,
+LGB,Märklin,2007-01-01
+International Aero Engines,MTU Aero Engines,
+International Aero Engines,Pratt & Whitney,
+International Aero Engines,Rolls-Royce,
+International Aero Engines,Japanese Aero Engines Corporation,
+Tradus,Naspers,2010-01-01
+Tradus,OLX Group,2010-01-01
+Tradus,Naspers,2008-01-01
+Tradus,OLX Group,2008-01-01
+Hamburg Süd,Maersk,1955-01-01
+Hamburg Süd,Maersk,2017-01-01
+T-Systems International GmbH,Deutsche Telekom,
+Eni,Cassa Depositi e Prestiti,
+Trix,Märklin,1997-01-01
+Wintershall Dea,BASF,1969-01-01
+Loctite,Q276507,
+Electro-Motive Diesel,Caterpillar Inc.,
+Jet,Phillips 66,
+McKesson Corporation,Capital Group Companies,
+McKesson Corporation,The Vanguard Group,
+McKesson Corporation,Wellington Management Company,
+Douglas,CVC Capital Partners,
+Trust,Q18059256,2018-01-01
+Ford Germany,Ford Motor Company,
+SBI Shinsei Bank,Resolution and Collection Corporation,
+SBI Shinsei Bank,SBI Regional Bank Holdings,
+Merlin Entertainments,BlackRock,
+Merlin Entertainments,Blackstone Inc.,
+Merlin Entertainments,CVC Capital Partners,
+Merlin Entertainments,Kirkbi,
+Rhön-Klinikum,B. Braun,
+Lima,Hornby Hobbies Limited,
+Day Software,Adobe,
+Poly Real Estate,China Poly Group Corporation,
+Massey Ferguson,AGCO,
+GeoPost,La Poste,
+Snam,CDP Reti,
+Daido Steel,Mitsubishi UFJ Financial Group,
+Baskin-Robbins,Inspire Brands,
+Boss Corporation,Roland Corporation,
+Great Eastern Life,Oversea-Chinese Banking Corporation,
+Wienerberger,Marathon Asset Management,
+Wienerberger,Black Creek Investment Management Inc.,
+Radvision,Spirent,
+MyHeritage,Francisco Partners,
+Barclays Investment Bank,Barclays,
+Steyr Arms,RSBC Industries,
+BT Group,Deutsche Telekom,
+BT Group,BlackRock,
+Hiroshima Telecasting,Nippon Television Holdings,
+Bestseller,Heartland A/S,
+Wedgwood,Fiskars,
+Mattel,The Vanguard Group,
+Mattel,Janus Capital Group,
+Mattel,T. Rowe Price,
+Emerson Radio Corporation,Panasonic Holdings Corporation,
+Credito Italiano,Istituto per la Ricostruzione Industriale,
+Allison Engine Company,Rolls-Royce North America,
+Chelyabinsk Tractor Plant,Uralvagonzavod,
+Falck,TryghedsGruppen,
+Falck,Kirkbi Invest,
+Boston Market,McDonald's,2000-01-01
+Boston Market,Sun Capital Partners,2000-01-01
+Boston Market,McDonald's,2007-01-01
+Boston Market,Sun Capital Partners,2007-01-01
+Longines,The Swatch Group,
+Star Cruises,Genting Hong Kong,
+Moeve,Mamoura Diversified Global Holding,
+Bolsas y Mercados Españoles,SIX Group,2020-01-01
+Veuve Clicquot,LVMH,
+Sunrise Senior Living,Revera,
+Patria,Kongsberg Defence & Aerospace,2016-01-01
+Patria,Kongsberg Defence & Aerospace,2014-12-01
+Patria,Kongsberg Defence & Aerospace,2016-01-01
+ESPN Plus,ESPN Inc.,
+Danisco,DuPont,
+BSH Hausgeräte GmbH,Robert Bosch,2015-01-05
+Telenet,Liberty Global,
+SonicWall,Francisco Partners,
+SonicWall,Elliott Investment Management,
+The Onion,Fusion Media Group,2019-04-08
+The Onion,G/O Media,2019-04-08
+The Onion,Global Tetrahedron,2019-04-08
+The Onion,Fusion Media Group,2024-04-01
+The Onion,G/O Media,2024-04-01
+The Onion,Global Tetrahedron,2024-04-01
+The Onion,Fusion Media Group,2016-01-01
+The Onion,G/O Media,2016-01-01
+The Onion,Global Tetrahedron,2016-01-01
+ITmedia,SB Media Holdings,
+Apollinaris,Apollinaris and Presta,1897-01-01
+Apollo Computer,Hewlett-Packard,1989-01-01
+Mio,MiTAC,
+NPO Energomash,Energomash,
+FINN.no,Vend Marketplaces,
+Stratolaunch Systems,Cerberus Capital Management,2019-01-01
+Fannie Mae,Pershing Square Capital Management,
+Gmarket,eBay Korea,
+CVS Health,BlackRock,
+CVS Health,The Vanguard Group,
+Canadian National Railway,BlackRock,
+Canadian National Railway,The Vanguard Group,
+Canadian National Railway,Wellington Management Company,
+Canadian National Railway,MFS Investment Management,
+Kakao M,Kakao,
+BC Card,KT Corporation,
+Samsung Electro-Mechanics,Samsung Electronics,
+Samsung Electro-Mechanics,The Vanguard Group,
+Samsung Electro-Mechanics,National Pension Service,
+Schweizerische Wagons- und Aufzügefabrik AG Schlieren-Zürich,Schindler Group,
+Ellos,Nordic Capital,2013-01-01
+Nielsen Audio,Nielsen Company,
+Magnavox,Koninklijke Philips NV,
+Arby's,Roark Capital Group,
+Rainier Motor Car Company,General Motors,
+Braun,Procter & Gamble,
+Braun,De'Longhi,
+Beko,Arçelik,
+S3 Graphics,HTC Corporation,2011-07-06
+Westinghouse Electric Corporation,Paramount Global,
+GE Wind Energy,General Electric,
+Tangsteel,HBIS Group,
+Standard Oil of Ohio,BP,
+Tango,Proximus,
+Digiturk,beIN Media Group,
+Q636192,Berkshire Hathaway,
+Oil Refineries Ltd.,The Israel Corporation Ltd.,
+Baby Einstein,Q18388173,
+Royal Mail,Schroders,
+Royal Mail,Vesa Equity Investment,
+Rollerblade,Tecnica Group,
+"COSCO SHIPPING Energy Transportation Co., Ltd.",China Shipping Group,
+Hudson's Bay,Hudson's Bay Company,
+Estonian Air,SAS Group,
+Arena One,Do & Co,2014-01-01
+Tenaris,Techint,
+SEAT Pagine Gialle,Italiaonline,
+Beriev,United Aircraft Corporation,
+Fraport,Lazard,2001-01-01
+Fraport,Stadtwerke Frankfurt am Main,2001-01-01
+Fraport,RARE Infrastructure,2001-01-01
+Fraport,Lazard,2001-01-01
+Fraport,Stadtwerke Frankfurt am Main,2001-01-01
+Fraport,RARE Infrastructure,2001-01-01
+Brasil Kirin,Heineken International,
+SunPower,TotalEnergies,
+Deutz-Fahr,SAME Deutz-Fahr,
+ING Group,BlackRock,
+ING Group,Capital Research Global Investors,
+TAG Heuer,LVMH,
+Gruppo API,State Oil Company of Azerbaijan Republic,2025-01-01
+Gruppo API,State Oil Company of Azerbaijan Republic,1989-01-01
+SUAL Group,Rusal,
+Armstrong Whitworth Aircraft,Armstrong Whitworth,
+Birkenstock,L Catterton,2021-01-01
+Wind Telecomunicazioni,Wind Telecom,
+Mitsubishi Corporation,Mitsubishi,
+Exact,Kohlberg Kravis Roberts,
+Salzgitter AG,Preussag,
+Fluor Corporation,BlackRock,
+Fluor Corporation,The Vanguard Group,
+Ray-Ban,Luxottica,1999-01-01
+All Media Network,TiVo Corporation,
+Disney Entertainment Television,The Walt Disney Company,
+Ufaneftekhim,Bashneft,
+Arnold,Hornby Hobbies Limited,
+Berna Biotech,Janssen Vaccines,
+UAZ,Sollers JSC,
+Piaget,Richemont,
+Omega SA,The Swatch Group,
+MediaMarktSaturn Retail Group,METRO Group,
+Tissot,The Swatch Group,
+Moschino,Aeffe,
+Breguet,The Swatch Group,
+STMicroelectronics,Capital Group Companies,
+STMicroelectronics,STMicroelectronics Holding,
+Banque privée Edmond de Rothschild,Edmond de Rothschild Group,
+Telespazio,Leonardo,
+International Watch Company,Richemont,
+Bulova Watch Company,Loews Corporation,1979-01-01
+Bulova Watch Company,Citizen Watch,1979-01-01
+Bulova Watch Company,Loews Corporation,2008-01-01
+Bulova Watch Company,Citizen Watch,2008-01-01
+Gilead Sciences,BlackRock,
+Gilead Sciences,The Vanguard Group,
+Wenger,Victorinox,
+Breitling,Partners Group,
+Société de transports en commun de Limoges Métropole,Transdev S.A.,
+PostBus Switzerland,Die Schweizerische Post,
+Intersport,Gresvig,
+Fendt,AGCO,
+Steyr Tractor,Case Corporation,1999-11-01
+Steyr Tractor,CNH Industrial,1999-11-01
+Steyr Tractor,Case Corporation,1996-01-01
+Steyr Tractor,CNH Industrial,1996-01-01
+Palace Entertainment,Parques Reunidos,
+Wiener Linien,Wiener Stadtwerke,
+Coloplast,Aage og Johanne Louis-Hansen ApS,
+Roger Dubuis,Richemont,
+NV Ingenieurskantoor voor Scheepsbouw,Friedrich Krupp AG,
+Assicurazioni Generali,Mediobanca,
+Assicurazioni Generali,Bank of Italy,
+Sunrise Communications,Liberty Global,
+Tyco International,Johnson Controls,
+Nova Bus,AB Volvo,
+Borealis,OMV,
+Olivetti,TIM Group,
+GE Jenbacher,General Electric,1959-01-01
+GE Jenbacher,Creditanstalt,1959-01-01
+GE Jenbacher,General Electric,1938-01-01
+GE Jenbacher,Creditanstalt,1938-01-01
+GE Jenbacher,General Electric,1917-01-01
+GE Jenbacher,Creditanstalt,1917-01-01
+Netia,Cyfrowy Polsat,
+InnoGames,Modern Times Group,2017-01-01
+Gen Digital,BlackRock,
+Gen Digital,The Vanguard Group,
+Gen Digital,PaBa Software,
+Com Hem,BC Partners,2006-01-01
+Com Hem,Telia Company,2006-01-01
+Com Hem,Carlyle Group,2006-01-01
+Com Hem,EQT Partners,2006-01-01
+Com Hem,Providence Equity Partners,2006-01-01
+Com Hem,BC Partners,2003-01-01
+Com Hem,Telia Company,2003-01-01
+Com Hem,Carlyle Group,2003-01-01
+Com Hem,EQT Partners,2003-01-01
+Com Hem,Providence Equity Partners,2003-01-01
+Com Hem,BC Partners,2006-01-01
+Com Hem,Telia Company,2006-01-01
+Com Hem,Carlyle Group,2006-01-01
+Com Hem,EQT Partners,2006-01-01
+Com Hem,Providence Equity Partners,2006-01-01
+Com Hem,BC Partners,2011-01-01
+Com Hem,Telia Company,2011-01-01
+Com Hem,Carlyle Group,2011-01-01
+Com Hem,EQT Partners,2011-01-01
+Com Hem,Providence Equity Partners,2011-01-01
+Com Hem,BC Partners,1993-01-01
+Com Hem,Telia Company,1993-01-01
+Com Hem,Carlyle Group,1993-01-01
+Com Hem,EQT Partners,1993-01-01
+Com Hem,Providence Equity Partners,1993-01-01
+Com Hem,BC Partners,1983-01-01
+Com Hem,Telia Company,1983-01-01
+Com Hem,Carlyle Group,1983-01-01
+Com Hem,EQT Partners,1983-01-01
+Com Hem,Providence Equity Partners,1983-01-01
+Alpiq Holding,EOS Holding,
+Alpiq Holding,Regio Energie Solothurn,
+Alpiq Holding,Wasserwerke Zug,
+Alpiq Holding,Aziende Industriali di Lugano,
+Alpiq Holding,EBL,
+Alpiq Holding,Primeo Energie,
+Axpo AG,Axpo Holding,
+Gainward,Palit Microsystems,
+Grundig,Arçelik,
+ETA SA,The Swatch Group,
+Arriva,Arriva International Group,2024-01-01
+Arriva,Arriva International Group,2010-01-01
+Strabag,Raiffeisen-Holding Niederösterreich-Wien,
+Strabag,Uniqa,
+Strabag,Rasperia Trading,
+Crunchyroll SA,"Crunchyroll, LLC",
+Nippon Sharyo,Central Japan Railway Company,
+betfair,Flutter Entertainment,
+The Navigator Company,Semapa,
+Feldschlösschen,Carlsberg Group,
+Gate Gourmet,TPG,
+Sinar,Leica Camera,
+Trafigura,Trafigura Beheer,
+Lemania,The Swatch Group,
+Olympus Corporation,Sumitomo Mitsui Banking Corporation,2012-01-01
+Olympus Corporation,Baillie Gifford,2012-01-01
+A1 Telekom Austria Group,Österreichische Beteiligungs AG,
+A1 Telekom Austria Group,América Móvil,
+SL Aerospace,S.P. Korolev Rocket and Space Corporation Energia,1995-01-01
+SL Aerospace,S.P. Korolev Rocket and Space Corporation Energia,2010-01-01
+SL Aerospace,S.P. Korolev Rocket and Space Corporation Energia,1995-01-01
+SL Aerospace,S.P. Korolev Rocket and Space Corporation Energia,1995-01-01
+SL Aerospace,S.P. Korolev Rocket and Space Corporation Energia,1995-01-01
+SL Aerospace,S.P. Korolev Rocket and Space Corporation Energia,2010-01-01
+SL Aerospace,S.P. Korolev Rocket and Space Corporation Energia,2010-01-01
+SL Aerospace,S.P. Korolev Rocket and Space Corporation Energia,1995-01-01
+SL Aerospace,S.P. Korolev Rocket and Space Corporation Energia,2018-04-01
+Verbund,Österreichische Beteiligungs AG,
+ALSTOM Transportation Germany,Alstom,2021-01-01
+Telelogic,IBM,
+Tungsram,General Electric,1989-01-01
+ISS A/S,BlackRock,
+ISS A/S,Kirkbi Invest,
+ISS A/S,Artisan Partners,
+Hewlett Packard Enterprise Services,Hewlett Packard Enterprise,1984-01-01
+Hewlett Packard Enterprise Services,Hewlett Packard Enterprise,2008-01-01
+Hewlett Packard Enterprise Services,Hewlett Packard Enterprise,2015-01-01
+Sika AG,BlackRock,
+Sika AG,Capital Group Companies,
+Sika AG,The Vanguard Group,
+Sika AG,Fidelity Investments,
+Nord Stream AG,Gazprom,
+Nord Stream AG,Wintershall Dea,
+Nord Stream AG,Gasunie,
+Nord Stream AG,Uniper,
+GlobalFoundries,Fidelity Investments,
+Folgers,Procter & Gamble,1963-01-01
+Folgers,The J.M. Smucker Company,1963-01-01
+Hublot,LVMH,
+Contax,Carl Zeiss AG,
+Gräf & Stift,ÖAF,
+Volksbank,Sberbank,
+VARTA AG,Goldman Sachs,
+VARTA AG,Q1945583,
+CNH,Fiat,
+Gösser,Brau Union,1992-01-01
+Voigtländer,Cosina,
+Ulead Systems,Alludo,
+Auburn Automobile,Cord Automobile,
+Audi Brasil,Volkswagen Group,
+Auerbräu,Paulaner Brewery,
+Auergesellschaft,Degussa,
+Jouef,Hornby Hobbies Limited,
+Sabadell Bank,BlackRock,
+Sabadell Bank,DWS Group,
+Sabadell Bank,Dimensional Fund Advisors,
+S.P. Korolev Rocket and Space Corporation Energia,United Rocket and Space Corporation,
+Fruit of the Loom,Berkshire Hathaway,
+Tata Starbucks,Tata Consumer Products,
+Jofa,Reebok,
+Q767076,Fiat,
+ICI Paris XL,Hutchison Whampoa,
+Häfen und Güterverkehr Köln,Stadtwerke Köln,
+Weber carburetor,Magneti Marelli,
+Univar Solutions,CVC Capital Partners,
+HGST,IBM,2002-12-01
+HGST,Hitachi,2002-12-01
+HGST,Western Digital,2002-12-01
+HGST,IBM,2002-12-01
+HGST,Hitachi,2002-12-01
+HGST,Western Digital,2002-12-01
+Twizzlers,The Hershey Company,
+Correos,Sociedad Estatal de Participaciones Industriales,
+Smirnoff,Diageo,
+Mondi Group,AXA,
+Mondi Group,BlackRock,
+Mondi Group,Standard Life,
+Mondi Group,Public Investment Corporation,
+Uber,Morgan Stanley,
+Audi Hungaria,Audi AG,
+Compass Group,BlackRock,
+Compass Group,Invesco,
+Compass Group,MFS Investment Management,
+Cattolica Assicurazioni,Generali Italia,2020-01-01
+Meridionali,Breda,
+Renren,SoftBank Group,
+Belton,D'Ieteren Group,
+Autogrill,Edizione,
+Marelli Automotive Lighting,Magneti Marelli,
+Bang & Olufsen,Chr. Augustinus Fabrikker,
+Bang & Olufsen,Sparkle Roll Group Limited,
+Bank of China,BlackRock,
+Bank of China,Central Huijin Investment,
+Avdel,Stanley Black & Decker,
+Avea,Türk Telekom,
+Barings Bank,ING Group,1995-01-01
+Barrandov Studios,Moravia Steel,1945-01-01
+Avio,Leonardo,
+Aviva,BlackRock,
+Aviva,Dodge & Cox,
+Axe,Unilever,
+Axfood,Axel Johnson AB,
+BATS Global Markets,JPMorgan Chase,
+Ahold,NN Group,
+Ahold,Stichting Administratiekantoor Preferente Financieringsaandelen Ahold,
+Ahold,DeltaFort Beleggingen I,
+Ahold,Mondrian Investment Partners Limited,
+Tata Consumer Products,Tata Investment Corporation,
+BGL BNP Paribas,BNP Paribas,
+BT Berlin Transport,Berliner Verkehrsbetriebe,
+Irma,Coop Danmark,
+BackWerk,Valora,2017-10-27
+Freien Grunder Eisenbahn,AG für Verkehrswesen,
+Oschersleben-Schöninger Eisenbahn-Gesellschaft,AG für Verkehrswesen,
+Blancpain,The Swatch Group,
+Radio Nippon,Nippon Television Holdings,
+CSL Mobile Limited,HKT,
+Dodgeball,Google,
+Zellers,Hudson's Bay Company,
+Vodafone Ukraine,Bakcell,1992-01-01
+Vodafone Ukraine,Bakcell,1992-01-01
+Vodafone Ukraine,Bakcell,1992-01-01
+Vodafone Ukraine,Bakcell,2019-01-01
+Vodafone Ukraine,Bakcell,2003-01-01
+Vodafone Ukraine,Bakcell,1992-01-01
+Sundream Motion Pictures,I-Cable Communications,
+EG&G,AECOM,
+Dunkin' Donuts,Inspire Brands,
+"CRRC Changchun Railway Vehicles Co., Ltd.",CRRC,
+Eutelsat,Eutelsat Communications,
+Harland and Wolff,Dolphin Drilling,
+VAIO,Japan Industrial Partners,
+Q849724,Kering,
+The Princeton Review,Tutor.com,
+Leo Express,AAKON Capital,
+Leo Express,LEO Mobility,
+MOS Technology,Commodore International,
+Groupon,The Vanguard Group,
+Groupon,Pale Fire Capital,
+NTT DoCoMo,"NTT, Inc.",
+Citibank,Citigroup,
+Biedronka,Jeronimo Martins Polska,
+Fujiya,Yamazaki Baking,
+Duracell,Berkshire Hathaway,2014-11-01
+Tencent,JPMorgan Chase,
+Tencent,Naspers,
+Interchannel,NEC,
+Western Union,BlackRock,
+Western Union,The Vanguard Group,
+Western Union,State Street Corporation,
+Western Union,Capital Research Global Investors,
+Billag,Swisscom,
+Biogen,Renaissance Technologies,
+The Home Depot,BlackRock,
+The Home Depot,The Vanguard Group,
+Optus,SingTel,
+Peroni Brewery,Asahi Breweries,
+Vestas,BlackRock,
+Vestas,Marathon Asset Management,
+Pfeiffer Vacuum,Busch Vacuum Solutions,
+Findus,Nomad Foods,
+Ebel,Movado,
+Hürlimann,SAME Deutz-Fahr,
+Van Laack,Delton AG,1986-01-01
+IAV,Volkswagen Group,
+Lenzing AG,Goldman Sachs,
+Lenzing AG,B & C KB Holding,
+Carl Zeiss Meditec,Carl Zeiss AG,
+Lipton,Unilever,
+Elektroniksystem- und Logistik-GmbH,Airbus SE,
+Elektroniksystem- und Logistik-GmbH,Rohde & Schwarz,
+Elektroniksystem- und Logistik-GmbH,Thales,
+Deutsche Gesellschaft zum Bau und Betrieb von Endlagern für Abfallstoffe,Gesellschaft für Nuklear-Service,
+LuK,Schaeffler Group,
+Graz Linien,Holding Graz,
+Möbelix,XXXLutz,
+Blizzard Ski,Tecnica Group,
+Netto Marken-Discount,Edeka,
+Tesch & Stabenow,Degesch,
+Ionos,United Internet,
+Koh-i-Noor Hardtmuth,KOH-I-NOOR holding,2008-01-01
+Yue Yuen Industrial Holdings,Pou Chen Corporation,
+Sino Land,Sino Group,
+Metro Broadcast Corporation,CK Hutchison Holdings,
+Moët & Chandon,LVMH,
+Howaldtswerke-Deutsche Werft,thyssenkrupp AG,
+Jan Becher – Karlovarská Becherovka,Maspex,http://www
+Jan Becher – Karlovarská Becherovka,Maspex,2002-01-01
+Jan Becher – Karlovarská Becherovka,Maspex,1997-01-01
+Jan Becher – Karlovarská Becherovka,Maspex,2012-01-01
+Jan Becher – Karlovarská Becherovka,Maspex,2001-01-01
+Jan Becher – Karlovarská Becherovka,Maspex,2024-05-01
+Jan Becher – Karlovarská Becherovka,Maspex,1997-01-01
+Petrof,Petrof Pianos Group,
+Edeka,Edeka Minden-Hannover,
+Husky,CK Hutchison Holdings,
+Wincor Nixdorf,Kohlberg Kravis Roberts,2014-01-01
+Color Line,O. N. Sunde,
+Schleich,Partners Group,
+Rakuten.co.uk,"Rakuten Group, Inc.",
+Emporis,CoStar Group,2020-10-26
+Gaggenau Hausgeräte,BSH Hausgeräte GmbH,
+Wellcome,DFI Retail Group,
+Tamoil,Libyan Investment Authority,
+TVBS Media Inc.,TVB,
+Fleischmann,Roco,
+Sinalco,Hövelmann,
+Sinalco,Ramseier Suisse,
+E-TEN,Acer,
+"Hongkong Electric Company, Limited",Power Assets Holdings Limited,
+Luxgen,Yulon Motor,
+Costco,The Vanguard Group,
+Sumitomo Corporation,Liberty Global,
+Dessau,Stantec,
+Arzberg porcelain,Rosenthal,
+AGC,Mitsubishi,
+Lay’s,Frito-Lay,
+Sharpie,Newell Brands,
+Buena Vista International Television,The Walt Disney Company,
+Orient Overseas Container Line,Orient Overseas (International) Limited,
+Coach,"Tapestry, Inc.",
+Carrier Corporation,The Vanguard Group,
+Carrier Corporation,Capital Research Global Investors,
+AstraZeneca,BlackRock,2018-07-17
+AstraZeneca,Capital Group Companies,2018-07-17
+AstraZeneca,Investor,2018-07-17
+AstraZeneca,Wellington Management Company,2018-07-17
+AstraZeneca,BlackRock,2019-10-03
+AstraZeneca,Capital Group Companies,2019-10-03
+AstraZeneca,Investor,2019-10-03
+AstraZeneca,Wellington Management Company,2019-10-03
+AstraZeneca,BlackRock,2019-04-03
+AstraZeneca,Capital Group Companies,2019-04-03
+AstraZeneca,Investor,2019-04-03
+AstraZeneca,Wellington Management Company,2019-04-03
+AstraZeneca,BlackRock,2009-12-04
+AstraZeneca,Capital Group Companies,2009-12-04
+AstraZeneca,Investor,2009-12-04
+AstraZeneca,Wellington Management Company,2009-12-04
+Pilkington,Nippon Sheet Glass,
+Kappa,BasicNet,
+Hanna-Barbera,WarnerMedia,
+Mercator,Agrokor,
+Loews Cineplex Entertainment,Loews Corporation,
+U.S. Bancorp,Berkshire Hathaway,
+Asseco Poland,Cyfrowy Polsat,
+Asseco Poland,Nationale-Nederlanden OFE,
+Asseco Poland,Aviva OFE,
+Wabtec,General Electric,
+Wabtec,BlackRock,
+Wabtec,Capital Group Companies,
+Wabtec,The Vanguard Group,
+PKP Cargo,Nationale-Nederlanden OFE,
+Wells Fargo,Berkshire Hathaway,
+Wells Fargo,BlackRock,
+Wells Fargo,The Vanguard Group,
+Astana Motors,Astana Group,
+Industrial Light & Magic,The Walt Disney Company,
+Stora Enso,Foundation Asset Management AB,
+Stora Enso,Solidium,
+Centra,Musgrave Group,
+Mediobanca,Banca Monte dei Paschi di Siena,
+Hansteel,HBIS Group,
+Toshiba Samsung Storage Technology,Toshiba,
+North American Bus Industries,NFI Group,
+New World Development Company Limited,Chow Tai Fook,
+Bulgari,LVMH,
+Founder Technology,Founder Group,
+Epiphone,Gibson Brands,1957-01-01
+Atlantic Transport Line,International Mercantile Marine Company,
+Atmel,Microchip Technology,
+"Baltijos laivų statykla, AB",BLRT Grupp,
+Baltika Breweries,Carlsberg Group,
+AB Banan-Kompaniet,Dole plc,
+Banca Fideuram,Intesa Sanpaolo,
+Bank of Fomento Angola,Unitel,
+Bang Bros,WebGroup Czech Republic,2017-01-01
+Bank Central Asia,PT Dwimuria Investama Andalan,
+Bank für Gemeinwirtschaft,Q1548532,
+Bank of Communications,HSBC,
+Bankers Trust,Deutsche Bank,1999-01-01
+Bankhaus Hardy & Co.,Dresdner Bank,
+Baresel,Köster,
+Basalt-Actien-Gesellschaft,Wilh. Werhahn KG,1978-01-01
+Bashneft,Rosneft,
+Immuno AG,Baxter International,1996-01-01
+Bayer CropScience,Bayer,
+Covestro,Bayer,
+Covestro,BlackRock,
+Bburago,May Cheong Group,2006-01-01
+Beamish and Crawford,Heineken International,
+Beatrice Foods,Kohlberg Kravis Roberts,1987-01-01
+Beech-Nut,Hero Group,
+Beijing Benz,BAIC Group,
+Foton Motor,BAIC Group,
+BellSouth,AT&T,
+Bellator MMA,Paramount Global,
+Ben & Jerry's,Unilever,
+Benetton Group,Edizione,
+Novo Nordisk,Novo Holdings,
+Rotring,Newell Brands,
+Alaska Airlines,Alaska Air Group,
+Six Flags,WarnerMedia,1982-01-01
+Six Flags,Blackstone Inc.,1982-01-01
+Six Flags,Pennsylvania Railroad,1982-01-01
+Six Flags,Bally Manufacturing,1982-01-01
+Six Flags,Wesray Capital Corporation,1982-01-01
+Six Flags,WarnerMedia,1966-01-01
+Six Flags,Blackstone Inc.,1966-01-01
+Six Flags,Pennsylvania Railroad,1966-01-01
+Six Flags,Bally Manufacturing,1966-01-01
+Six Flags,Wesray Capital Corporation,1966-01-01
+Six Flags,WarnerMedia,1987-01-01
+Six Flags,Blackstone Inc.,1987-01-01
+Six Flags,Pennsylvania Railroad,1987-01-01
+Six Flags,Bally Manufacturing,1987-01-01
+Six Flags,Wesray Capital Corporation,1987-01-01
+Six Flags,WarnerMedia,1993-01-01
+Six Flags,Blackstone Inc.,1993-01-01
+Six Flags,Pennsylvania Railroad,1993-01-01
+Six Flags,Bally Manufacturing,1993-01-01
+Six Flags,Wesray Capital Corporation,1993-01-01
+Six Flags,WarnerMedia,1976-01-01
+Six Flags,Blackstone Inc.,1976-01-01
+Six Flags,Pennsylvania Railroad,1976-01-01
+Six Flags,Bally Manufacturing,1976-01-01
+Six Flags,Wesray Capital Corporation,1976-01-01
+Six Flags,WarnerMedia,1991-01-01
+Six Flags,Blackstone Inc.,1991-01-01
+Six Flags,Pennsylvania Railroad,1991-01-01
+Six Flags,Bally Manufacturing,1991-01-01
+Six Flags,Wesray Capital Corporation,1991-01-01
+Six Flags,WarnerMedia,1990-01-01
+Six Flags,Blackstone Inc.,1990-01-01
+Six Flags,Pennsylvania Railroad,1990-01-01
+Six Flags,Bally Manufacturing,1990-01-01
+Six Flags,Wesray Capital Corporation,1990-01-01
+Six Flags,WarnerMedia,1991-01-01
+Six Flags,Blackstone Inc.,1991-01-01
+Six Flags,Pennsylvania Railroad,1991-01-01
+Six Flags,Bally Manufacturing,1991-01-01
+Six Flags,Wesray Capital Corporation,1991-01-01
+Six Flags,WarnerMedia,1968-01-01
+Six Flags,Blackstone Inc.,1968-01-01
+Six Flags,Pennsylvania Railroad,1968-01-01
+Six Flags,Bally Manufacturing,1968-01-01
+Six Flags,Wesray Capital Corporation,1968-01-01
+Six Flags,WarnerMedia,1995-01-01
+Six Flags,Blackstone Inc.,1995-01-01
+Six Flags,Pennsylvania Railroad,1995-01-01
+Six Flags,Bally Manufacturing,1995-01-01
+Six Flags,Wesray Capital Corporation,1995-01-01
+Kelvinator,Electrolux,
+A1 Srbija,A1 Telekom Austria Group,
+Nalco Holding Company,Ecolab,
+United Parks & Resorts,Anheuser-Busch,
+United Parks & Resorts,Blackstone Inc.,
+npower,RWE Generation,2002-01-01
+npower,RWE Generation,2019-01-01
+Premium AEROTEC,Airbus SE,
+Trolli,Mederer GmbH,
+Europ Assistance,Assicurazioni Generali,
+Rolls-Royce Power Systems,Mercedes-Benz Group,
+Kanadevia Inova Schmack,Viessmann,2021-10-01
+Kanadevia Inova Schmack,Kanadevia Inova,2021-10-01
+Kanadevia Inova Schmack,Viessmann,2010-01-01
+Kanadevia Inova Schmack,Kanadevia Inova,2010-01-01
+Alludo,Kohlberg Kravis Roberts,
+Vivartia,Marfin Investment Group,
+HAECO,Swire Group,
+Celcom,Axiata,
+OCBC Bank Hong Kong,Oversea-Chinese Banking Corporation,
+Hardcore Gamer,"Valnet, Inc",
+TurboJET,Shun Tak Holdings,
+Shenzhen Development Bank,Ping An Insurance,
+"CRRC Zhuzhou Locomotive Co., Ltd.",CRRC,
+Euronext,Euroclear,
+Euronext,Intesa Sanpaolo,
+Euronext,CDP Equity,
+"Eddie Bauer Holdings, Inc.",Golden Gate Capital,
+Nagano Broadcasting Systems,Kitano Construction,
+Hiroshima Home Television,Asahi Shimbun Company,
+Hiroshima Home Television,National Mutual Insurance Federation of Agricultural Cooperatives,
+Ryukyu Asahi Broadcasting,Asahi Shimbun Company,
+Ryukyu Asahi Broadcasting,Ryukyu Broadcasting Corporation,
+Chūkyō Television Broadcasting,Yomiuri Chukyo FS Broadcasting Holdings Corporation,
+Sapporo Television Broadcasting,Yomiuri Chukyo FS Broadcasting Holdings Corporation,
+Fukuoka Broadcasting Corporation,Yomiuri Chukyo FS Broadcasting Holdings Corporation,
+Gesellschaft für Nuklear-Service,PreussenElektra,
+EADS EFW,Airbus SE,
+Meyer Wismar,MV Werften,
+Remondis,Rethmann,
+Bogatyr Access Komir,Access Industries,1996-10-01
+Bohemia Interactive,SPM FINANCE investiční fond s proměnným základním kapitálem,2021-01-01
+Bohemia Interactive,Proxima Beta Europe,2021-01-01
+Bohemia Interactive,SPM FINANCE investiční fond s proměnným základním kapitálem,2020-01-01
+Bohemia Interactive,Proxima Beta Europe,2020-01-01
+Bohemia Interactive,SPM FINANCE investiční fond s proměnným základním kapitálem,2020-01-01
+Bohemia Interactive,Proxima Beta Europe,2020-01-01
+Bohemia Interactive,SPM FINANCE investiční fond s proměnným základním kapitálem,2017-01-01
+Bohemia Interactive,Proxima Beta Europe,2017-01-01
+Cosmos Music Group,Sony Music,
+Book Off,SoftBank Group,
+LAT Nitrogen Linz,SKW Piesteritz,
+Borletti,Magneti Marelli,
+Bosch Sicherheitssysteme,Robert Bosch,
+Bosch Thermotechnik,Robert Bosch,
+Bottega Veneta,Kering,
+Kenzo,LVMH,
+Bradespar,Bradesco,
+Transdev GmbH,Transdev S.A.,
+Teva Pharmaceutical Industries Ltd.,Berkshire Hathaway,
+Teva Pharmaceutical Industries Ltd.,BlackRock,
+Teva Pharmaceutical Industries Ltd.,Wellington Management Company,
+"Lifosa, AB",EuroChem,
+Brasil Telecom,Oi,
+Genentech,Hoffmann-La Roche,
+Brau Holding International,Heineken International,
+Brau Holding International,Schörghuber Unternehmensgruppe,
+Braunschweig-Schöninger Eisenbahn,AG für Verkehrswesen,
+Wyeth,Pfizer,
+Icl Group Ltd,Potash Corporation of Saskatchewan,
+Icl Group Ltd,The Israel Corporation Ltd.,
+Mitsui & Co.,Mitsui Group,
+BredaMenarinibus,King Long,
+MGM Television,Comcast,
+Slim Fast,Glanbia,2000-01-01
+Slim Fast,Glanbia,2018-01-01
+Rhodia,Solvay S.A.,
+Spolana,ORLEN Unipetrol RPA,2009-01-01
+Spolana,ORLEN Unipetrol RPA,2016-01-01
+Bremisch-Hannoversche Kleinbahn,AG für Verkehrswesen,
+Bremisch-Hannoversche Kleinbahn,Deutsche Eisenbahn-Gesellschaft,
+Lotus Software,IBM,
+Loblaw Companies,George Weston Limited,
+SAIC Motor,Shanghai Automotive Industry Corporation (Group),
+Topps,The Tornante Company,
+Ducati Corse,Audi AG,
+Vicks,Procter & Gamble,
+Tactics,Nexton,
+OTP Bank,MOL Group,
+OTP Bank,Groupama,
+OTP Bank,T. Rowe Price,
+Edison,Électricité de France,
+Edison,Transalpina di Energia,
+Northrop,Northrop Grumman Corporation,
+Banca Toscana,Banca Monte dei Paschi di Siena,
+FAW-Volkswagen,Audi AG,
+FAW-Volkswagen,Volkswagen Group,
+Cervezas Alhambra,Group Mahou San Miguel,
+Fiat Industrial,Exor,
+"Orlen Lietuva, AB",Orlen,
+Eurobank Ergasias,Fairfax Financial,
+Niigata Transys,IHI Corporation,
+Energy Future Holdings,Kohlberg Kravis Roberts,
+Alenia Aermacchi,Leonardo,
+Microsoft TechNet,Microsoft,
+Maxtor,Seagate Technology,
+Sistema Brasileiro de Televisão,Grupo Silvio Santos,
+Leap Wireless,AT&T,
+Loewe,LVMH,
+Subaru Tecnica International,Subaru Corporation,
+TRW Inc.,Blackstone Inc.,
+GE Capital,General Electric,
+KDDI,The Master Trust Bank of Japan,
+Thawte Consulting,DigiCert,1999-01-01
+Thawte Consulting,DigiCert,2010-01-01
+HSBC Bank (China),HSBC,
+Browning Arms Company,FN Herstal,
+Bruce Power,Cameco,
+Sinotruk (Hong Kong) Limited,China National Heavy Duty Truck Group,
+Waterman,Newell Brands,
+Budget Rent a Car,Avis Budget Group,
+Bundesimmobiliengesellschaft,Österreichische Beteiligungs AG,
+Bunzlauer Kleinbahn,AG für Verkehrswesen,
+Burson,WPP plc,
+Butzbach-Licher Eisenbahn,AG für Verkehrswesen,
+Para-Ordnance,Cerberus Capital Management,
+CBS Radio,"Audacy, Inc.",
+CBRE Group,The Vanguard Group,
+CBRE Group,Fidelity Investments,
+CIT Group,First Citizens BancShares,2022-01-01
+CMC Markets,Goldman Sachs,
+Caltagirone Editore,Caltagirone,
+Grupa Żywiec,Heineken International,
+Cannondale Bicycle Corporation,Pon Holdings,
+Capitalia,UniCredit,
+Carglass,D'Ieteren Group,
+Carl F. Bucherer,Rolex,
+Telecom Italia Net,Telecom Italia Media,
+Comgás,Cosan,
+Stand by Me,Fremantle,
+Ferrovie Real Estate,Ferrovie dello Stato Italiane,
+Ford France,Ford Motor Company,
+Angelini Group,Angelini Holding,
+Rosbank,Interros,2022-05-01
+TIM,TIM Group,
+CPFL Energia,State Grid Corporation of China,
+Kumertau Aviation Production Enterprise,Russian Helicopters,
+OpenDNS,Cisco,
+Loyalty Partner,American Express,2011-01-01
+Jacuzzi,Apollo Global Management,2006-01-01
+Jacuzzi,Apollo Global Management,2019-01-01
+Nexi Germany,Nexi,
+Nordea,BlackRock,
+Nordea,The Vanguard Group,
+Nordea,Sampo Group,
+Nordea,Alecta,
+Nordea,Cevian Capital,
+Nordea,Swedbank Robur,
+Nordea,Nordea Foundation,
+congstar,Deutsche Telekom,
+congstar,Telekom Deutschland,
+Dr. Martens,Permira,1957-01-01
+Dr. Martens,Wollaston Vulcanizing Company Limited,1957-01-01
+Dr. Martens,Permira,2014-01-01
+Dr. Martens,Wollaston Vulcanizing Company Limited,2014-01-01
+Conn-Selmer,Paulson & Co.,
+Dow Jones & Company,News Corp,2013-01-01
+Packard Bell,Acer,2008-01-01
+Packard Bell,Acer,1994-01-01
+Northern Rock,Virgin Money UK,
+OGK-2,Gazprom Energoholding,
+Elia,Publi-T,
+Westinghouse Electric Company,Toshiba,
+Wizards of the Coast,Hasbro,
+CoreCivic,The Vanguard Group,
+COSMOTE,OTE,
+World Online,Tessellis,
+Hackett,M1 Group,
+QNB Group,Qatar Investment Authority,
+Nuance Communications,Microsoft,
+CFE,Vinci,
+Coventry Health Care,Aetna,2013-05-07
+Frontier Airlines,Republic Airways Holdings,
+Jaiku,Google,
+Riverbed Technology,Thoma Bravo,
+Factiva,News Corp,
+Flex Ltd.,BlackRock,
+Flex Ltd.,Fidelity Investments,
+Flex Ltd.,Wellington Management Company,
+Flex Ltd.,PRIMECAP,
+Flex Ltd.,Boston Partners,
+CrossGen,The Walt Disney Company,
+Thomson Reuters,The Woodbridge Company,
+Ford Union,Ford Motor Company,
+Yomiuri Telecasting Corporation,Yomiuri Chukyo FS Broadcasting Holdings Corporation,
+Meizu,Geely,2022-06-13
+Future Shop,Best Buy,
+Cushman & Wakefield,Exor,
+Fiat Professional,Stellantis Europe,2007-01-01
+Cyberport,Hubert Burda Media Holding,2000-01-01
+Cyberport,Hubert Burda Media Holding,1999-01-01
+Cyberport,Hubert Burda Media Holding,2017-01-01
+IMI Systems,Elbit Systems Ltd.,
+New Japan Pro-Wrestling,Bushiroad,
+Victor Entertainment,JVC,
+Deutsche Wohnen SE,BlackRock,
+Deutsches Institut für Altersvorsorge,Zurich Gruppe Deutschland,
+Deutsches Institut für Altersvorsorge,BHW home savings bank,
+Deutsches Institut für Altersvorsorge,DWS Group,
+DeutschlandCard,Bertelsmann Printing Group,
+Petro-Canada,Suncor Energy,1991-01-01
+Petro-Canada,Suncor Energy,2009-08-01
+EF English Live,EF Education First,
+Hennessy,LVMH,
+Walt Disney Motion Pictures Group,The Walt Disney Company,
+Dofasco,ArcelorMittal,
+Frankensteiner Kreisbahn,AG für Verkehrswesen,1918-01-01
+Dollar Thrifty Automotive Group,The Hertz Corporation,
+Mandarin Oriental Hotel Group,Jardine Matheson,
+Ørsted,Goldman Sachs,
+Ørsted,Capital Group Companies,
+Ørsted,Andel Energy,
+UD Trucks,Isuzu,2019-12-01
+UD Trucks,AB Volvo,2019-12-01
+UD Trucks,Isuzu,1946-01-01
+UD Trucks,AB Volvo,1946-01-01
+UD Trucks,Isuzu,2006-01-01
+UD Trucks,AB Volvo,2006-01-01
+doodle.com,TX Group,
+Linde Hydraulics,Weichai Power,
+DFDS,DFDS,
+DFDS,Lauritzen Foundation,
+Vincent Bach Corporation,Conn-Selmer,
+Drax Group,BlackRock,
+Drax Group,Invesco,
+Drax Group,Schroders,
+Drax Group,Artemis,
+Drax Group,Jupiter Fund Management,
+Drax Group,Orbis Investment Management,
+Ping An Insurance,JPMorgan Chase,
+Ping An Insurance,Citigroup,
+Ping An Insurance,Charoen Pokphand,
+Ping An Insurance,Central Huijin Investment,
+Ping An Insurance,Shenzhen Investment Holdings,
+Walt Disney Studios Motion Pictures,The Walt Disney Company,
+General Dynamics Electric Boat,General Dynamics,
+Virgin Mobile,Virgin Group,
+Element Skateboards,Billabong,
+Isotta Fraschini Motori,Fincantieri,
+H. P. Bulmer,Heineken International,
+Unity Line,Polsteam,
+ElitePartner,ProSiebenSat.1 Media SE,2016-09-01
+ElitePartner,ProSiebenSat.1 Media SE,2020-09-01
+Champagne Krug,LVMH,
+Kia Motors Slovakia,Kia,
+Jackson Guitars,Fender Musical Instruments Corporation,
+Elswick Ordnance Company,Armstrong Whitworth,
+Telekom Slovenije,Slovenian Sovereign Holding,
+Fluxys,Q4959715,
+Standard Chartered Zambia,Standard Chartered,
+Janes,The Woodbridge Company,2019-01-01
+Janes,Montagu Private Equity,2019-01-01
+Janes,IHS Markit,2019-01-01
+Janes,The Woodbridge Company,2007-01-01
+Janes,Montagu Private Equity,2007-01-01
+Janes,IHS Markit,2007-01-01
+Energie Graz,Energie Steiermark,
+Energie Graz,Holding Graz,
+Engine Alliance,Pratt & Whitney,
+Engine Alliance,GE Aerospace,
+Enovos Deutschland,Enovos Luxembourg,
+Enovos Deutschland,Creos Luxembourg,
+SAS Group,Lind Invest,
+Epicor,Kohlberg Kravis Roberts,
+IMG,WME Group,
+Erdgas Südwest,EnBW,
+Pantene,Procter & Gamble,
+Alenia Aeronautica,Leonardo,
+Just Eat Takeaway,BlackRock,
+Just Eat Takeaway,Morgan Stanley,
+Just Eat Takeaway,Delivery Hero,
+Alibaba Group,SoftBank Group,
+Alibaba Group,Altaba,
+MEO,Altice Portugal,
+Mobile TeleSystems,Sistema,
+Estes Industries,Hobbico,
+Eucerin,Beiersdorf,
+Eurailpool,Swietelsky,
+EUROFIMA,Austrian Federal Railways,
+EUROFIMA,Ferrovie dello Stato Italiane,
+EUROFIMA,České dráhy,
+EUROFIMA,Société Nationale des Chemins de Fer Luxembourgeois,
+GE Water,General Electric,
+GGP Media,Bertelsmann Printing Group,
+IBC Vehicles,General Motors,
+Peninsular and Oriental Steam Navigation Company,DP World,
+Gallaher Group,Japan Tobacco,
+Hemofarm a.d.,STADA Arzneimittel,
+GANT,Maus Frères,
+Gardner Denver,Kohlberg Kravis Roberts,
+Garrett AiResearch,"Honeywell International, Inc.",
+Gas-Union,Städtische Werke,
+Gas-Union,Mainova,
+Gas-Union,Stadtwerke Essen,
+Genan,PKA,
+Parker Brothers,Hasbro,1991-01-01
+GEO Group,The Vanguard Group,
+Nordica,Tecnica Group,
+The Wharf (Holdings) Limited,Wheelock & Co,
+Palo Verde Nuclear Generating Station,El Paso Electric,
+Palo Verde Nuclear Generating Station,TXNM Energy,
+Palo Verde Nuclear Generating Station,Salt River Project,
+KONČAR – Elektroindustrija d.d.,Croatian Postal Bank,
+Georgia-Pacific,"Koch, Inc.",
+Gerber Legendary Blades,Fiskars,
+Leaf International,CVC Capital Partners,
+Gerdau,Metalúrgica Gerdau,
+WME Group,Silver Lake,
+Liberty Media,AT&T,1994-08-04
+Liberty Media,Discovery Holding Company,1994-08-04
+Liberty Media,Tele-Communications Inc.,1994-08-04
+Liberty Media,AT&T,http://www
+Liberty Media,Discovery Holding Company,http://www
+Liberty Media,Tele-Communications Inc.,http://www
+Liberty Media,AT&T,1999-03-09
+Liberty Media,Discovery Holding Company,1999-03-09
+Liberty Media,Tele-Communications Inc.,1999-03-09
+Alpine Electronics,Alps Electric,
+FAW-Volkswagen,"Volkswagen (China) Investment Co., Ltd.",
+CBRE Group,Harris Associates,
+CBRE Group,ValueAct Capital,
+Ruehl No.925,Abercrombie & Fitch,
+Mobistar,Q1431486,
+Britax,Nordic Capital,
+Enel Américas,Enel,
+Ternium,Techint,
+AeroVironment,The Vanguard Group,
+British-India Steam Navigation Company,Peninsular and Oriental Steam Navigation Company,
+Lottomatica,International Game Technology,
+Britten-Norman,Fairey Aviation Company,1972-01-01
+Britten-Norman,Fairey Aviation Company,1978-01-01
+Global Telecom Holding,VEON,
+A1 Hrvatska,A1 Telekom Austria Group,
+SABCA,Sabena Engineering,2020-01-01
+SABCA,Sabena Engineering,2020-01-01
+Grossmann Jet Service,KKCG,
+Privat Group,Kremenchuk Steel Works,
+Ecobank,QNB Group,
+Ecobank,Nedbank,
+Tekla,Trimble,
+eMachines,Acer,
+Kering,Groupe Artémis,
+Merak Film S.r.l,MFE - MediaForEurope,
+Yarrow Shipbuilders Limited,General Electric Company plc,
+Škoda Transportation,Škoda,2010-01-01
+Škoda Transportation,Škoda,2023-01-01
+Škoda Transportation,Škoda,2011-01-01
+Škoda Transportation,Škoda,2007-01-01
+Škoda Transportation,Škoda,2018-01-01
+Q934853,Lenovo,2014-01-01
+Q934853,Lenovo,2012-01-01
+OpenTV,Kudelski Group,
+Italian Stock Exchange,Euronext,
+Alienware,Dell,
+Chupa Chups,Perfetti Van Melle,
+Mauritel,Maroc Telecom,
+Fiat Group,Exor,
+KBC Bank,KBC Group,
+Listerine,Johnson & Johnson,
+AtkinsRéalis,Caisse de dépôt et placement du Québec,
+Plaxo,Comcast,
+Plzeňský Prazdroj,Asahi Breweries Europe,2017-01-01
+Plzeňský Prazdroj,Asahi Breweries Europe,2006-01-01
+Cirrus Aircraft Corporation,China Aviation Industry General Aircraft,
+Orlen,Nationale-Nederlanden OFE,
+Moodyz,WILL,2016-01-01
+MySQL AB,Oracle America,
+Sogo Hong Kong,Lifestyle International Holdings,
+Nasdaq Copenhagen A/S,NASDAQ Holding Denmark,
+Canadian Vickers,Vickers,
+Ministop,Aeon,
+Hitachi Rail STS,Hitachi,
+Carl Zeiss Microscopy,Carl Zeiss AG,
+Šariš Brewery,SABMiller,
+Disney Store,The Walt Disney Company,
+DoubleClick,Google,2005-01-01
+DoubleClick,Google,2008-01-01
+Dobro,Gibson Brands,1993-01-01
+Bucanero Brewery S.A.,Anheuser-Busch InBev,
+HEINEKEN Mexico,Heineken International,2010-01-01
+Jiangling Motors,Ford Motor Company,
+NHIndustries,Airbus Helicopters,
+Telecom Italia Media,TIM Group,
+Strikeforce,Zuffa LLC,
+Chrysler Europe,Stellantis North America,
+IBM Cloud Video,IBM,
+Cognos,IBM,
+Max Mara,Max Mara Fashion Group,
+Q1151992,Mannesmann,
+DB BahnPark,Contipark Parkgaragengesellschaft,
+DB FuhrparkService,DB Dienstleistungen,
+DB Cargo Scandinavia,DB Cargo,
+DDB Worldwide,Omnicom Group,
+GE HealthCare,General Electric,
+Wightlink,Balfour Beatty,
+Lloyds Bank,Lloyds Banking Group,
+Emaar Properties,The Vanguard Group,
+Emaar Properties,Investment Corporation of Dubai,
+DP World,Dubai World,
+DSV,BlackRock,
+DSV,Capital Group Companies,
+DSV,Agility Logistics,
+DVB Bank SE,DZ Bank,
+World Extreme Cagefighting,Zuffa LLC,
+Daimler Truck,Mercedes-Benz Group,
+O2 Slovakia,PPF Group,
+Alstom Pojazdy Szynowe,Alstom,
+Société des bains de mer de Monaco,LVMH,2015-07-01
+Société des bains de mer de Monaco,Galaxy Entertainment Group,2015-07-01
+Société des bains de mer de Monaco,Onassis-Group,2015-07-01
+Société des bains de mer de Monaco,LVMH,1953-01-01
+Société des bains de mer de Monaco,Galaxy Entertainment Group,1953-01-01
+Société des bains de mer de Monaco,Onassis-Group,1953-01-01
+Masdar,Mamoura Diversified Global Holding,
+Masdar,Abu Dhabi National Energy Company,
+GAC Fiat Chrysler,Stellantis,
+Dansk Undergrunds Consortium,Maersk,
+Klarna,Klarna Holding,
+Jeeves,Battery Ventures,
+Industriebahn AG,AG für Verkehrswesen,
+Degeto Film,Q132151682,
+Delaforce,Real Companhia Velha,http://www
+Delta Cafés,Q10291880,
+Maple Leaf Sports & Entertainment,Rogers Communications,
+Universal Destinations & Experiences,Comcast,
+Warner Bros. Home Entertainment,WarnerMedia,
+Virgin Unite,Virgin Group,
+Flynas,Kingdom Holding Company,
+Stampede Wrestling,National Wrestling Alliance,
+Q1191685,Itochu,2020-11-16
+Q1191685,Norinchukin Bank,2020-11-16
+Q1191685,Tokyo Century Corporation,2020-11-16
+Q1191685,Retail Investment Company LLC,2020-11-16
+Q1191685,Itochu,2020-11-16
+Q1191685,Norinchukin Bank,2020-11-16
+Q1191685,Tokyo Century Corporation,2020-11-16
+Q1191685,Retail Investment Company LLC,2020-11-16
+Q1191685,Itochu,2020-11-16
+Q1191685,Norinchukin Bank,2020-11-16
+Q1191685,Tokyo Century Corporation,2020-11-16
+Q1191685,Retail Investment Company LLC,2020-11-16
+Q1191685,Itochu,2020-11-16
+Q1191685,Norinchukin Bank,2020-11-16
+Q1191685,Tokyo Century Corporation,2020-11-16
+Q1191685,Retail Investment Company LLC,2020-11-16
+Q1191685,Itochu,2020-11-16
+Q1191685,Norinchukin Bank,2020-11-16
+Q1191685,Tokyo Century Corporation,2020-11-16
+Q1191685,Retail Investment Company LLC,2020-11-16
+Strategy,BlackRock,
+Strategy,The Vanguard Group,
+Spansion,AMD,
+Elpida Memory,Micron Technology,
+Hiroshima Electric Railway,Hiroshima Bank,
+Virgin Media,Liberty Global,
+Derby Cycle,Pon Holdings,
+Marvel Entertainment,The Walt Disney Company,
+German-American Petroleum Company,Standard Oil of New Jersey,1911-01-01
+Deutsche Anlagen-Leasing,Deutsche Leasing,
+Hollister Co.,Abercrombie & Fitch,
+Dremel,Robert Bosch,
+1&1 AG,United Internet,
+Telekom Srpske,Telekom Srbija,
+Durex,Reckitt,2010-07-01
+Vyatta,Ciena,
+Bayernwerk,E.ON Beteiligungen,
+E.ON Digital Technology,E.ON Beteiligungen,
+EDP Renewables,Energias de Portugal,
+Entega Geschäftskunden,ENTEGA AG,
+EOS Holding,Groupe E,
+EQT Partners,Investor,
+Eastpak,VF Corporation,
+EasyCruise,Hellenic Seaways,
+Arctech Helsinki Shipyard,United Shipbuilding Corporation,
+NIS,Gazprom Neft,
+Eckō Unltd.,Iconix Brand Group,
+OMV Gas Marketing & Trading,OMV,
+Tokina,Kenko,
+Edeka Minden-Hannover,Edeka,
+Edeka Südwest,Edeka,
+Nornickel,En+ Group,
+Nornickel,Olderfrey Holdings,
+OMZ,Gazprombank,
+Rimowa,LVMH,
+JanSport,VF Corporation,
+ILS - Institut für Lern- und Bildungssysteme GmbH,Klett Gruppe,
+Telia Eesti,Telia Company,
+Central de Cervejas,Heineken International,
+Eibia G.m.b.H. for chemical products,IVG Immobilien,
+Trachenberg-Militscher Kreisbahn,AG für Verkehrswesen,
+Former railway line Zielona Góra - Szprotawa,AG für Verkehrswesen,
+Kleinbahn-AG Marienwerder,AG für Verkehrswesen,
+Strausberg-Herzfelder Kleinbahn,AG für Verkehrswesen,
+Eisenbahn,Brasil Kirin,
+Saeco,Koninklijke Philips NV,
+LATAM Airlines Group,Delta Air Lines,
+LATAM Airlines Group,Banco Santander-Chile,
+LATAM Airlines Group,Banco de Chile,
+Europäische Petroleum-Union,Anglo-Persian Oil Company,
+Städtische Werke,Thüga,
+Evektor-Aerotechnik,Evektor,
+Flipkart,Q483551,
+Eversholt Rail Group,Cheung Kong Holdings,
+Höganäs AB,Foundation Asset Management AB,
+Exor,Giovanni Agnelli,
+Exor,Harris Associates,
+Allsecur Deutschland,Allianz SE,
+FC Bayern München AG,Adidas AG,
+FC Bayern München AG,Audi AG,
+FC Bayern München AG,Allianz SE,
+Inwi,Zain Group,
+Disney Television Animation,The Walt Disney Company,
+Fairmont Hotels and Resorts,Accor,2016-01-01
+Farge-Vegesacker Eisenbahn,AG für Verkehrswesen,
+Fargo Trucks,Stellantis North America,1978-01-01
+Fargo Trucks,Askam,1978-01-01
+Fargo Trucks,Stellantis North America,1928-01-01
+Fargo Trucks,Askam,1928-01-01
+Geeknet,GameStop,2015-01-01
+SIG Combibloc GmbH,Onex Corporation,
+Federal Cartridge,Lehman Brothers,2001-01-01
+Federal Cartridge,Pentair,2001-01-01
+Federal Cartridge,Lehman Brothers,1999-01-01
+Federal Cartridge,Pentair,1999-01-01
+Federal Cartridge,Lehman Brothers,1916-01-01
+Federal Cartridge,Pentair,1916-01-01
+Federal Cartridge,Lehman Brothers,1988-01-01
+Federal Cartridge,Pentair,1988-01-01
+Federal Cartridge,Lehman Brothers,1997-01-01
+Federal Cartridge,Pentair,1997-01-01
+Federal Cartridge,Lehman Brothers,1922-04-27
+Federal Cartridge,Pentair,1922-04-27
+Federal Cartridge,Lehman Brothers,1916-01-01
+Federal Cartridge,Pentair,1916-01-01
+Federal Cartridge,Lehman Brothers,1985-01-01
+Federal Cartridge,Pentair,1985-01-01
+VÚKV,Skoda,2018-05-01
+VÚKV,Skoda,2017-01-01
+VÚKV,Skoda,2017-08-01
+VÚKV,Skoda,2011-01-01
+Fernakademie für Erwachsenenbildung,Klett Gruppe,
+Fiat Powertrain Technologies,Fiat Group,
+Fibria,Votorantim Group,
+Scaled Composites,Northrop Grumman Corporation,
+Kurmärkische Zellwolle und Zellulose AG,Meyer Kauffmann Textilwerke,
+Wachovia,Wells Fargo,
+Lexmark,Xerox,2025-01-01
+QNB,QNB Group,2016-06-01
+QNB,National Bank of Greece,2016-06-01
+QNB,QNB Group,2006-01-01
+QNB,National Bank of Greece,2006-01-01
+InBev Belgium,Anheuser-Busch InBev,
+Pioneer Hi-Bred,DuPont,
+Frankfurt-Königsteiner Eisenbahn,Q292742,1946-01-01
+Frankfurt-Königsteiner Eisenbahn,AG für Verkehrswesen,1946-01-01
+Snyder's of Hanover,Snyder's-Lance,
+Telmex,América Móvil,
+Fisher-Price,Mattel,1993-01-01
+Fisher-Price,Mattel,1969-01-01
+Fives Group,Caisse de dépôt et placement du Québec,
+Labatt Brewing Company,Anheuser-Busch InBev,
+New Holland,CNH Industrial,
+Reemtsma,Imperial Brands,1921-01-01
+Reemtsma,Imperial Brands,1917-01-01
+Reemtsma,Imperial Brands,1917-01-01
+Reemtsma,Imperial Brands,2002-01-01
+Itaú Unibanco,Itaúsa,
+Four Seasons Hotels and Resorts,Kingdom Holding Company,
+HC Sparta Praha,AB - Credit,2019-01-01
+Hispasat,Sociedad Estatal de Participaciones Industriales,
+Hispasat,Red Eléctrica de España,
+WizKids,National Entertainment Collectibles Association,2009-01-01
+WizKids,Topps,2009-01-01
+WizKids,National Entertainment Collectibles Association,2003-01-01
+WizKids,Topps,2003-01-01
+Ocean Steam Navigation Company,International Mercantile Marine Company,
+Landor Associates,WPP plc,
+Disney Experiences,The Walt Disney Company,
+Hyperion Solutions Corporation,Oracle Corporation,
+Parmalat,Lactalis,
+Urenco Group,RWE,
+Urenco Group,PreussenElektra,
+SAIC Volkswagen,Audi AG,
+SAIC Volkswagen,Škoda Auto,
+SAIC Volkswagen,Volkswagen Group,
+SAIC Volkswagen,SAIC Motor,
+SAIC Volkswagen,Volkswagen (China) Investment Company,
+Halle-Hettstedter Eisenbahn-Gesellschaft,AG für Verkehrswesen,
+GE Capital Aviation Services,General Electric,
+Foma Bohemia,Fotochema,2012-01-01
+Ford Motor Credit Company,Ford Motor Company,
+Ford Argentina,Ford Motor Company,
+Vivawest,RAG Aktiengesellschaft,
+Supercell,Tencent,
+Royal Copenhagen,Fiskars,
+Lowepro,Videndum,
+Q1443948,Al Sirona (Luxembourg) Acquisition,
+Kelag,Verbund,
+Freiberger Lebensmittel,Südzucker,
+"Mouser Electronics, Inc",Berkshire Hathaway,
+Ocean Village,Carnival Corporation & plc,
+PAI Partners,BNP Paribas,
+Braas (Unternehmen),Monier Group,
+Lantiq,Golden Gate Capital,
+Orange Polska,Q1431486,
+"Quark, Inc.",Platinum Equity,2017-07-12
+"Quark, Inc.",Parallax Capital Partners,2017-07-12
+"Quark, Inc.",Platinum Equity,2011-08-09
+"Quark, Inc.",Parallax Capital Partners,2011-08-09
+RTS Rail Transport Service,Swietelsky,
+FUJI FILM Business Innovation,Fujifilm Holdings Corporation,
+United International Pictures,Comcast,
+United International Pictures,Paramount Global,
+Unibanco,Itaú Unibanco,
+Vinci,BlackRock,
+Vinci,Qatar Investment Authority,
+NET,Claro,2015-01-01
+UBI Bank,Intesa Sanpaolo,2020-01-01
+TUI Travel,TUI Group,
+OGC-3,PJSC Inter RAO,
+Rostelecom,Svyazinvest,2013-10-01
+Rostelecom,Vnesheconombank,2013-10-01
+Rostelecom,Svyazinvest,2013-10-01
+Rostelecom,Vnesheconombank,2013-10-01
+Mosenergo,Gazprom Energoholding,
+Smithfield Foods,WH Group,
+UGS Corp.,Siemens,
+Nippon Yusen,The Vanguard Group,
+Nippon Yusen,Nomura Asset Management,
+Fénix Directo,Allianz SE,
+Teehaus,Teekanne,
+G-Star Raw,WHP Global,
+The Hertz Corporation,Rental Car Intermediate Holdings,
+Stimorol,Perfetti Van Melle,2023-10-02
+Nabisco,Mondelez International,
+TEAC Corporation,Gibson Brands,
+Gudang Garam,PT Suryaduta Investama,
+Q1553426,AG für Verkehrswesen,
+Gulfstream Aerospace,General Dynamics,
+Lawson,Mitsubishi Corporation,
+Lawson,Daiei,
+Garte Valley Railway,AG für Verkehrswesen,1957-01-01
+Vodafone Deutschland,Vodafone,
+HADAG,Hamburger Hochbahn AG,
+Hameg,Rohde & Schwarz,
+VEON,LetterOne,
+HC Energie Karlovy Vary,Karel Holoubek - Trade Group,2014-01-01
+ENTEGA AG,HEAG Holding AG,
+Locomotion,DB Cargo,
+Laverda,AGCO,
+Saab Dynamics,Saab Group,
+Hamburg Atlantic Line,Home Lines,
+Müllverwertung Borsigstraße GmbH,Q1532474,2014-01-01
+Hamburger Wasserwerke,Hamburger Gesellschaft für Vermögens- und Beteiligungsmanagement,
+Orion Bus Industries,Mercedes-Benz Group,
+Hamilton Watch Company,The Swatch Group,
+Metaweb,Google,2010-07-16
+Hang Lung Properties,Hang Lung Group,
+Hang Seng Bank,HSBC,
+Peñoles,Mexican Corporation,
+Hitachi Construction Machinery,Hitachi,
+Nanjing Automobile,SAIC Motor,
+Tenaga Nasional,Permodalan Nasional Berhad,
+Hardee's,CKE Restaurants,
+Slovnaft,MOL Group,
+Hartwall,Royal Unibrew,
+Kazatomprom,Samruk-Kazyna,
+REWAG,Bayernwerk,
+Orlen Unipetrol,Orlen,2018-12-01
+Helly Hansen,Kontoor Brands,2025-01-01
+NH Hotel Group,Q25108728,
+Metlen Energy & Metals,Fairfax Financial,
+Mammoet,SHV Holdings,
+Nova Greece,United Group,
+Kiwi Norway,NorgesGruppen,
+Hildesheim-Peiner Kreis-Eisenbahn-Gesellschaft,AG für Verkehrswesen,
+trams in Jelenia Góra,Gesellschaft für elektrische Unternehmungen,
+Q1620652,Hispasat,
+Nasdaq Riga AS,OMX AB,
+Pocher,Hornby Hobbies Limited,2013-01-01
+Phillips,Mercury,
+Hulu,The Walt Disney Company,2016-08-03
+Hulu,News Corporation,2016-08-03
+Hulu,WarnerMedia,2016-08-03
+Hulu,Providence Equity Partners,2016-08-03
+Hulu,The Walt Disney Company,2013-06-28
+Hulu,News Corporation,2013-06-28
+Hulu,WarnerMedia,2013-06-28
+Hulu,Providence Equity Partners,2013-06-28
+Hulu,The Walt Disney Company,2007-10-29
+Hulu,News Corporation,2007-10-29
+Hulu,WarnerMedia,2007-10-29
+Hulu,Providence Equity Partners,2007-10-29
+Hulu,The Walt Disney Company,2007-10-29
+Hulu,News Corporation,2007-10-29
+Hulu,WarnerMedia,2007-10-29
+Hulu,Providence Equity Partners,2007-10-29
+Hulu,The Walt Disney Company,2009-04-01
+Hulu,News Corporation,2009-04-01
+Hulu,WarnerMedia,2009-04-01
+Hulu,Providence Equity Partners,2009-04-01
+Hulu,The Walt Disney Company,2007-10-29
+Hulu,News Corporation,2007-10-29
+Hulu,WarnerMedia,2007-10-29
+Hulu,Providence Equity Partners,2007-10-29
+Hostess Brands,The J.M. Smucker Company,
+Lee,VF Corporation,
+Danske Bank,BlackRock,
+Danske Bank,Cevian Capital,
+Danske Bank,APMH Invest,
+Rusal,En+ Group,
+Tonka,Hasbro,1991-01-01
+Tonka,Funrise Toys,1991-01-01
+Tonka,Hasbro,1998-01-01
+Tonka,Funrise Toys,1998-01-01
+Tiki Data,Atea,1996-12-31
+SuperSeaCat,Sea Containers,
+Moksel,Vion Food Group,
+Albert Heijn,Ahold Delhaize,
+IPKO,Telekom Slovenije,
+Replay,Fashion Box,
+Phillips 66,Berkshire Hathaway,
+Phillips 66,BlackRock,
+Phillips 66,The Vanguard Group,
+Phillips 66,State Street Global Advisors,
+Short Brothers,Bombardier Aerospace,
+Icmesa,Givaudan S.A.,
+Ideal Standard International,CVC Capital Partners,
+Vodafone Idea,Vodafone,
+Vodafone Idea,Aditya Birla Group,
+Vodafone Idea,American Tower Corporation,
+UTV Ignition Games,UTV Software Communications,
+Philippine National Bank,LT Group,
+Iittala,Fiskars,
+Motta,Bauli,
+76 (gas station),Phillips 66,
+Q1660121,CPI Property Group,
+Q1660121,WXZ1,
+Q1660121,CEE Immobilien,
+Industries Mécaniques Maghrébines,General Motors,
+INEOS Styrolution Köln,Ineos,
+Infront Sports & Media,Wanda Group,
+Japanese Aero Engines Corporation,Mitsubishi Heavy Industries,
+Japanese Aero Engines Corporation,Kawasaki Heavy Industries,
+Japanese Aero Engines Corporation,IHI Corporation,
+Ingobräu,Herrnbräu,
+Woot,Amazon,
+Innocenti,Fiat,
+Interactive Data Corporation,Intercontinental Exchange,
+Opel Eisenach,General Motors,
+Intercontainer-Interfrigo,České dráhy,
+Theaterkunst,German Match Factories,
+International Game Technology,De Agostini Editore,
+International Navigation Company,International Mercantile Marine Company,
+enercity AG,Thüga,
+onsemi,BlackRock,
+onsemi,The Vanguard Group,
+onsemi,Fidelity Investments,
+The Israel Corporation Ltd.,Bank Leumi Le- Israel B.m.,
+The Israel Corporation Ltd.,Millenium Investments Elad,
+Siam Cement,Privy Purse Bureau,
+Real3D,Lockheed Martin,
+Loro Piana,LVMH,
+JetBrains,JetBrains N.V.,2014-01-01
+Jimmy John's,Inspire Brands,
+Fujitsu TDS,Q1473267,
+Domino's Pizza Deutschland,Domino's Pizza,
+Net-a-Porter,Yoox Net-a-Porter Group,
+juwi,MVV Energie,
+M-net,Allgäuer Überlandwerk,
+M-net,Erlanger Stadtwerke,
+M-net,Infra fürth,
+M-net,N-ERGIE,
+M-net,Stadtwerke Augsburg,
+USRobotics,UNICOM Global,2013-01-01
+FRHI Hotels & Resorts,Accor,2015-12-01
+traktorpool,LV digital GmbH,
+K & U Bäckerei,Edeka Südwest,
+MegaFon,Gazprombank,
+MegaFon,USM Holdings,
+Whyte and Mackay,Alliance Global Group,
+Mido,The Swatch Group,
+Kassel-Naumburger Eisenbahn,AG für Verkehrswesen,1966-01-01
+KazTransOil,KazMunayGas,
+Kenner Products,Hasbro,
+Kenwood Limited,De'Longhi,
+Keystone Foods,Martin-Brower,
+Kleinbahn AG Jauer–Maltsch,AG für Verkehrswesen,
+Kleinbahn Kiel-Segeberg,AG für Verkehrswesen,
+Pixabay,Q136783069,
+Wind River Systems,Aptiv,2018-08-01
+Wind River Systems,Aptiv,2022-01-01
+Wind River Systems,Aptiv,2009-06-01
+Prague Stock Exchange,Wiener Boerse AG,
+OMV Petrom,OMV,
+Raadvad,Fiskars,
+White Motor Company,AB Volvo,
+East Dawning,Yum China,
+Público,Sonae,
+Rambler,Rambler&Co,
+R. J. Reynolds Tobacco Company,Reynolds American,
+Aller Media,Aller Holding A/S,
+TBWA Worldwide,Omnicom Group,
+Uralvagonzavod,Rostec,
+Österreichische Post,Österreichische Beteiligungs AG,
+Novolipetsk Steel,Fletcher Group Holdings,
+Visma,GIC Private Limited,
+Visma,HgCapital,
+Visma,Intermediate Capital Group,
+Tripadvisor,Liberty Media,
+Kongsberg Gruppen,Arendals Fossekompani,
+Swietelsky,HPB Holding,
+Orient Watch Company,Seiko Epson,
+KiMs,Orkla Group,
+Ameos Klinikum Halberstadt,AMEOS group,2004-01-01
+OLW,Orkla Group,
+Salzgitter Klöckner-Werke,Salzgitter AG,2007-03-08
+Scottish Power,Iberdrola,
+Jotun,Orkla Group,
+Kombiverkehr,DB Cargo,
+Esselte Leitz GmbH & Co KG,Esselte,
+Koninklijke Hoogovens,Corus,
+TV 2 Group,Vend Marketplaces,2006-01-01
+TV 2 Group,Amedia,2006-01-01
+TV 2 Group,Egmont International Holding,2006-01-01
+TV 2 Group,Vend Marketplaces,2006-01-01
+TV 2 Group,Amedia,2006-01-01
+TV 2 Group,Egmont International Holding,2006-01-01
+TV 2 Group,Vend Marketplaces,2012-01-01
+TV 2 Group,Amedia,2012-01-01
+TV 2 Group,Egmont International Holding,2012-01-01
+Post Office Limited,UK Government Investments,
+Alfred Dunhill,Richemont,
+RiksTV,TV 2 Group,
+Telkomsel,SingTel,
+Telkomsel,Telkom Indonesia,
+Lindex,Lindex Group,
+Warrior Sports,New Balance,
+Ford Otosan,Ford Motor Company,
+Kästle,ConsilSport,
+LCH Ltd,London Stock Exchange Group,
+Q1798214,Siemens,
+Lowa Sportschuhe,Tecnica Group,
+LaCie,Seagate Technology,
+Tuborg Brewery,Carlsberg Group,
+MG Motor,Nanjing Automobile,
+Paramount Networks EMEAA,Paramount Global,
+Magneti Marelli,Kohlberg Kravis Roberts,
+OTO Melara,Leonardo,
+Continente Modelo,Sonae MC,
+Suning.com,Alibaba Group,
+Mercedes-Benz USA,Mercedes-Benz Group,
+Mercedes-Benz U.S. International,Mercedes-Benz Group,
+Q1922001,Transdev Group,
+Gazprombank,Gazprom,
+Gazprombank,Gazfond,
+Metro by T-Mobile,T-Mobile US,
+PeopleSoft,Oracle Corporation,
+MobileIron,Ivanti,2020-01-01
+Mondi Frantschach,Mondi AG,
+Mondi Frantschach,Mondi Packaging Paper,
+Mondi Neusiedler,Mondi SCP,2000-01-01
+Moselbahn GmbH,AG für Verkehrswesen,1962-11-15
+Moselbahn GmbH,Schauinsland-Reisen,1962-11-15
+Moselbahn GmbH,Westdeutsche Eisenbahn-Gesellschaft,1962-11-15
+Moselbahn GmbH,AG für Verkehrswesen,2002-09-20
+Moselbahn GmbH,Schauinsland-Reisen,2002-09-20
+Moselbahn GmbH,Westdeutsche Eisenbahn-Gesellschaft,2002-09-20
+Moselbahn GmbH,AG für Verkehrswesen,1928-01-01
+Moselbahn GmbH,Schauinsland-Reisen,1928-01-01
+Moselbahn GmbH,Westdeutsche Eisenbahn-Gesellschaft,1928-01-01
+Moselbahn GmbH,AG für Verkehrswesen,1899-01-01
+Moselbahn GmbH,Schauinsland-Reisen,1899-01-01
+Moselbahn GmbH,Westdeutsche Eisenbahn-Gesellschaft,1899-01-01
+Moselbahn GmbH,AG für Verkehrswesen,1990-10-01
+Moselbahn GmbH,Schauinsland-Reisen,1990-10-01
+Moselbahn GmbH,Westdeutsche Eisenbahn-Gesellschaft,1990-10-01
+Mototechna,AURES Holdings,
+The Bountiful Company,Carlyle Group,
+Okinawa Cellular Telephone,Okinawa Electric Power Company,
+Okinawa Cellular Telephone,The Master Trust Bank of Japan,
+Okinawa Cellular Telephone,Bank of Okinawa,
+Okinawa Cellular Telephone,Ryukyu Broadcasting Corporation,
+Caspian Pipeline Consortium,KazMunayGas,
+Caspian Pipeline Consortium,Transneft,
+Caspian Pipeline Consortium,LukArco,
+Caspian Pipeline Consortium,Mobil Caspian Pipeline Co.,
+Beats Electronics,Apple Inc.,
+NAMDEB Diamond Corporation (Pty) Ltd.,De Beers,
+Nammo,Patria,
+Nanjing Fiat Automobile,Fiat,
+Nanjing Fiat Automobile,Nanjing Automobile,
+Napster,Roxio,
+Nassau Light Railway,AG für Verkehrswesen,
+TGC-1,Fortum,
+TGC-1,Gazprom Energoholding,
+Yerevan Brandy Company,Pernod Ricard,
+"Apranga, AB",MG grupė,
+GasTerra,Shell,
+PPF Group,PPF Holdings,2023-01-01
+PPF Group,Amalar Holding,2023-01-01
+PPF Group,PPF Holdings,2023-01-01
+PPF Group,Amalar Holding,2023-01-01
+PPF Group,PPF Holdings,2023-01-01
+PPF Group,Amalar Holding,2023-01-01
+PPF Group,PPF Holdings,2024-10-01
+PPF Group,Amalar Holding,2024-10-01
+PPF Group,PPF Holdings,2023-01-01
+PPF Group,Amalar Holding,2023-01-01
+PPF Group,PPF Holdings,2023-01-01
+PPF Group,Amalar Holding,2023-01-01
+PPF Group,PPF Holdings,2023-01-01
+PPF Group,Amalar Holding,2023-01-01
+MGM Home Entertainment,MGM Holdings,
+Issuu,Bending Spoons,
+"FileMaker, Inc.",Apple Inc.,
+Nicor,AGL Resources,
+Q1987974,AG für Verkehrswesen,1926-01-01
+Nordstern,Aachen Münchener,
+Notenstein Privatbank,Raiffeisen Switzerland,
+NuGeneration,Toshiba,
+Nuvoton,Winbond,
+Humbrol,Hornby Hobbies Limited,
+Ostdeutsche Eisenbahn-Gesellschaft in Königsberg,AG für Verkehrswesen,1912-01-01
+Blip,The Walt Disney Company,
+IndusInd Bank,Hinduja Group,
+POLA,Faller,1997-02-01
+PacifiCorp,Berkshire Hathaway,
+Diamond-Star Motors,Stellantis North America,1985-01-01
+Diamond-Star Motors,Stellantis North America,1985-01-01
+Hitachi Vantara,Hitachi,
+Acqua di Parma,LVMH,
+Litton Industries,Northrop Grumman Corporation,
+Lampiris,TotalEnergies,
+Ibero Cruises,Sharp Corporation,
+Perkins Engines,Caterpillar Inc.,
+CVS Pharmacy,CVS Health,
+TIM Brasil,TIM Group,
+Orange Morocco,Q1431486,
+Bank of Africa,RMA,
+VM Motori,Stellantis Europe,
+Sonae Indústria,Sonae,
+Utva Aviation Industry,Yugoimport SDPR,
+VDL Berkhof,VDL Groep,
+BTicino,Legrand,
+Q2308012,Bugatti Rimac,
+Persol,Luxottica,
+STAWAG,Energieversorgungs und Verkehrsgesellschaft Aachen,
+Stadtwerke Karlsruhe,EnBW,
+VEB Stahl- und Walzwerk Gröditz,GMH Gruppe,
+Tata Chemicals,ICICI Prudential Mutual Fund,
+Tata Chemicals,Tata Investment Corporation,
+Statista,Ströer Media,2015-12-01
+Steinway Musical Instruments,Paulson & Co.,
+Lansing Grand River Assembly,General Motors,
+Marina Rinaldi,Max Mara Fashion Group,
+Heroku,Salesforce,
+Stola (automotive company),Blutec,
+Nextbike,Dott,2021-11-01
+Strato GmbH,United Internet,
+Max Factor,Procter & Gamble,
+Max Factor,Coty,
+P.A. Semi,Apple Inc.,
+Wilhelm.tel,Stadtwerke Norderstedt,
+Demant A/S,William Demant Invest,
+Novorossiysk Commercial Sea Port,Transneft,
+Win2day,Entertainment Glücks- und Unterhaltungsspiel,
+Wolfsburg AG,Volkswagen Group,
+Dell Wyse,Dell,
+Württembergische Nebenbahnen,AG für Verkehrswesen,
+Xervon,Remondis,
+Sinebrychoff,Carlsberg Group,
+Nihon Ad Systems,ADK Emotions,
+Q2608329,BlackRock,
+Q2608329,Berkshire Hathaway Energy,
+Etos,Ahold Delhaize,
+Mega Brands,Mattel,
+Ulster Bank,UK Financial Investments,
+TUI Belgium,TUI Group,
+Geni.com,MyHeritage,
+Make-up Art Cosmetics,Estée Lauder Companies,
+Tata Hispano,Tata Motors Ltd,
+Moscow Exchange,Moscow Stock Exchange,
+Mediaset España,Fininvest,
+Banco Nacional de México,Citigroup,
+Allen-Bradley,Hearst Communications,1970-01-01
+"Clinique Laboratories, LLC",Estée Lauder Companies,
+Grande Dixence SA,EOS Holding,
+Rainbow S.p.A.,Viacom,2011-02-01
+Gloria Jean's Coffees,Retail Food Group,
+Casino Group,Vesa Equity Investment,2024-03-28
+Casino Group,Vesa Equity Investment,2024-03-28
+Casino Group,Vesa Equity Investment,2024-03-28
+Japan Display,Toshiba,
+Japan Display,Hitachi,
+Japan Display,INCJ,
+Euronics Deutschland,Euronics,
+MTV Japan,Viacom,
+ST-Ericsson,STMicroelectronics,
+Skywalker Sound,The Walt Disney Company,
+Sky Electronics,Pandora Technogies,
+GameDaily,AOL,
+GVT,Telefónica,
+Philco,Ford Motor Company,
+Colman's,Unilever,
+Vodafone India,Vodafone Idea,2018-01-01
+Q2720711,Alpac Capital,
+Saks Fifth Avenue,Hudson's Bay Company,
+Q2730340,Organon & Co.,
+Q2730340,Golden Wonder,
+Old Navy,Gap Inc.,
+Disney–ABC Domestic Television,The Walt Disney Company,
+Pyra Labs,Google,2003-01-01
+Perdigão S.A.,BRF,
+Tune Hotels,Tune Group,
+Banco Etcheverría,Banesco,
+Lord & Taylor,Hudson's Bay Company,
+Adwen,Siemens Gamesa,
+Aruba Networks,Hewlett Packard Enterprise,
+Asmidal,Sonatrach,
+Association technique de l'importation charbonnière,ArcelorMittal,
+Atac,Micromania-Zing,
+Ateliers et Chantiers de France,Q95464773,1956-01-01
+Ateliers et Chantiers de France,Q95464773,1982-01-01
+Atlas Comics,Timely Comics,
+Atos Consulting,Atos SE,
+B2W,Americanas,
+BT Global Services,BT Group,
+Babou,B&M,
+Kubíček Factory,Kubíček,
+Bambi a.d.,Imlek,
+Banca Leonardo S.p.A.,Exor,
+UniCredit Banca di Roma,UniCredit,
+Banca Intesa Beograd,Intesa Sanpaolo,2005-01-01
+Banca Intesa Beograd,Intesa Sanpaolo,2005-01-01
+Banca Intesa Beograd,Intesa Sanpaolo,2007-01-01
+Patagonia Bank,Bank of Brazil,
+Banco de Chile,Quiñenco,
+Atlantic Bank Group,BCP Group,
+Q2882931,Q3117397,
+Bank of the Republic of Haiti,National City Bank of New York,1919-01-01
+Bank of Greenland,LB Forsikring,
+Canisius,Frumarco,2020-11-01
+Suntory Global Spirits,Suntory,
+Anobit,Apple Inc.,
+Bell TV,Bell Canada,
+Betclic,Banijay Group,
+BrainPop,Kirkbi,
+Pinkberry,MTY Food Group,
+Amana Corporation,Whirlpool,2006-04-01
+Solel Boneh,Shikun & Binui Ltd.,
+VeriFone,Francisco Partners,2018-01-01
+Burlington Northern Santa Fe Corporation,Berkshire Hathaway,
+Claro TV,América Móvil,
+Bouygues Immobilier,Bouygues,
+Brasserie Nationale d'Haiti,Heineken International,
+Katanga breweries,Société Générale de Belgique,
+Breda Costruzioni Ferroviarie,Breda,
+British Gas,Centrica,
+Brymbo Steelworks,British Steel,1796-01-01
+Brymbo Steelworks,British Steel,1967-01-01
+CARMAT,Airbus SE,
+Carapelli,Deoleo,
+Carl Zeiss Vision,Carl Zeiss AG,
+Casanet,Maroc Telecom,
+Q2944185,Holcim,
+Skechers,BlackRock,
+Skechers,The Vanguard Group,
+Skechers,Fidelity Investments,
+Ministop,Cox,
+Ministop,Maxvalu Nishinihon,
+DoubleClick,Hellman & Friedman,2005-01-01
+DoubleClick,Hellman & Friedman,2008-01-01
+Telecom Italia Media,Telecom Italia Finance,
+CVS Pharmacy,Melville Corporation,
+TIM Brasil,Telecom Italia Finance,
+Indesit Company,Q30292597,2014-01-01
+Mentholatum,"Rohto Pharmaceutical Co., Ltd.",
+I'm Enterprise,Arts Vision,
+Carl's Jr.,CKE Restaurants,
+Indeed,Recruit Holdings,
+Case IH,CNH Industrial,
+Juniper Networks,Elliott Investment Management,
+Subaru Corporation,Mizuho Bank,
+Subaru Corporation,Sompo Japan Nipponkoa,
+Celestron,Synta Technology Corporation of Taiwan,
+Central European Media Enterprises,PPF Group,2020-01-01
+Cervélo,Pon Holdings,
+Lantis,Bandai Visual,
+Economist Intelligence Unit,The Economist Group,
+Mitsukoshi,Isetan Mitsukoshi,
+Tiffany & Co.,LVMH,2021-01-07
+Tiffany & Co.,Investcorp,2021-01-07
+Tiffany & Co.,LVMH,1984-01-01
+Tiffany & Co.,Investcorp,1984-01-01
+JW Marriott Hotels,Marriott International,
+CheapTickets,Expedia Group,
+Chicago Board of Trade,CME Group,
+Chicago Mercantile Exchange,CME Group,
+Chiquita Brands International,Cutrale,
+Chiquita Brands International,Safra Group,
+Christ,Morellato Group,
+Stardust Promotion,STARDUST HD.,
+TD Bank,Toronto-Dominion Bank,
+Qualcomm Atheros,Qualcomm,
+Stellantis Canada,Stellantis,
+Samtiden,Medier og Ledelse,
+Austin Rover Group,British Leyland,
+Fairchild Semiconductor,Dimensional Fund Advisors,
+Pegasus Airlines,Esas Holding,
+Talgo,Trilantic Capital Partners,
+TNT Express,FedEx,
+BharatBenz,Daimler Truck,
+Coles Supermarkets,Wesfarmers,1914-01-01
+Coles Supermarkets,Coles Group,1914-01-01
+Coles Supermarkets,Wesfarmers,2018-01-01
+Coles Supermarkets,Coles Group,2018-01-01
+Coles Supermarkets,Wesfarmers,2007-01-01
+Coles Supermarkets,Coles Group,2007-01-01
+Colonia,Aachen Münchener,
+House of Prince,Precis (1789) Denmark,
+tesa SE,Beiersdorf,
+Kuwait Petroleum Italia,Kuwait Petroleum International,
+Parques Reunidos,EQT Partners,
+JBS USA,JBS S.A.,
+Kantar TNS,Kantar Group,
+Sumitomo Electric Industries,The Master Trust Bank of Japan,
+On2 Technologies,Google,
+Lekkerland,Japan Tobacco International,
+Pesa,Polski Fundusz Rozwoju,2018-01-01
+LichtBlick SE,Eneco,
+Q1824181,AG für Verkehrswesen,
+Anvato,Google,
+Hush Puppies,Wolverine World Wide,
+Stelco,U.S. Steel,2017-06-30
+Stelco,Cleveland-Cliffs,2017-06-30
+Stelco,U.S. Steel,2024-01-01
+Stelco,Cleveland-Cliffs,2024-01-01
+Luminus,Électricité de France,
+AEG,Electrolux,1910-01-01
+AEG,Electrolux,1994-01-01
+Philip Morris International,BlackRock,
+Philip Morris International,Capital Group Companies,
+Philip Morris International,The Vanguard Group,
+Smartwings,Czech Airlines,2013-01-01
+Smartwings,Czech Airlines,2019-01-01
+Smartwings,Czech Airlines,http://www
+Smartwings,Czech Airlines,2016-01-01
+Smartwings,Czech Airlines,2024-04-01
+Smartwings,Czech Airlines,2019-01-01
+Smartwings,Czech Airlines,2016-01-01
+Smartwings,Czech Airlines,2024-10-01
+Smartwings,Czech Airlines,2019-01-01
+Smartwings,Czech Airlines,2016-01-01
+Smartwings,Czech Airlines,2013-01-01
+Smartwings,Czech Airlines,2015-01-01
+Vodacom,Vodafone,
+Rede S.A.,Itaú Unibanco,
+Tele Atlas,TomTom,
+Q1877431,Brav,
+VOO,Orange Belgium,
+Moscow City Telephone Network,Sistema,
+SAME,SAME Deutz-Fahr,
+Nord Pool,Euronext,
+Nordiska Kompaniet,Hufvudstaden,
+Rizla,Imperial Brands,
+WordPress.com,Automattic,
+Novomatic,Novo Invest,
+Novomatic,Gryphon Invest,
+OPAP,Allwyn International,
+OPAP,Sazka Delta Hellenic Holdings,
+Ocean Rig,DryShips Inc,
+Oevermann,PORR Deutschland,
+Officine Galileo,Leonardo,
+Mey Eden,Eden Springs,
+Sector 9,Billabong,
+Enjoi,Globe International,
+Siam Commercial Bank,Privy Purse Bureau,
+Orange Business,Q1431486,
+Oxford Properties,OMERS,
+Douglas Holding,CVC Capital Partners,2015-06-01
+Canal Digitaal,Vivendi,
+Canal Digitaal,Canal+ Luxembourg S.a r.l.,
+Royal Doulton,Waterford Wedgwood,
+Golden Telecom,VimpelCom,
+Peoples Energy,WEC Energy Group,
+Rolls-Royce Motors,Vickers plc,
+Elenger,Infortar AS,2016-01-01
+Petroleo Ipiranga,Ultrapar,
+Pfalzwerke,Enovos Deutschland,
+Kerio Technologies,GFI Software,
+20th Century Studios Home Entertainment,The Walt Disney Company,
+20th Century Studios Home Entertainment,Walt Disney Direct-to-Consumer & International,
+Telindus,Proximus,
+Dniproenergo,DTEK,
+Prisa TV,Grupo PRISA,
+Rautaruukki,SSAB,
+Disney Music Group,The Walt Disney Company,
+Pret a Manger,Bridgepoint Capital,
+MBS Nürnberg,Bertelsmann Printing Group,
+Almost Skateboards,Globe International,
+Aleris,TPG,
+Lukoil Serbia,Lukoil,
+Google Nest,Google,
+Queensland Alumina Limited,Rusal,
+Queensland Alumina Limited,Rio Tinto Alcan,
+R+V Versicherung,DZ Bank,
+RAG Deutsche Steinkohle AG,RAG Aktiengesellschaft,
+RWE Supply & Trading CZ,RWE Supply & Trading,2004-01-01
+RWE Supply & Trading CZ,RWE Supply & Trading,2001-01-01
+RWE Supply & Trading CZ,RWE Supply & Trading,2016-01-01
+Funda,NVM,
+Novation Digital Music Systems,Focusrite,
+Walt Disney Imagineering,The Walt Disney Company,
+Walt Disney Imagineering,Disney Experiences,
+AmBev,Anheuser-Busch InBev,
+Siebel Systems,Oracle Corporation,
+Milton Bradley Company,Hasbro,1984-01-01
+Citibank India,Citigroup,
+Union Company,Peninsular and Oriental Steam Navigation Company,
+Rittal,Friedhelm Loh Group,
+Indola,Q276507,2004-01-01
+Gateway,Acer,
+rtv media group,Bertelsmann Printing Group,2016-01-01
+Lotos Petrobaltic,Lotos Group,
+ThinkGeek,GameStop,
+Vestel,Zorlu Holding Company,
+Banca Nazionale del Lavoro,BNP Paribas,
+Ancon,CRH,
+CBS News and Stations,Paramount Global,
+Uranium One,ARMZ Uranium Holding,
+Saarstahl,Dillinger Hütte,
+Q2212115,"Honeywell International, Inc.",
+SoftBank Mobile,The Master Trust Bank of Japan,
+SoftBank Mobile,SoftBank Group Japan GK,
+Salzburg AG,Energie AG Oberösterreich,
+Sandeman,Sogrape,
+Newell Custom Writing Instruments,Newell Brands,
+Kruidvat,A.S. Watson Group,
+Angang Steel Company,Anshan Iron & Steel Group Corporation,
+Tiense Suikerraffinaderij,Südzucker,
+Pandora,BlackRock,
+Pandora,Pandora,
+Pandora,Parvus Asset Management Europe Limited,
+Schluchseewerk,EnBW,
+Schluchseewerk,Energiedienst Holding,
+Schluchseewerk,RWE Power,
+Avast Software,Gen Digital,2022-01-01
+Scholz & Friends,WPP plc,1986-01-01
+Scholz & Friends,WPP plc,2011-01-01
+America's Best Comics,WildStorm,
+Warner Bros. Discovery EMEA,Warner Bros. Discovery,
+M-Audio,Avid Technology,2012-01-01
+M-Audio,inMusic Brands,2012-01-01
+M-Audio,Avid Technology,2004-01-01
+M-Audio,inMusic Brands,2004-01-01
+Scout24 SE,Deutsche Telekom,2006-06-01
+Scout24 SE,BlackRock,2006-06-01
+Scout24 SE,Hellman & Friedman,2006-06-01
+Scubapro,Johnson Outdoors,
+Landini,ARGO SpA,
+Q2264873,Vivendi,
+WWE Books,WWE,
+Kirby Company,Berkshire Hathaway,
+AVG Technologies,Avast Software,2016-01-01
+Comau,Stellantis,
+"Shaw, Savill & Albion Line",International Mercantile Marine Company,
+Shopping.com,eBay,
+SIG Sauer,Swiss Arms,
+Siemens Enterprise Communications,Atos SE,
+MotoGP SEG,Liberty Media,1988-01-01
+MotoGP SEG,Liberty Media,2025-01-01
+Silit,WMF,
+Kyivstar,Telenor,
+Kyivstar,VEON,
+Ceres Brewery,Royal Unibrew,
+Fox Atomic,The Walt Disney Company,
+Soilmec,Trevi S.p.A.,
+Boston Dynamics,SoftBank Group,2017-01-01
+Boston Dynamics,SoftBank Group,2013-01-01
+TNK-BP,Rosneft,
+Maroc Telecom,e&,
+Colruyt,Colruyt Group,
+Société des mines du Liptako,Semafo,
+London International Financial Futures and Options Exchange,Intercontinental Exchange,
+SOR Libchavy,BAULIGA,2010-01-01
+Lotus's,Charoen Pokphand,
+Ziggo,VodafoneZiggo,
+MKB Raduga,Tactical Missiles Corporation,
+TSR Recycling,Remondis,
+Rogers Sports & Media,Rogers Communications,
+Yutong,Zhengzhou Yutong Group,
+Indosat Ooredoo Hutchison,Ooredoo,
+Vidéotron,Québecor,
+Tauron Polska Energia,KGHM Polska Miedź,
+Alsa,Unilever,
+RCN Corporation,TPG,
+Telekom Deutschland,Deutsche Telekom,
+City Football Group,Silver Lake,
+City Football Group,China Media Capital,
+City Football Group,Abu Dhabi United Group,
+ImageMovers,The Walt Disney Company,
+Onatel,Maroc Telecom,
+O2 Czech Republic,PPF Comco,2022-04-01
+O2 Czech Republic,PPF Comco,2022-03-01
+Shaba Games,Activision Blizzard,
+Teutoburger Wald-Eisenbahn,AG für Verkehrswesen,1916-01-01
+Teutoburger Wald-Eisenbahn,AG für Verkehrswesen,1899-01-01
+Teva,Deckers Outdoor Corporation,
+The Canadian Press,Power Corporation of Canada,
+The Canadian Press,Torstar,
+The Master Trust Bank of Japan,Mitsubishi UFJ Trust and Banking Corporation,
+Groupe TF1,Bouygues,
+Banco Itaú Corpbanca,Itaú Unibanco,
+Kuwait Petroleum Nederland,Kuwait Petroleum International,
+Soltam Systems,Elbit Systems Ltd.,
+Tetley,Tata Consumer Products,
+Marvel Animation,The Walt Disney Company,2008-01-01
+Thyssenkrupp Steel Europe,thyssenkrupp AG,2024-01-01
+Thyssenkrupp Steel Europe,EP Group,2024-01-01
+Thyssenkrupp Steel Europe,thyssenkrupp AG,2024-01-01
+Thyssenkrupp Steel Europe,EP Group,2024-01-01
+Zierer,Max Streicher GmbH & Co. KGaA,
+Blata,Panax,
+Toremar,Moby Lines,
+Tradewest,Midway Games,1996-01-01
+Concern Tractor Plants,Vnesheconombank,
+Trans-Eurasia Logistics,China State Railway Group,
+Neutrogena,Johnson & Johnson,
+Triumph-Adler,Volkswagen Group,1956-01-01
+Triumph-Adler,Olivetti,1956-01-01
+Triumph-Adler,Grundig,1956-01-01
+Triumph-Adler,Kyocera Document Solutions,1956-01-01
+Triumph-Adler,Litton Industries,1956-01-01
+Triumph-Adler,Volkswagen Group,1986-01-01
+Triumph-Adler,Olivetti,1986-01-01
+Triumph-Adler,Grundig,1986-01-01
+Triumph-Adler,Kyocera Document Solutions,1986-01-01
+Triumph-Adler,Litton Industries,1986-01-01
+Triumph-Adler,Volkswagen Group,1968-01-01
+Triumph-Adler,Olivetti,1968-01-01
+Triumph-Adler,Grundig,1968-01-01
+Triumph-Adler,Kyocera Document Solutions,1968-01-01
+Triumph-Adler,Litton Industries,1968-01-01
+Triumph-Adler,Volkswagen Group,2008-01-01
+Triumph-Adler,Olivetti,2008-01-01
+Triumph-Adler,Grundig,2008-01-01
+Triumph-Adler,Kyocera Document Solutions,2008-01-01
+Triumph-Adler,Litton Industries,2008-01-01
+Triumph-Adler,Volkswagen Group,1979-01-01
+Triumph-Adler,Olivetti,1979-01-01
+Triumph-Adler,Grundig,1979-01-01
+Triumph-Adler,Kyocera Document Solutions,1979-01-01
+Triumph-Adler,Litton Industries,1979-01-01
+Candy,Haier Europe,2018-01-01
+JD Edwards,Oracle Corporation,
+Trump Entertainment Resorts,The Trump Organization,
+Turner Construction,Hochtief,
+Epic Comics,Marvel Entertainment,
+AGV,Investcorp,
+Bank of Georgia,Lion Finance Group,
+Impact Wrestling Home Video,Total Nonstop Action Wrestling,
+UniCredit Leasing,HypoVereinsbank,
+Disneynature,The Walt Disney Company,
+VDV eTicket Service GmbH & Co. KG,Berliner Verkehrsbetriebe,
+VDV eTicket Service GmbH & Co. KG,Münchner Verkehrsgesellschaft mbH (MVG),
+VDV eTicket Service GmbH & Co. KG,Nahverkehrsgesellschaft Baden-Württemberg,
+VR Leasing,DZ Bank,
+VT Group,BAE Systems Maritime – Naval Ships,
+FM Iwate,Television Iwate,
+Sony Network Communications Inc.,Sony,
+Bushmaster Firearms International,Remington Outdoor Company,
+Vector Aerospace,Airbus Helicopters,
+P&O Ferries,DP World,
+Viamont,IDS building corporation,2011-01-01
+Viking River Cruises,Viking Cruises,
+"FL Technics, UAB",Q790765,
+Vodafone Germany,Vodafone Europe,
+Vodafone Greece,Vodafone,
+Volkswagen Slovakia,Volkswagen Finance Luxemburg,
+WEMAG,Thüga,
+Bicycle Playing Cards,United States Playing Card Company,
+Wayss & Freytag,Zech Group,
+Wind Telecom,Orascom TMT Investments,
+Boddingtons Brewery,Anheuser-Busch InBev,
+Dyn,Oracle Corporation,
+Syco Entertainment,Sony Music,
+FK Dukla Prague,Carbounion Invest,
+Boxer TV Access,Com Hem,1999-01-01
+Boxer TV Access,Teracom,1999-01-01
+Boxer TV Access,Com Hem,2000-04-01
+Boxer TV Access,Teracom,2000-04-01
+Boxer TV Access,Com Hem,2005-04-01
+Boxer TV Access,Teracom,2005-04-01
+Boxer TV Access,Com Hem,2016-10-01
+Boxer TV Access,Teracom,2016-10-01
+Ertl Company,Tomy,
+RWE Generation,RWE,
+SPAR European Shopping Centers,SPAR Österreichische Warenhandels-AG,
+SensorDynamics,Maxim Integrated,
+Stadtwerke Pirmasens Verkehr,Stadtwerke Pirmasens,
+HPE 3PAR,Hewlett-Packard,
+Q2819478,Q2861021,
+Abengoa Solar,Abengoa,
+AGMA,ONA Group,
+Albertsons,Cerberus Capital Management,
+Alibris,Oak Hill Capital Partners,
+Alice ADSL,TIM Group,
+EniChem,Eni,
+Q2852428,Hitachi Rail STS,
+Ansaldo Energia,CDP Equity,
+Apricot Computers,Mitsubishi Electric,
+Aquafadas,"Rakuten Group, Inc.",
+Arab Bank Maroc,Arab Bank,
+Archambault,Renaud-Bray,
+Fiat Research Center,Stellantis Europe,
+Bavaria Brewery,Anheuser-Busch InBev,
+Chantier naval de La Ciotat,Q95464773,1849-01-01
+Chantier naval de La Ciotat,Société Provençale de Constructions Navales,1849-01-01
+Chantier naval de La Ciotat,Q95464773,1940-01-01
+Chantier naval de La Ciotat,Société Provençale de Constructions Navales,1940-01-01
+Chantier naval de La Ciotat,Q95464773,1982-01-01
+Chantier naval de La Ciotat,Société Provençale de Constructions Navales,1982-01-01
+Chantier naval de La Ciotat,Q95464773,1916-01-01
+Chantier naval de La Ciotat,Société Provençale de Constructions Navales,1916-01-01
+Chocolat Suchard,Mondelez International,
+Citadel Broadcasting,Cumulus Media,
+Q2974489,Groupe PSA,
+Coca-Cola Amatil,HSBC,
+Codifrance,Colruyt Group,
+Cohn & Wolfe,WPP plc,
+Colbun S.A.,AntarChile,
+Latvijas Krājbanka,Snoras,
+CBR,"Valnet, Inc",
+Topvar,SABMiller,
+Canada Goose Inc.,Bain Capital,
+Marconi Company,English Electric,
+Compagnie des bauxites de Guinée,Halco Mining,
+Q2990018,Elf Gabon,
+Compagnie Marocaine de Navigation,Comarit,
+Compagnie Nationale de Transport des Produits Stratégiques,Société du Patrimoine des Mines du Niger,
+Orange DRC,Q1431486,
+Q2993458,Q81481,
+Continente,Sonae MC,
+Zindart International Limited,Hornby Hobbies Limited,
+Cotontchad,Olam Group Limited,
+"Sony BMG Music Entertainment, Inc.","Sony Music Entertainment, Inc.",2004-08-05
+"Sony BMG Music Entertainment, Inc.","Sony Music Entertainment, Inc.",2004-08-05
+Janssen Vaccines,Johnson & Johnson,2011-03-08
+Q3006159,BNP Paribas,
+Cusenier,Pernod Ricard,
+Cébé,Bushnell Corporation,2009-01-01
+Das,CA,
+Das,WILL,
+Daimaru,Daimaru Matsuzakaya Department Stores,
+Darjeeling,Groupe Chantelle,
+De Beers LV,De Beers,
+Deutsche Babcock Al Jaber,Bilfinger Power Systems GmbH,
+Deutsche Babcock Middle East,Bilfinger Power Systems GmbH,
+Meetic,IAC,
+Discovery Holding Company,Liberty Media,
+Disney Consumer Products,The Walt Disney Company,
+Disney English,Disney Publishing Worldwide,
+Disney Games,The Walt Disney Company,
+Disney Mobile,The Walt Disney Company,
+Disney UTV Digital,UTV Software Communications,
+RatPac-Dune Entertainment,Access Industries,
+Dexco,Itaúsa,
+Amil,UnitedHealth Group,
+EDF Energy,Électricité de France,
+ENOC,Investment Corporation of Dubai,
+Watanabe Entertainment,Watanabe Productions,
+East West Bank,East West Bancorp,
+Effix,Reuters,
+Q3049830,BADR,
+Elasis,Fiat Chrysler Automobiles,
+Siremar,Q24940234,
+Robeco,Evi van Lanschot,
+Maxeda,Kohlberg Kravis Roberts,
+Enel Generación Chile,Enel Chile,
+TASCAM,TEAC Corporation,
+Plastic Components and Modules Automotive,Fiat Chrysler Automobiles,
+Esterel Technologies,Q295774,
+European Launch Vehicle,Avio,
+FGC UES,Rosseti,
+Tele Antillas,Grupo Corripio,
+Telecomunicações de São Paulo,Telebras,
+Łucznik Arms Factory,Polish Armaments Group,
+Americanas,3G Capital,
+Fall Line Studios,The Walt Disney Company,
+Ledo,Agrokor,
+Q3070059,Bauli,
+Cirio,Conserve Italia,
+Voiello,Barilla Group,
+Q3071235,Fiat,
+Q3071235,Chery Automobile,
+Pavesi,Barilla Group,
+Fido Solutions,Rogers Communications,
+Finsider,Istituto per la Ricostruzione Industriale,
+First Stop,Bridgestone,
+TEDOM,Jet 2 Alfa,2020-01-01
+Superga,BasicNet,2004-02-01
+Xamarin,Microsoft,
+Foca camera,Optique & Précision de Levallois,
+Luxman,Alpine Electronics,
+STV Radio Broadcasting,Sapporo Television Broadcasting,
+Kabuki-za,Kabuki-za,
+SAIC-GM-Wuling,SAIC Motor,
+SAIC-GM-Wuling,Guangxi Automobile Group,
+SAIC-GM-Wuling,General Motors China,
+SAIC-GM-Wuling,General Motors (China) Investment,
+SAIC-GM-Wuling,Liuzhou Wuling Automobile,
+Kumamoto Kenmin Televisions,Nippon Television Holdings,
+Fraser and Neave,ThaiBev,
+Freecom,Verbatim,2009-01-01
+Frigidaire,Electrolux,
+GCB,Sonatrach,
+Geek Squad,Best Buy,
+Hong Kong International Theme Parks,The Walt Disney Company,
+Seiyu Group,Q483551,2025-07-01
+Seiyu Group,Q483551,2009-03-01
+Pullmantur Cruises,Royal Caribbean Group,
+Cassidian,Airbus SE,
+HiSilicon,Huawei,
+Cappellini  S.p.A.,Haworth,
+Interactive Systems Corporation,Kodak,1988-01-01
+Qbuzz,Ferrovie dello Stato Italiane,
+Infoseek,The Walt Disney Company,
+Italferr,Ferrovie dello Stato Italiane,
+Kings Entertainment Company,Taft Broadcasting,1994-07-01
+Kings Entertainment Company,Taft Broadcasting,1989-06-01
+Kings Entertainment Company,Taft Broadcasting,1984-01-01
+Klépierre,BlackRock,
+Klépierre,APG Algemene Pensioen Groep NV,
+Korian,Predica,
+Q3199053,Dunav osiguranje,
+The Source,InterTAN,1986-06-01
+The Source,InterTAN,2009-01-01
+Q3212982,Swiss Life,
+Q3214522,Koninklijke Philips NV,
+Lagun Aro,Mondragon Corporation,
+Landsnet,Landsvirkjun,
+PT Lapindo Brantas,Santos,
+PT Lapindo Brantas,Energi Mega Persada,
+PT Lapindo Brantas,MedcoEnergi,
+Le SuperClub Vidéotron,Vidéotron,
+Shell USA,Shell,
+Linksys,Foxconn,
+Astro Malaysia Holdings,Astro Malaysia,
+Liquigás,Liquigas,
+HIT Entertainment,Mattel,1982-01-01
+HIT Entertainment,Apax Partners,1982-01-01
+HIT Entertainment,The Jim Henson Company,1982-01-01
+HIT Entertainment,Mattel,2012-01-01
+HIT Entertainment,Apax Partners,2012-01-01
+HIT Entertainment,The Jim Henson Company,2012-01-01
+HIT Entertainment,Mattel,2005-01-01
+HIT Entertainment,Apax Partners,2005-01-01
+HIT Entertainment,The Jim Henson Company,2005-01-01
+Currys,Dixons Carphone,
+Albani Brewery,Royal Unibrew,
+Liquid Paper,Newell Brands,
+Q3267915,McCain Foods,
+Circle K,Alimentation Couche-Tard,
+Hill & Knowlton,WPP plc,
+MTN Cameroon,MTN Group,
+MTN Côte d'Ivoire,MTN Group,
+Paramount Networks France,Viacom,
+King Long,Fujian Motors Group,
+"New United Motor Manufacturing, Inc.",General Motors,
+Q3274993,Grupo ACS,
+Sirius XM,Liberty Media,
+Makedonski Telekom,Magyar Telekom,
+Q3285035,Docks de France,
+Manutan,Q109042668,
+Acuvue,Johnson & Johnson,
+Maritime Electric,Fortis Inc.,
+Marvel Productions,Marvel Entertainment,
+Toy Biz,Marvel Entertainment,
+Marwa,CDG Capital,
+GoogleLLC,Alphabet Inc.,
+Paramount Parks,Viacom,2006-06-30
+Paramount Parks,Cedar Fair,2006-06-30
+Paramount Parks,CBS Corporation,2006-06-30
+Paramount Parks,Viacom,2005-01-01
+Paramount Parks,Cedar Fair,2005-01-01
+Paramount Parks,CBS Corporation,2005-01-01
+Maxus,SAIC Motor,
+Internet Brands,Kohlberg Kravis Roberts,
+Menara,Maroc Telecom,
+Micromania-Zing,GameStop,
+Nelja Energia,Enefit Green,
+Hutchison Ports,Hutchison Whampoa,
+Hutchison Ports,PSA International,
+Mobilink,VEON,
+Q3322618,MontEdison,
+MonteShell,SELM – Servizi Elettrici MontEdison,
+MonteShell,Shell Italia,
+Sky México,Grupo Televisa,
+Mulino Bianco,Barilla Group,
+The Muppets Studio,The Walt Disney Company,
+Q3328476,Groupe TF1,
+Leen Bakker,Blokker Holding,1988-01-01
+Leen Bakker,Q56682968,1988-01-01
+Leen Bakker,Blokker Holding,2017-01-01
+Leen Bakker,Q56682968,2017-01-01
+Mölnlycke Health Care,Investor,
+NBC Entertainment,Comcast,
+Naftal,Sonatrach,
+Nanyang Commercial Bank,"China Cinda Asset Management Co., Ltd.",
+Ooredoo Algérie,Ooredoo,
+Neilson Dairy,Saputo,2008-01-01
+Neilson Dairy,Saputo,1947-01-01
+ALBtelecom Mobile,ALBtelecom,
+Disney Online Studios Canada,The Walt Disney Company,
+New World Resources,BXR Group,
+Nikka Whisky Distilling,Asahi Breweries,
+Nocibé,Douglas Holding,
+Nova Scotia Power,Emera,
+OSX,EBX Group,
+Olympikus,Vulcabras,
+OpenCube Technologies,EVS Broadcast Equipment,
+Opta Sports,DAZN Group,
+Orange County Drum and Percussion,Guitar Center,
+Orange Mali,Sonatel,
+Telenor India,Telenor,
+Overworks,Q122741,
+POW! Entertainment,The Walt Disney Company,
+PTW Architects,China Construction Design International,
+Paper Mate,Newell Brands,
+Nets Group,Nexi,
+Parfums Givenchy,LVMH,
+Bodega Aurrera,Q483551,
+EWOS,Cargill,
+D/S Norden,Aktieselskabet Dampskibsselskabet Orient´s Fond,
+Perot Systems,Dell,
+Pilgrim's Corp,JBS S.A.,
+Pirelli Tyre,Pirelli,
+Rainforest Cafe,"Landry's, Inc.",
+Sport1 (Netherlands),Liberty Global,
+Power Assets Holdings Limited,CK Infrastructure Holdings,
+Public Mobile,Telus Communications,
+Québecor Média,Québecor,
+RMC Sport,RMC BFM,
+RMC Group,Cemex,
+Reynolds Pens India Pvt. Ltd.,Newell Brands,
+Københavns Lufthavne,Ontario Teachers' Pension Plan,
+Rockefeller Group,Mitsubishi Estate,
+Cubus,Varner AS,
+Rogue Wave Software,Perforce Software,
+TV Shop,Guthy-Renker,
+Carnegie Investment Bank,Q31883554,
+Anticimex,Nordic Capital,1992-01-01
+Anticimex,EQT,1992-01-01
+Anticimex,Nordic Capital,2001-01-01
+Anticimex,EQT,2001-01-01
+MND,MND Group,
+Fender Custom Shop,Fender Musical Instruments Corporation,
+Reno-Depot,Rona,2003-09-01
+Q3456726,Transdev S.A.,
+Réseau de bus TRA,Transdev S.A.,
+Transdev Trans Val d'Oise,Transdev S.A.,
+Transdev CEAT,Transdev S.A.,
+Q3469480,Bank of Africa,
+ScrewAttack,Fullscreen,
+Saut du Tarn,Tyco International,
+Sergaz,Ultramar,1994-01-01
+ServiceMagic,IAC,
+Sevel,Stellantis Europe,2021-01-01
+Sevel,Stellantis Europe,1978-01-01
+Sevel,Stellantis Europe,1978-01-01
+Sevel,Stellantis Europe,2007-01-01
+Shaw Direct,Rogers Communications,2023-04-03
+Shaw Media,Shaw Communications,
+Posten AB,PostNord,
+Sibir Energy,Gazprom Neft,
+Siblu,Naxicap Partners,
+Six Flags Great Escape Lodge & Indoor Waterpark,Six Flags,
+Slavneft,Gazprom Neft,
+Sleeman Breweries,Sapporo Breweries,
+Vodafone Czech Republic,Vodafone Europe,2003-01-01
+Vodafone Czech Republic,Vodafone Europe,2001-01-01
+Vodafone Czech Republic,Vodafone Europe,2006-01-01
+Vodafone Czech Republic,Vodafone Europe,2004-01-01
+Société de raffinage de Zinder,China National Petroleum Corporation,
+Société des Mines de l'Aïr,Société du Patrimoine des Mines du Niger,
+Société des Mines de l'Aïr,Orano Mining,
+Société Métallurgique de Normandie,Usinor,
+Socpresse,Q2362318,
+Lynred,Safran,
+Società Italiana Trasporti Automobilistici,Ferrovie dello Stato Italiane,
+Solo Mobile,Bell Mobility,
+Soléa,Transdev S.A.,
+Someca,Fiat Group,
+Seznam.cz,Masaryk Holding,http://www
+Seznam.cz,Masaryk Holding,2017-01-01
+Spotless Group,Q276507,
+Omnipol,OMPO Holding,2015-08-25
+Omnipol,OMPO Holding,1996-07-08
+Standard Life,Standard Life,
+Starwave,The Walt Disney Company,
+Q3498084,AXA,
+Stonyfield Farm,Lactalis,
+Always,Procter & Gamble,
+Stretto di Messina,ANAS,
+Studer,Evertz Microsystems,2021-02-09
+Aukro,Pale Fire Capital,2019-01-01
+Aukro,LevTech1,2019-01-01
+Preciosa,NLT,2001-01-01
+Oman LNG,Shell,
+Sun Media Corporation,Postmedia Network,
+Supermercados Gigante,Soriana,2007-12-06
+Slovenské elektrárne,Slovak Power Holding,
+Vinci Concessions,Vinci,
+Q3559993,Q3117340,
+OKD,Prisko,2017-01-01
+Vodafone Portugal,Vodafone,
+Q3565606,The Walt Disney Company,
+Disney Live Entertainment,Walt Disney Imagineering,
+Video Maker,The Walt Disney Company,
+Walt Disney Parks and Resorts U.S.,The Walt Disney Company,
+Walt Disney Television,The Walt Disney Company,
+Metro-Goldwyn-Mayer cartoon studio,Loews Corporation,
+Zodiak Media,De Agostini Editore,
+about.me,AOL,
+Carrera Sunglasses,Safilo,
+HostGator,Endurance International Group,
+ABC Family Worldwide,The Walt Disney Company,1998-01-01
+ABC Family Worldwide,The Walt Disney Company,1998-01-01
+ABC Family Worldwide,The Walt Disney Company,2001-01-01
+ABC Family Worldwide,The Walt Disney Company,1990-01-01
+ATRAL,Schiaffini Travel,
+Q3604239,Hera Group,
+Q3604745,Q3761400,
+Admiral,Whirlpool,
+Aersud elicotteri,Airbus Helicopters,
+AgipGas,Agip,
+"A. Uberti, Srl.",Benelli Armi,
+Alemagna,Bauli,
+Q3609631,Leonardo,
+Lubrizol,Berkshire Hathaway,
+Alleanza Toro,Generali Italia,
+Anic,Eni,
+API Ancona Refinery,Gruppo API,
+Guitar Center,Ares Management,
+Artigiancassa,BNP Paribas,
+Q3628094,Q3631455,
+Q3629499,RTI,
+Autocamionale della Cisa,Q3943631,
+Autostrada Brescia Verona Vicenza Padova,Abertis,
+Autostrada dei Fiori SpA,Q3943631,
+Smart Bazaar,Reliance Industries Limited,
+BAE Systems Platforms & Services,BAE Systems,
+Q3631782,BCS Group,
+BRT,DPDgroup,2016-01-01
+BT Italia,BT Global Services,
+Banca Agricola Mantovana,Banca Monte dei Paschi di Siena,
+Banca Akros,BPM Bank,
+Antonveneta,Banca Monte dei Paschi di Siena,
+Banca Caripe,Banca Tercas,
+Banca CR Firenze,Intesa Sanpaolo,
+Banca Tirrenica,UBI Bank,
+Banca Generali Private,Assicurazioni Generali,
+Banca Generali Private,Generali Italia,
+Banca delle Marche,UBI Bank,
+Banca Investis,Veneto Bank,
+Banca Popolare Commercio e Industria,UBI Bank,
+Q3633721,Credito Valtellinese,
+Banca Popolare della Marsica,Banca Monte dei Paschi di Siena,
+Seiyu Group,Q137313242,2025-07-01
+Seiyu Group,Q137313242,2009-03-01
+ONO,Vodafone Spain,
+Globecast,Q1431486,
+Q3115043,Asia Pacific Breweries,
+Q3115842,Carnival Corporation & plc,
+Q3115843,Carnival Corporation & plc,
+Gray Line Yukon,Carnival Corporation & plc,
+Matsuzakaya,Daimaru Matsuzakaya Department Stores,
+Axel Johnson Group,Ax:son Johnson family,
+Q3117351,Akwa Group,
+Atresmedia,De Agostini Editore,
+Dommo Energia,EBX Group,
+DXC Technology Maroc,DXC Technology,
+Generali Italia,Assicurazioni Generali,
+Banca Carime,UBI Bank,
+Banca Nuova,Intesa Sanpaolo,
+Havaianas,Alpargatas S.A.,
+Amber Latvijas balzams,Amber Beverage Group,
+ITV plc,Liberty Global,
+IFIL,Exor,
+Q3146829,Caltagirone,
+Iggesund Paperboard,Holmen AB,
+Q3150110,White Motor Company,
+Infinity Broadcasting Corporation,Westinghouse Electric Corporation,
+Irish Distillers,Pernod Ricard,
+Q3154470,Istituto per la Ricostruzione Industriale,
+Islamic International Arab Bank,Arab Bank,
+Italstrade,Astaldi,
+Italstat,Istituto per la Ricostruzione Industriale,
+Banca Popolare di Verona,Banco Popolare,
+Drs. Foster & Smith,Petco,
+United Biscuits,Yıldız Holding,
+Q3179806,Mediagrif,
+Polistil,May Cheong Group,
+Alpargatas S.A.,Itaúsa,
+T-Mobile US,Deutsche Telekom,
+T-Mobile US,SoftBank Group,
+Teksid,Stellantis,
+Electronic Arts Victor,Victor Entertainment,
+TVA,Telefónica,2007-01-01
+TVA,Grupo Abril,2007-01-01
+TVA,Telefónica,1991-01-01
+TVA,Grupo Abril,1991-01-01
+RTVE Canarias,RTVE,
+RTVE Catalonia,RTVE,
+Tele2 Mobile,Tele2,
+Telecom Italia France,TIM Group,
+Tata Play,The Walt Disney Company India,
+The Kooples,Maus Frères,
+The Walt Disney Company Southeast Asia,The Walt Disney Company,
+The Walt Disney Company India,The Walt Disney Company,
+Fischer Air,K & K Capital Group,1996-01-01
+Fischer Air,K & K Capital Group,2005-01-01
+Timeform,Flutter Entertainment,
+Touchwood Pacific Partners,Yamaichi Securities,
+Spice Telecom,Telekom Malaysia,
+Spice Telecom,Idea Cellular,
+Trieste Trasporti,Arriva,
+Tudor Watches,Rolex,
+Karrimor,Frasers Group,2004-01-01
+Sky Cable,Sky Cable Corporation,
+Plaxton,NFI Group,
+Tüpraş,Koç Holding,
+Tía SA,Ta-Ta S. A,
+UTV Global Broadcasting,UTV Software Communications,
+UTV Indiagames,UTV Software Communications,
+UTV Software Communications,The Walt Disney Company,
+Ukrsotsbank,Alfa Group,
+Stellantis Slovakia,Stellantis,
+Sunwing Travel Group,TUI Group,
+Van Houtte,Keurig Dr Pepper,
+Q3555671,Transdev S.A.,
+Établissement Transdev d'Ecquevilly,Transdev S.A.,
+Établissement Transdev de Nanterre,Transdev S.A.,
+Établissement Transdev de Rambouillet,Transdev S.A.,
+Q3633797,Banco Popolare,
+Banco di Napoli,Intesa Sanpaolo,2002-01-01
+Banco di Napoli,Intesa Sanpaolo,2007-01-01
+Banco di Brescia,UBI Bank,
+Banco di Chiavari e della Riviera Ligure,BPM Bank,
+Bank of Sicily,UniCredit,
+Birrificio Angelo Poretti,Carlsberg Group,
+Cassa di Risparmio di Biella e Vercelli,Cassa di Risparmio di Asti,
+Boing,RTI,
+Boing,Warner Bros. Discovery,
+Q3642161,Bank of Italy,
+MultiChoice,Naspers,
+Breda Siderurgica,Breda,
+Busitalia-Sita Nord,Ferrovie dello Stato Italiane,
+Telecom Italia Lab,TIM Group,1997-01-01
+Telecom Italia Lab,TIM Group,1961-01-01
+Telecom Italia Lab,TIM Group,1964-01-01
+Q3648931,Busitalia-Sita Nord,
+Intermarine,IMMSI,
+Cantiere navale del Muggiano,Fincantieri,
+Cantiere navale di Ancona,Fincantieri,
+Cantiere navale di Riva Trigoso,Fincantieri,
+Florio wines,ILLVA Saronno S.p.A.,
+Q3661659,Lactalis,
+Q3661901,Credito Valtellinese,
+Cassa Di Compensazione E Garanzia Spa,Euronext,
+Cassa di Risparmio del Veneto,Intesa Sanpaolo,
+Nuova Cassa di Risparmio di Chieti,UBI Bank,
+Carisap,Intesa Sanpaolo,
+Cassa di Risparmio di Alessandria,Popular Bank of Milan,
+Cassa di Risparmio di Terni e Narni,Intesa Sanpaolo,
+Cassa di Risparmio di Venezia,Intesa Sanpaolo,
+Carisbo,Intesa Sanpaolo,
+Cassa di Risparmio della Marca Trivigiana,UniCredit,1998-01-01
+Cassa di Risparmio della Marca Trivigiana,UniCredito,1998-01-01
+Cassa di Risparmio della Marca Trivigiana,UniCredit,1994-01-01
+Cassa di Risparmio della Marca Trivigiana,UniCredito,1994-01-01
+Cassa di Risparmio della Marca Trivigiana,UniCredit,1992-01-01
+Cassa di Risparmio della Marca Trivigiana,UniCredito,1992-01-01
+Q3662064,Istituto per la Ricostruzione Industriale,
+Centrale del Latte di Roma,Parmalat,
+Q3666043,AGCO,
+CittàMercato,Rinascente,2004-01-01
+CittàMercato,Rinascente,1972-01-01
+Vodafone Automotive,Vodafone Global Enterprise,
+Q3682377,Istituto per la Ricostruzione Industriale,
+Italian Grand Hotels Company,Sheraton Hotels and Resorts,
+Credito Bergamasco,Banco Popolare,
+Credito Siciliano,Credito Valtellinese,
+DRS Technologies,Leonardo,
+Dada,Molteni Group,
+Dalmine,Tenaris,
+DeA Capital,De Agostini Editore,
+Doro TV Merchandising,Mondo TV,
+Edizioni musicali Acqua azzurra srl,Edizioni musicali Acqua Azzurra Cinquantacinque srl,
+Q3720243,Banco Popolare,
+Elettronica Industriale,RTI,
+ELSAG Datamat,Leonardo,
+Emerson,Ignis,
+e-distribuzione,Enel Italia,
+Enel Green Power,Enel,
+Enel Energia,Enel Italia,
+Enel Produzione,Enel Italia,
+Servizio Elettrico Nazionale,Enel Italia,
+Ethicon Inc.,Johnson & Johnson,
+Eurostazioni,Pirelli,
+Eurostazioni,Sintonia,
+Eurostazioni,Vianini Lavori,
+Rautakirja,Sanoma Corporation,
+Exor,Exor,
+F2i,UniCredit,
+F2i,Bank of Sardinia,
+F2i,Cassa Depositi e Prestiti,
+F2i,Intesa Sanpaolo,
+F2i,Banca CR Firenze,
+F2i,Cassa di Risparmio del Veneto,
+F2i,Cassa di Risparmio di Lucca Pisa Livorno,
+Q3737492,Fiat Group,
+Fabio Perini S.p.A.,Körber Process Solutions,
+Elion Enterprises Limited,Telia Company,
+Fascino PGT,RTI,
+Fata Assicurazioni,Cattolica Assicurazioni,
+Centerra Gold,Cameco,
+Centerra Gold,Kyrgyzaltyn,
+Q3742503,Ferrovie dello Stato Italiane,
+Ferrari,BCS Group,
+Ferservizi,Ferrovie dello Stato Italiane,
+Stellantis Europe,Stellantis,2021-01-01
+Stellantis Europe,Stellantis,2007-01-01
+Stellantis Europe,Stellantis,2014-01-01
+ÚJV Řež,ČEZ Group,
+ÚJV Řež,Slovenské elektrárne,
+ÚJV Řež,Škoda JS,
+Q3745444,Q3745445,
+Filodoro,Golden Lady Company,
+Filotecnica,Salmoiraghi & Viganò,
+Findomestic,BNP Paribas,
+Q3746135,Webuild,
+Five Ten Footwear,Adidas AG,
+CDP Equity,Cassa Depositi e Prestiti,
+GM Powertrain Torino,General Motors,
+GP Manga,Giochi Preziosi,
+GAMA Toys,Märklin,
+Genertel,Generali Italia,
+Mphasis,Blackstone Inc.,
+Globomedia,Mediapro,
+Golden Lady,Golden Lady Company,
+Grom,Unilever,
+Fratelli Averna,Campari Group,
+MFE - MediaForEurope,Fininvest,
+Apple Boutique,Apple Corps,
+Q3783666,SSL International,
+Q3785735,Q3689974,
+Hogan,Tod's S.p.A.,
+KOS,CIR Group,
+Horseshoe Gaming Holding Corporation,Caesars Entertainment Corporation,
+HMSHost,Autogrill,
+3 Italy,CK Hutchison Holdings,2015-01-01
+3 Italy,CK Hutchison Holdings,2000-01-01
+INQ,Hutchison Whampoa,
+IP Gruppo API,Gruppo API,1974-01-01
+IP Gruppo API,Gruppo API,2005-01-01
+Ignis,Beko,
+Imetec,Q132093229,
+Indesit,Indesit Company,1987-01-01
+Intermare Sarda,Eni,
+Q3802050,Istituto per la Ricostruzione Industriale,
+Q3802049,Istituto per la Ricostruzione Industriale,
+Italgas,Snam,
+Q3804084,Istituto per la Ricostruzione Industriale,
+Q3804478,Istituto per la Ricostruzione Industriale,
+Q3804479,Istituto per la Ricostruzione Industriale,
+Italtel,Telecom Italia Finance,
+Q3820425,Marsilio Editori,
+Q3825179,Menarini,
+Lactis,Parmalat,
+Q3831484,ATAF,
+Libero,Italiaonline,1999-01-01
+Libero,Italiaonline,2013-01-01
+Libero,Italiaonline,2002-01-01
+Q3832686,A2A,
+OpNet,Wind Tre,2024-01-01
+Loquendo,Microsoft,2022-01-01
+Loquendo,Microsoft,2001-01-01
+Loquendo,Microsoft,2011-01-01
+MC-link,F2i,2017-01-01
+MC-link,F2i,2017-01-01
+Q3841563,Euronext,
+Q3841568,Sky Italia (company),
+Maflow,Boryszew,
+Magnadyne,Sèleco,
+Q3845780,Brembo,
+Motocicli Maserati,Maserati,
+MaxMeyer,PPG Industries,
+Q3853710,RTI,
+Medisaet Investimenti,MFE - MediaForEurope,
+Mentadent,Unilever,
+Q3855750,Istituto per la Ricostruzione Industriale,
+Metroweb,Fastweb,
+Metroweb,Metroweb Italia,
+Molteni Group,Molteni Group,
+EOLO,Partners Group,2021-01-01
+Natal Drums,Marshall Amplification,
+Q3879210,SOGIN,
+Q3879209,Leonardo,
+Nòverca,TIM Group,2013-01-01
+Nòverca,TIM Group,2008-01-01
+Nòverca,TIM Group,2008-01-01
+Nòverca,TIM Group,2016-01-01
+Nòverca,TIM Group,2001-01-01
+O.ME.CA,Hitachi,
+O.ME.CA,Hitachi Rail Italy,
+Orlane,Kelémata,
+Paddy Power,Flutter Entertainment,
+Q3896640,Heineken International,
+Q3897662,Randalls Brewery,
+Q3902773,Caltagirone Editore,
+Q3908203,Istituto per la Ricostruzione Industriale,
+Q3908341,Q3804288,
+PosteMobile,Postepay,
+Postepay,Poste Italiane,
+Gruppo Assicurativo Poste Vita,Poste Italiane,
+Prima,San Marino Telecom,
+Denby Pottery Company,Hilco,
+Lidskaje piva,Olvi,
+Publitalia '80,Mediaset,
+RTI,Mediaset,
+Radio Italia,MFE - MediaForEurope,
+Indofood,First Pacific,
+Riello,Carrier Corporation,
+Bayer HealthCare Pharmaceuticals,Bayer,
+Mitsubishi Logisnext,Meiji Yasuda Life,
+Mitsubishi Logisnext,Mitsubishi Heavy Industries,
+Mitsubishi Logisnext,GS Yuasa,
+Mitsubishi Logisnext,The Master Trust Bank of Japan,
+Mitsubishi Logisnext,Tokio Marine Nichido,
+Mitsubishi Logisnext,Japan Trustee Services Bank,
+Mitsubishi Logisnext,Bank of Kyoto,
+SAL Lecco,Arriva,
+SAMIM,Eni,
+SARPOM,Gruppo API,2010-01-01
+SARPOM,Q125929111,2010-01-01
+SARPOM,Gruppo API,2018-01-01
+SARPOM,Q125929111,2018-01-01
+SDA Express Courier,Poste Italiane,
+SIP,Istituto per la Ricostruzione Industriale,
+Sisal,Flutter Entertainment,2022-01-01
+Sky Brasil,News Corporation,1996-01-01
+Sky Brasil,News Corporation,1996-01-01
+Sky Brasil,News Corporation,2006-01-01
+Sogefi,CIR Group,
+STET,Istituto per la Ricostruzione Industriale,
+Q3943953,Snam,
+Saiwa,Mondelez International,
+Sambonet,Sambonet Paderno Industrie,
+KMD,KMD Holdco 4 A/S,
+Sara Assicurazioni,Generali Italia,
+Sara Assicurazioni,Reale Mutua Assicurazioni,
+Q3954217,Kajo Neukirchen Group,2020-02-05
+Vedanta Limited,Vedanta Resources,
+SIMEST,Cassa Depositi e Prestiti,
+Sintonia,Edizione,
+Snamprogetti,Eni,2006-01-01
+Società Anonima degli Omnibus,Edison,
+Q3963323,Ferrovie dello Stato Italiane,
+SET,Ericsson,
+Società Italiana Autoservizi,Arriva,
+Società Trazione Elettrica Lombarda,Edison,
+SOFIN,Istituto per la Ricostruzione Industriale,
+Q3964012,Istituto per la Ricostruzione Industriale,
+Stinol,Indesit Company,
+Stoeger Industries,Benelli Armi,
+Q3975976,Q3757874,
+Q3976950,Terna S.p.A.,
+SuperJet International,Leonardo,
+Superpila,Procter & Gamble,
+Trasporti Riuniti Area Metropolitana,Start Romagna,
+TeleTu,Vodafone Italy,2007-01-01
+TeleTu,Vodafone Italy,1999-01-01
+Tele Sistemi Ferroviari,AlmavivA,
+TIM San Marino,TIM Group,
+Persidera,EI Towers,2019-01-01
+Persidera,EI Towers,2006-01-01
+Persidera,EI Towers,2014-01-01
+Persidera,EI Towers,2014-01-01
+Telecom Italia Sparkle,TIM Group,
+Telefonia Mobile Sammarinese,TIM San Marino,
+Thomas,Rosenthal,
+Thomas Mason,Cotonificio Albini,
+tivù,Telecom Italia Media,
+tivù,RTI,
+TotalErg,Gruppo API,2010-01-01
+TotalErg,Gruppo API,2018-01-01
+TotalErg,Gruppo API,2010-01-01
+Q4002062,Stanley Black & Decker,
+Q4003518,Busitalia-Sita Nord,
+UniCredit Family Financing,UniCredit,
+Versalis,Eni,
+Q4011018,Caltagirone,
+Vianini Lavori,Fidelity Investments,
+Vianini Lavori,Caltagirone,
+Vianini Lavori,Capitolium,
+Videotime,MFE - MediaForEurope,
+Virgin Active,Virgin Group,
+Vodafone Italy,Fastweb,2024-01-01
+Zerowatt,Candy,1984-01-01
+Zoppas,Electrolux Italy,
+Allaire Corporation,Macromedia,2001-01-01
+Athenian Brewery,Heineken International,
+avito.ru,Kismet Capital Group,
+booking.com,Booking Holdings,
+Calvé,Unilever,
+Amazon Lab126,Amazon,
+MGM Holdings,Amazon,2022-01-01
+NetSuite,Oracle Corporation,
+Revolution Analytics,Microsoft,
+Q4063566,Euroset,2011-01-01
+Bay Area News Group,MediaNews Group,
+Beijing Hyundai,BAIC Motor,
+"Beijing Jingneng Power Co., Ltd.",Shanxi International Electricity Group Limited Company,
+"Beijing Jingneng Power Co., Ltd.","Beijing Energy Holding Co., Ltd.",
+Bell Sports,Vista Outdoor,
+Bella Italia,The Big Table Group,
+Beneficial Financial Group,Deseret Management Corporation,
+Beneful,Nestlé Purina PetCare,
+Benskins Brewery,Carlsberg Group,
+Bergine,Gilt Groupe,
+Berry Plastics,Apollo Global Management,
+BevMo!,TowerBrook Capital Partners,
+BiblioCommons,Constellation Software,2020-02-01
+Bidvest Bank Limited,Bidvest Group,
+Biffa,Severn Trent,1991-01-01
+Biffa,Global Infrastructure Partners,1991-01-01
+Big Idea Entertainment,Comcast,
+Bigstock,Shutterstock,
+Biomet,Blackstone Inc.,
+Birmingham Sound Reproducers,Emerson Electric,1998-01-01
+Birthdays,Clintons,
+BlackPlanet,Urban One,
+BlazeMeter,CA Technologies,2021-01-01
+BlazeMeter,Perforce Software,2021-01-01
+BlazeMeter,CA Technologies,2016-01-01
+BlazeMeter,Perforce Software,2016-01-01
+Blimpie,MTY Food Group,
+Blue Ant Media,Torstar,
+Blue Coat Systems,Gen Digital,2015-01-01
+Blue Coat Systems,Gen Digital,2011-01-01
+Blue Coat Systems,Gen Digital,2016-01-01
+Bluehost,Endurance International Group,
+Bluetongue Brewery,SABMiller,
+Boag's Brewery,Lion,
+Bob's Discount Furniture,Bain Capital,
+BookFinder.com,AbeBooks,
+"Boomtown, Inc.",Pinnacle Entertainment,
+Boxfresh,Pentland Group,
+Bradesco Seguros,Bradesco,
+Breakingviews,Thomson Reuters,
+Card Factory,Invesco,
+Carestream Health,Onex Corporation,
+Carlsberg Srbija,Carlsberg Group,
+Carlsberg Polska,Carlsberg Group,
+cars.com,Tegna Inc.,
+Casas Bahia,Grupo Casas Bahia,
+Cascade Brewery,SABMiller,
+Castle Technology,RISC OS Developments Ltd,2008-01-01
+Castrol India,BP,
+Caterham Group,Tune Group,
+L Catterton,LVMH,
+Caucasus Online,MagtiCom,
+Centerplate,Olympus Partners,
+Central Pattana,Central Group,
+Century Network,Real and Smooth,
+Cermaq,Mitsubishi Corporation,
+Cerro Verde,Buenaventura,
+Cerro Verde,Freeport-McMoRan,
+Cervecería Nacional Dominicana,E. León Jimenes,
+Chatr,Rogers Communications,
+Cheddar's Casual Café,Darden Restaurants,
+Cheese Nips,Nabisco,
+Cheil Worldwide,Samsung Electronics,
+Cheil Worldwide,National Pension Service,
+Chernihiv Brewery,AB InBev Efes Ukraine,
+Chery Jaguar Land Rover,Chery Automobile,
+Chery Jaguar Land Rover,Jaguar Land Rover,
+Chess Communication,Telia Norge,
+CK Infrastructure Holdings,Cheung Kong Holdings,
+Chevrolet-Saturn of Harlem,General Motors,
+Chevrolet Europe,General Motors,
+Chevron Phillips Chemical,Phillips 66,
+Chicken of the Sea,Thai Union Group,
+"Cosco Shipping Holdings Co., Ltd.","China Ocean Shipping Co., Ltd.",
+China Mobile Tietong,China Mobile,
+China Travel International Investment Hong Kong,China Tourism Group,
+Chips Group,Orkla Group,
+Chong Hing Bank,Yuexiu Enterprises,2014-02-14
+Chr Salvesen & Chr Thams's Communications Aktieselskab,Småkraft AS,2015-06-01
+Chr. Hansen Holding,Capital Group Companies,
+Chr. Hansen Holding,Novo Holdings,
+Chr. Hansen Holding,APG Algemene Pensioen Groep NV,
+"Chu Kong Passenger Transport Co., Ltd",Chu Kong Shipping,
+Ciel Satellite Group,OMERS,
+Cimar,Hoshino Gakki,
+Cirque Corporation,Alps Electric,
+Citigroup Global Markets Japan,Citigroup,
+Citistore,KOLOUR,
+City Club,Soriana,
+City Index Group,GAIN Capital,
+City National Bank,Royal Bank of Canada,2015-01-01
+City Sports,Highland Capital Partners,
+Clarified Networks,Codenomicon,
+Claro TV+,América Móvil,
+Claster Television,Hasbro,1969-01-01
+Claster Television,Hasbro,1953-01-01
+Clauss Cutlery Company,Acme United Corporation,
+ClickSoftware Technologies,Francisco Partners,
+Clipper Magazine,Tegna Inc.,
+Cloudant,IBM,
+CodeBlack Entertainment,Starz Entertainment,
+Coinstar,Apollo Global Management,
+Collins Industries,REV Group,
+Com2uS,Gamevil,
+Comcast Interactive Media,Comcast,
+Bauer Media Audio Ireland,Bauer Media Group,
+Algar Telecom,Grupo Algar,
+"Competitor Group, Inc.",Wanda Group,
+Comviq,Tele2,1997-01-01
+"Contract Freighters, Inc.",TFI International,2016-01-01
+Conar Instruments,National Radio Institute,
+Concord,Baring Asset Management,
+Consett Iron Company,British Steel,
+Consona Corporation,Battery Ventures,
+Constant Contact,Endurance International Group,
+Contadina,Del Monte Foods,
+Convenience Retail Asia,Li & Fung,
+Coop Marked,Coop Norge SA,
+Obs,Coop Norge SA,
+Coop Prix,Coop Norge SA,
+Corona Data Systems,Daewoo,1985-01-01
+Telekom Romania Mobile,Deutsche Telekom,
+Cottman Transmission,American Capital,
+Country Pure Foods,Sapporo Breweries,
+Cox Media Group,Apollo Global Management,2019-01-01
+Cox Media Group,Apollo Global Management,2019-01-01
+Crackle,Chicken Soup for the Soul,2007-01-01
+Crackle,Chicken Soup for the Soul,2020-01-01
+CraftWorks Holdings,Centerbridge Partners,
+Crawford Productions,WIN Corporation,
+Fenway Sports Management,Fenway Sports Group,
+Chloride Group,Emerson Electric,
+Cityline,Golden Telecom,
+Comcast Spectacor,Comcast,
+Cēsu Alus,Olvi,
+DESFA,DEPA,
+Efes Vitanta Moldova Brewery,Efes Beverage Group,
+CIBC FirstCaribbean International Bank,Canadian Imperial Bank of Commerce,
+Superior Coach Company,Sheller-Globe Corporation,
+Gigabyte Communications,Gigabyte Technology,
+Gymboree,Bain Capital,
+Lalandia,Parken Sport & Entertainment,
+MB Brewery,Heineken International,
+Mac's Convenience Stores,Alimentation Couche-Tard,
+Mitsui Oil Exploration,Mitsui & Co.,
+Cellfie,VimpelCom,
+Cellfie,VEON,
+OEZ,Siemens,2008-01-01
+OEZ,Siemens International Holding,2008-01-01
+OEZ,Siemens,2010-01-01
+OEZ,Siemens International Holding,2010-01-01
+Pamida,Sun Capital Partners,
+PEGATRON,ASUS,
+Petkim,State Oil Company of Azerbaijan Republic,
+Pohjolan Voima,UPM,
+Polaroid Eyewear,Safilo,
+Singapore Post,SingTel,
+Singapore Post,Alibaba Group,
+NVision Czech Republic,Baggio Holding,2006-01-01
+NVision Czech Republic,Baggio Holding,2012-01-01
+Sotelco,VimpelCom,
+T2,Tele2,2013-01-01
+T2,Rostelecom,2013-01-01
+T2,VTB Bank,2013-01-01
+T2,Tele2,2001-01-01
+T2,Rostelecom,2001-01-01
+T2,VTB Bank,2001-01-01
+T2,Tele2,2014-01-01
+T2,Rostelecom,2014-01-01
+T2,VTB Bank,2014-01-01
+UMH group,East European Energy Company,
+Unior,Slovenian Sovereign Holding,
+ŽĎAS,CITIC Europe Holdings,2006-01-01
+ŽĎAS,CITIC Europe Holdings,2016-01-01
+Avdeyevka Coke and Chemical Plant,Metinvest,
+Atommash,Atomenergomash,
+Boguchany Aluminium Smelter,Rusal,
+Victoria Group,Dixy,2011-01-01
+YOU Broadband,Vodafone India,2006-01-01
+YOU Broadband,Vodafone India,2017-01-01
+YOU Broadband,Vodafone India,2001-01-01
+Seara Foods,JBS S.A.,
+OSN,Orbit Communications Company,
+Kuwait Petroleum International,Kuwait Petroleum Corporation,
+Mi Pueblo Food Center,Kohlberg Kravis Roberts,2016-01-01
+Vyborg Shipyard,United Shipbuilding Corporation,
+If P&C Insurance,Sampo Group,
+Gazprom Energoholding,Gazprom,
+IBA Group,IT Investment Group,
+DTEK,SCM Holdings,
+Demikhovsky Machine-building Plant,Transmashholding,
+Energetický a průmyslový holding,EP Group,2021-01-01
+Energetický a průmyslový holding,J&T Energy Holding,2021-01-01
+Energetický a průmyslový holding,EP Group,2021-01-01
+Energetický a průmyslový holding,J&T Energy Holding,2021-01-01
+Energetický a průmyslový holding,EP Group,2017-01-01
+Energetický a průmyslový holding,J&T Energy Holding,2017-01-01
+Energetický a průmyslový holding,EP Group,2009-01-01
+Energetický a průmyslový holding,J&T Energy Holding,2009-01-01
+Energetický a průmyslový holding,EP Group,2017-01-01
+Energetický a průmyslový holding,J&T Energy Holding,2017-01-01
+Energetický a průmyslový holding,EP Group,2021-01-01
+Energetický a průmyslový holding,J&T Energy Holding,2021-01-01
+Energetický a průmyslový holding,EP Group,2020-01-01
+Energetický a průmyslový holding,J&T Energy Holding,2020-01-01
+Energetický a průmyslový holding,EP Group,2021-01-01
+Energetický a průmyslový holding,J&T Energy Holding,2021-01-01
+ZZRK,Minerfin,
+Q4196916,Maersk,
+Giant Hypermarket,DFI Retail Group,
+Rapid Penang,Prasarana Malaysia,
+Emperor Culture Group,Master Glory Group,
+Kstovo Refinery,Lukoil,
+General Foods,Mondelez International,
+Poly Property,China Poly Group Corporation,
+MOEK,Gazprom Energoholding,
+Motovilikha Plants,Rostec,
+National Media Group,Surgutneftegas,
+National Media Group,Bank of Russia,
+Neftekamsk Automotive Plant,Kamaz,
+Q4322449,VimpelCom,
+Otkritie FC Bank,VTB Bank,
+Northgas,Gazprom,
+Malaco,Cloetta,
+Penzadieselmash,Transmashholding,
+Skånemejerier,Lactalis,2012-01-01
+BR Legetøj,Salling Group,
+Securitas Direct,Hellman & Friedman,
+Å Energi,Vardar,
+Arla Oy,Arla Foods,
+Cole Haan,Apax Partners,
+Posiva,Teollisuuden Voima,
+Posiva,Fortum Power and Heat,
+Candyking,Cloetta,
+Q4357034,Nelly Group,
+Vodafone Global Enterprise,Vodafone,
+China Foods Limited,COFCO Group,
+Embratel,Claro,
+GM CAMI Assembly,General Motors,1986-01-01
+GM CAMI Assembly,Suzuki Motor Corporation,1986-01-01
+rtcomm,Rostelecom,2008-01-01
+rtcomm,Synterra,2008-01-01
+AS Rīgas elektromašīnbūves rūpnīca,Krona Group,
+AS Rīgas elektromašīnbūves rūpnīca,TransComponent Holding,
+AS Rīgas elektromašīnbūves rūpnīca,Crowning Finance Cyprus,
+AB InBev Efes Ukraine,Anheuser-Busch InBev,
+Q4403305,Golden Telecom,
+Salym Petroleum Development,Gazprom Neft,
+Salym Petroleum Development,Shell Salym Development BV,
+Sviaz Bank,Vnesheconombank,
+Soho Media,CTC Media,
+Stopanska Banka,National Bank of Greece,
+Babrujsk brewery,Heineken International,
+Tatspirtprom,Svyazinvestneftekhim,
+Tverskoy Vagonostroitelniy Zavod,Transmashholding,
+Technopromexport,Rostec,
+TransContainer,UTLC,
+TransContainer,Blagosostoyanie,
+TriMob,Ukrtelecom,
+TyumenNIIgiprogas,Gazprom,
+Uzdunrobita,Mobile TeleSystems,
+Ostpreußische Kleinbahnen,AG für Verkehrswesen,
+REMCO,Immo-Hold,
+Q4474965,Euroset,2006-01-01
+Ural Locomotives,Siemens,
+Ural Locomotives,Sinara Group,
+Khakas Aluminium Smelter,Rusal,
+Rolls-Royce North America,Rolls-Royce,
+Chornomornaftogaz,Naftogaz,
+1-800 Contacts,AEA Investors,
+Brake Bros Ltd,Sysco,
+Moelven Industrier,Viken Skog (Norway),
+Moelven Industrier,Glommen Mjøsen Skog,
+Sætre,Orkla Group,
+24 Hour Fitness,AEA Investors,
+99 Cents Only Stores,Ares Management,
+9 Story Media Group,Scholastic Corporation,
+9 Story Media Group,Zelnick Media Capital,
+A.S. Watson Group,Cheung Kong Holdings,
+A2SEA,Ørsted,
+AAH Pharmaceuticals,McKesson Europe AG,
+AC Golden Brewing Company,MillerCoors,
+APM Terminals,Maersk,
+Orano Canada,Orano Mining,
+ARIAD Pharmaceuticals,Takeda Pharmaceutical Company,
+AT&T Computer Systems,AT&T,
+AT&T Laboratories,AT&T,
+AWB Limited,Agrium,
+Equitable Holdings,AXA,1991-07-18
+Q4657301,VimpelCom,
+Abril Radiodifusão,Grupo Abril,
+Strålfors,PostNord,
+Academic Colleges Group,Pacific Equity Partners,
+Academy Sports + Outdoors,Kohlberg Kravis Roberts,
+Access Bank,Access Bank Group,
+Acme Brick,Berkshire Hathaway,
+Acosta Sales & Marketing,Carlyle Group,
+Acoustic Research,Voxx International,
+Acquity Group,Accenture,
+Active Interest Media,Wind Point Partners,
+Acuson,Siemens,
+Adams Golf,Adidas AG,
+Adtech,Verizon Communications,
+Leadway Technology Investment Group Limited,"HNA EcoTech Group Co., Ltd.",
+Advantage Rent a Car,The Hertz Corporation,2009-03-31
+Advertising.com,Verizon Communications,
+AerCap,Cerberus Capital Management,
+AerCap,AllianceBernstein,
+AerCap,Eagle Capital Management,
+Aera Energy,ExxonMobil,
+Aera Energy,Shell USA,
+Aerated Bread Company,Associated British Foods,
+Astra International,Jardine Matheson,
+Astra International,Jardine Cycle & Carriage,
+Afton Chemical,NewMarket Corporation,
+Ahava,Fosun International Limited,
+Airport Freight Forwarding Centre,Sun Hung Kai Properties,
+Airtel Africa,Bharti Airtel,
+Alabama Power,Southern Company,
+Alba,Home Retail Group,
+Alfa Aesar,Thermo Fisher Scientific Inc.,
+AllSaints,Lion Capital LLP,
+Alliance Apotek,Alliance Boots,
+Alliance Truck Parts,Mercedes-Benz Group,
+Alpha Bank Skopje,Alpha Bank,
+Alpo,Nestlé Purina PetCare,
+AltaLink,Berkshire Hathaway Energy,
+Altos Computer Systems,Acer,1990-01-01
+Amegy Bank of Texas,Zions Bancorporation,
+Ameriabank,Lion Finance Group,
+American Shale Oil,Genie Energy,
+American Tourister,Samsonite,
+Amerigroup,"Elevance Health, Inc.",
+Ames True Temper,Griffon Corporation,
+"Amiga, Inc.",Gateway,
+AnandTech,Purch,
+Ancestry.com Inc.,Blackstone Inc.,2016-01-01
+Ancestry.com Inc.,Blackstone Inc.,2016-01-01
+Ancestry.com Inc.,Blackstone Inc.,2012-01-01
+Ancestry.com Inc.,Blackstone Inc.,2020-12-01
+Andrew Barclay Sons & Co.,Wabtec,
+Anglesey Aluminium,Kaiser Aluminum,
+Anhanguera Educacional,Kroton Educacional,
+Anonymizer,Ntrepid,
+Apex Tool Group,Bain Capital,
+Apotek 1 Gruppen,Phoenix Pharmahandel,
+Applause Inc.,Kid Brands,
+Apple Bottoms,Vokal europe,
+Jam Filled Entertainment,Boat Rocker Media,
+Archipelago Brewery,Asia Pacific Breweries,
+Arctic Glacier,H.I.G. Capital,
+Arla Foods UK,Arla Foods,
+Armor Holdings,BAE Systems,
+Ashot - Ashkelon Industries Ltd.,IMI Systems,
+Asia Airfreight Terminal,SATS Ltd,
+GNC,"Harbin Pharmaceutical Group Co., Ltd.",
+Astound Broadband,TPG,
+Breezeline,Cogeco,
+Atlas Honda,Atlas Group,
+Attica Group,Marfin Investment Group,
+Saunalahti,Elisa,2005-01-01
+Aurora Fashions,Kaupthing Bank,
+Australian Dairy Foods,Dairy Industry Association of Australia,
+Australian Radio Network,APN News & Media,
+Avia Vehicles,Aeronáutica Industrial S.A.,
+Aygaz,Koç Holding,
+B2B Bank,Laurentian Bank of Canada,
+BAE Systems Maritime – Naval Ships,BAE Systems,
+BAE Systems Inc.,BAE Systems,
+BE Aerospace,Rockwell Collins,
+BINA Istra,Bouygues,
+BINA Istra,Hrvatske autoceste,
+BINA Istra,BINA Fincom,
+BMW Brilliance,Brilliance Auto,
+BPP Holdings,Apollo Group,
+BSS Group,Travis Perkins,
+BT Total Broadband,BT Group,
+EE TV,BT Group,
+BVD,Berkshire Hathaway,
+BYD Electronic,Q2608329,
+Backcountry.com,TSG Consumer Partners,
+Backpage,Village Voice Media,
+Canal+,Vivendi,
+Bakrie Group,Q125927586,
+Bakrie Group,Q125927617,
+Bakrie Group,Q125927666,
+Bakrie Group,Q125927699,
+Banco Best,Novo Banco,
+Banco Itaú Argentina,Itaú Unibanco,
+Mercantil Banco,Mercantile Financial Services,
+Bank of Singapore,Oversea-Chinese Banking Corporation,
+Bankwest,Commonwealth Bank,2008-12-01
+Bassett-Lowke,Hornby Hobbies Limited,
+Bates 141,WPP plc,
+Brioschi,Bastogi,
+Bristol & West,Bank of Ireland,
+Broadnet Holdings BV,Comcast,
+BBR Music Group,BMG Rights Management,
+Bronto Software,NetSuite,
+Multiplex,Brookfield Business Partners,
+Brown Bag Films,9 Story Media Group,
+Brugsen,Coop A.M.B.A.,
+Brødrene Hartmann,Thornico,
+Solae,DuPont,
+Budget Truck Rental,Avis Budget Group,
+BufferBox,Alphabet Inc.,
+Circle K AS,Alimentation Couche-Tard,
+Latvian Mobile Telephone,Telia Company,
+Latvian Mobile Telephone,Latvia State Radio and Television Center,
+Latvian Mobile Telephone,Possessor LLC,
+Bulgartransgaz,Bulgarian Energy Holding,
+Bumble Bee Foods,Lion Capital LLP,
+Bloomberg Industry Group,Bloomberg L.P.,
+Burndy,Hubbell Incorporated,2009-01-01
+Burndy,Hubbell Incorporated,1988-01-01
+Bush,Home Retail Group,
+business.com,Centerfield,
+Butlins,Bourne Leisure,
+C-Thru Ruler,Acme United Corporation,
+CASAR,WireCo WorldGroup,
+CBS/Fox Video,CBS Corporation,
+CBS Media Ventures,Paramount Global,
+Stibo DX,Stibo,
+CDT da Anhanguera,Grupo Silvio Santos,
+Chesf,Eletrobras,
+CITIC 1616 Holdings,CITIC Limited,
+CITIC Resources,CITIC Limited,
+CKE Restaurants,Roark Capital Group,
+CK Life Sciences,Cheung Kong Holdings,
+CLECO,Macquarie Group,
+CNA Financial,Loews Corporation,
+CNCP Telecommunications,Canadian Pacific Railway,1988-01-01
+CNCP Telecommunications,Rogers Communications,1988-01-01
+CNCP Telecommunications,Canadian National Railway,1988-01-01
+CNCP Telecommunications,Canadian Pacific Railway,1984-01-01
+CNCP Telecommunications,Rogers Communications,1984-01-01
+CNCP Telecommunications,Canadian National Railway,1984-01-01
+CNCP Telecommunications,Canadian Pacific Railway,1984-01-01
+CNCP Telecommunications,Rogers Communications,1984-01-01
+CNCP Telecommunications,Canadian National Railway,1984-01-01
+CNCP Telecommunications,Canadian Pacific Railway,1984-01-01
+CNCP Telecommunications,Rogers Communications,1984-01-01
+CNCP Telecommunications,Canadian National Railway,1984-01-01
+"CRRC Dalian Co., Ltd.",CRRC,
+Sony Pictures Television Nonfiction,Apollo Global Management,
+COSCO (Hong Kong) Group,"China Ocean Shipping Co., Ltd.",
+COSCO Shipping International (Hong Kong),COSCO (Hong Kong) Group,
+CTVglobemedia,The Woodbridge Company,
+NOWO,Digi,
+Cadbury Ireland,Mondelez International,
+Café Rouge,The Big Table Group,
+Caledonian Brewery,Heineken International,
+Cambium Learning Group,Veritas Capital,
+Camco Drum Company,Hoshino Gakki,
+Camillus Cutlery Company,Acme United Corporation,
+Camino Real Hotels,Grupo Vazol,
+Canadian Car and Foundry,ALSTOM Transportation Germany,1957-01-01
+Canadian Car and Foundry,Avro Canada,1957-01-01
+Canadian Car and Foundry,AtkinsRéalis,1957-01-01
+Canadian Car and Foundry,Hawker Siddeley Canada,1957-01-01
+Canadian Car and Foundry,ALSTOM Transportation Germany,1962-01-01
+Canadian Car and Foundry,Avro Canada,1962-01-01
+Canadian Car and Foundry,AtkinsRéalis,1962-01-01
+Canadian Car and Foundry,Hawker Siddeley Canada,1962-01-01
+Canadian Car and Foundry,ALSTOM Transportation Germany,1986-01-01
+Canadian Car and Foundry,Avro Canada,1986-01-01
+Canadian Car and Foundry,AtkinsRéalis,1986-01-01
+Canadian Car and Foundry,Hawker Siddeley Canada,1986-01-01
+Cannery Casino Resorts,Boyd Gaming,
+Canpotex,Agrium,
+Capital Newspapers,Lee Enterprises,
+Credit Karma,Intuit,
+Creekstone Farms Premium Beef,Sun Capital Partners,
+Creole Petroleum Corporation,Exxon,1976-01-01
+Creole Petroleum Corporation,Exxon,1928-01-01
+Smatch,Louis Delhaize Group,
+Critical Manufacturing,Critical Software,2018-01-01
+Critical Manufacturing,ASMPT,2018-01-01
+Crosse & Blackwell,Princes,
+Crossmark,Warburg Pincus,
+Hallmark Media,Hallmark Cards,
+Cuautitlán Assembly,Ford Motor Company,
+Culligan,Centerbridge Partners,
+Currensee,Oanda Corporation,
+Cvent,Vista Equity Partners,
+"Cyber City, Kochi",HDIL,
+Cybertrust,NEC,
+Cybertrust,Obic Business Consultants,
+Cybertrust,SB Technology,
+Cytec Industries,Solvay S.A.,
+Czech Coal,Czech Coal Services,2011-01-01
+Czech Coal,Indoverse (Czech) Coal Investments,2011-01-01
+Czech Coal,Haltixar,2011-01-01
+Czech Coal,Czech Coal Services,2016-08-01
+Czech Coal,Indoverse (Czech) Coal Investments,2016-08-01
+Czech Coal,Haltixar,2016-08-01
+Czech Coal,Czech Coal Services,2005-01-01
+Czech Coal,Indoverse (Czech) Coal Investments,2005-01-01
+Czech Coal,Haltixar,2005-01-01
+DBS Bank Hong Kong,DBS Bank,
+DCH Food Mart,Dah Chong Hong,
+DOF Subsea,DOF Group,
+DPMS Panther Arms,Remington Outdoor Company,
+Duquesne Light Company,GIC Private Limited,
+Dah Sing Bank Limited,Dah Sing Financial Holdings Limited,
+DailyBurn,IAC,
+Daily Stop,TVB,
+Wanda Group,Dalian Hexing,
+Jimmy Choo Ltd,Capri Holdings,
+Danske Commodities,Lind Invest,
+Daqin Railway Company Limited,China State Railway Group,
+DataCash,Mastercard,
+DataMarket,Qlik,
+"CRRC Datong Co., Ltd.",CRRC,
+Dave's Killer Bread,Flowers Foods,
+David Jones Limited,Woolworths,
+Dawes Cycles,Tandem Group,
+DeMarini,Amer Sports,
+Hafren Dyfrdwy,Severn Trent,
+Dell AppAssure,Dell,
+Q5254843,Roper Technologies,2016-01-01
+Demandware,Salesforce,
+Dialog,Axiata,
+Diamond Match Company,International Match Corporation,1930-09-01
+Diapers.com,Amazon,
+Digital Insight,NCR Corporation,
+Digital Photography Review,Amazon,
+Digital United,Far EasTone,
+Directi,Endurance International Group,
+Discovery Bay Transportation Services,HKR International,
+Warner Bros. Discovery Benelux,Warner Bros. Discovery,
+Disney D23,The Walt Disney Company,
+Dolly Madison,Hostess Brands,
+Dongfeng Automobile Company Limited,Dongfeng Motor Company Limited,2003-01-01
+Dongfeng Automobile Company Limited,Dongfeng Motor Company Limited,2001-01-01
+Dongfeng Automobile Company Limited,Dongfeng Motor Company Limited,1999-07-21
+Dongfeng Motor Company Limited,Dongfeng Motor Group Company Limited,
+Donut King,Retail Food Group,
+Ring,Amazon,2018-01-01
+Doprastav,IROL,
+Dow AgroSciences,Dow Chemical Company,
+Dowty Rotol,General Electric,
+DreamWorks Classics,Comcast,
+Dreams,Sun Capital Partners,
+Dubai Group,Dubai Holding,
+Dubbing Brothers International Italia,Dubbing Brothers,
+Duff & Phelps,Carlyle Group,
+Dutch Boy Paint,Sherwin-Williams,
+Dynatron Radio Ltd,EKCO,1954-01-01
+Dynetics,Leidos,
+Dyno-Rod,Centrica,
+Hafslund Kraft,Eidsiva Energi,
+Hafslund Kraft,Hafslund,
+e.Republic,Leeds Equity Partners,2023-01-01
+Ymobile Corporation,SoftBank Group,2013-01-01
+Ymobile Corporation,SoftBank Mobile,2013-01-01
+EDP Brasil,Energias de Portugal,
+EDP Renewables North America,EDP Renewables,
+EMeter,Siemens,
+ENom,Tucows,
+Erg Renew,Erg,2008-01-01
+Easily Ltd,Tucows,2019-03-19
+EastCare,Vidant Health,
+Easyday,Future Group,
+Eberhard Faber,Staedtler,
+Edesa,Fagor Electrodomésticos,1989-01-01
+Edgewater Technology,Alithya Group,
+Education Corporation of America,Willis Stein & Partners,
+Eidsiva Energi,Hafslund,
+Electronic Payment Services,HSBC,
+Eletrobras CGTEE,Eletrobras,
+Eletrobras Cepel,Eletrobras,
+Energisa Acre,Eletrobras,
+Q5359479,Eletrobras,
+Eletropar,Eletrobras,
+"Elizabeth Arden, Inc.",Revlon,2016-01-01
+"Elizabeth Arden, Inc.",Revlon,2003-01-01
+"Elizabeth Arden, Inc.",Revlon,1987-01-01
+"Elizabeth Arden, Inc.",Revlon,1971-01-01
+Elswick Hopper,Tandem Group,
+Mandate Pictures,Starz Entertainment,
+Emdeon,Blackstone Inc.,
+Emerald Energy,Sinochem Group,
+J.Crew,TPG,
+Emperor Capital Group Limited,Emperor Group,
+Emperor Entertainment Hotel Limited,Emperor International Holdings Limited,
+Emperor International Holdings Limited,Emperor Group,
+Emperor Watch & Jewellery Limited,Emperor Group,
+Enel X,Enel,
+Energen,Corvex Management,
+Entrust,Datacard Group,
+Equinox Fitness,The Related Companies,
+Equity Bank South Sudan,Equity Bank Group,
+Equity Bank Tanzania,Equity Bank Group,
+Equity Bank Kenya,Equity Bank Group,
+Equity Bank Rwanda,Equity Bank Group,
+Equity Bank Uganda,Equity Bank Group,
+Eraring Energy,Origin Energy,2013-01-01
+Ericsson Hewlett Packard Telecom,Ericsson,
+Ericsson Hewlett Packard Telecom,Hewlett-Packard,
+IC Group,Q46115109,
+Apetit,Berner,
+Nayara Energy,Essar Group,
+ExxonMobil Australia,ExxonMobil,
+Ethicon Endo-Surgery,Johnson & Johnson,
+European Satellite Services Provider,Skyguide,
+European Satellite Services Provider,Deutsche Flugsicherung,
+European Satellite Services Provider,ENAV,
+European Satellite Services Provider,NATS Holdings,
+Eurostar International,Q111765476,2022-04-07
+Evenflo,Kimberly-Clark de México,
+Evenflo,Goodbaby International,
+Everyday Health,Ziff Davis,
+Excel mobile phones,Nokia,
+Expert Global Solutions,One Equity Partners,
+Exxon Neftegas,ExxonMobil,
+Exxon Neftegas,Oil and Natural Gas Corporation,
+FCC Environment,Fomento de Construcciones y Contratas,
+FKI,Melrose Industries,
+Fandango,Warner Bros. Discovery,
+Fat Face,Bridgepoint Capital,
+Fatso,SKY TV,
+Filmyard Holdings,Qatar Investment Authority,
+Findmypast,D. C. Thomson,
+First Republic Bank,BlackRock,
+First Republic Bank,The Vanguard Group,
+First Republic Bank,State Street Corporation,
+Firth Concrete,Fletcher Building,1979-01-01
+SmartDisk,Verbatim,2007-01-01
+Florists' Transworld Delivery,QVC Group,
+Flutter,Alphabet Inc.,
+Fontana North,Fontana Distribution,
+Fontana Distribution,Ingrooves,2012-01-01
+Fopp,Hilco,
+Fortify Software,Hewlett-Packard,
+FortisBC,Fortis Inc.,
+Four-Phase Systems,Q259011,
+Four Points Media Group,Cerberus Capital Management,
+Fox-IT,NCC Group,
+Fox International Channels Portugal,The Walt Disney Company,
+Star Channel,The Walt Disney Company,
+Q5476817,News Corporation,2014-01-01
+Q5476817,Freenet AG,2014-01-01
+Q5476817,News Corporation,2008-01-01
+Q5476817,Freenet AG,2008-01-01
+Fox Movie Channel,The Walt Disney Company,
+Star Studio18,The Walt Disney Company,
+Foxstar Productions,News Corporation,
+"Macy's, Inc.",Affiliated Managers Group,
+"Macy's, Inc.",American International Group,
+"Macy's, Inc.",The Vanguard Group,
+"Macy's, Inc.",State Street Global Advisors,
+"Macy's, Inc.",Vesa Equity Investment,
+Frankie and Benny's,The Restaurant Group,
+HKScan,LSO Osuuskunta,
+Fred Meyer Jewelers,Kroger,
+Remington Outdoor Company,Cerberus Capital Management,
+Fremont Assembly,General Motors,
+FreshCo,Empire Company,
+Frikom,Agrokor,
+Fritos,Frito-Lay,
+GEO Group Australia,GEO Group,
+GE Capital Interbanca,Banca Ifis,
+GKIDS,Toho,
+"GREE, Inc.",Nomura Securities Co Ltd,2023-09-01
+"GREE, Inc.",Q130219605,2023-09-01
+"GREE, Inc.",Nomura Securities Co Ltd,2006-01-01
+"GREE, Inc.",Q130219605,2006-01-01
+"GREE, Inc.",Nomura Securities Co Ltd,2004-12-07
+"GREE, Inc.",Q130219605,2004-12-07
+GVT TV,GVT,
+GXS Inc.,Open Text Corporation,
+Gaiam Vivendi Entertainment,Vivendi,
+Gala Coral Group,Candover Investments,
+GameMill Publishing,Educational Initiatives,
+Game Digital plc,Frasers Group,
+Gamecock Media Group,SouthPeak Games,
+Gammon Construction,Jardine Matheson,
+Garnheath distillery,Inver House Distillers,
+General Motors Diesel,Electro-Motive Diesel,
+Genesis Microchip,STMicroelectronics,
+Genovique Specialties Corporation,Eastman Chemical Company,
+GeoTrust,DigiCert,
+Geoplin,Slovenian Sovereign Holding,
+George Weston Foods,Associated British Foods,
+Georgia Power,Southern Company,
+Georgie Pie,McDonald's New Zealand,1996-01-01
+Get AS,TDC,
+giffgaff,Telefónica,
+Gigle Networks,Broadcom,
+Gilly Hicks,Abercrombie & Fitch,
+Ginsters,Samworth Brothers,
+Given Imaging,Covidien,
+Glad,Clorox,
+Global,Yoshida Metal Industry,
+Go.Compare,Esure,
+Godiva Fire Pumps,IDEX Corporation,
+Goji Electronics,Dixons Carphone,
+Golden Wonder,Tayto,
+Gondola Group,Cinven,
+Gordmans,Stage Stores Inc.,
+Gourmet,A.S. Watson Group,
+Grand & Toy,Office Depot,
+Grande Communications,RCN Corporation,
+Gravity Interactive,GungHo Online Entertainment,
+Great,A.S. Watson Group,
+Great Lakes Chemical Corporation,Chemtura,
+Greater Manchester Metrolink Limited,Hitachi Rail Italy,
+Greektown Casino Hotel,Jack Entertainment,
+Sembcorp Energy India Limited,Sembcorp,
+Gregg's,Suntory,
+Guinness Nigeria,Diageo,
+GungHo Online Entertainment,The Bank of New York Mellon,
+GungHo Online Entertainment,The Master Trust Bank of Japan,
+GungHo Online Entertainment,Q115614881,
+Guotai Junan Futures,Guotai Haitong Securities,
+Gurwitch Products,Shiseido,
+Győri Keksz,Mondelez International,
+H. Samuel,Signet Jewelers Limited,
+HCL Axon,HCL Technologies,
+Home Depot Supply,BlackRock,
+Home Depot Supply,The Vanguard Group,
+HP Enterprise Business,Hewlett-Packard,
+HP Foods,Kraft Heinz,
+HSBC Bank Brasil S.A. - Banco Múltiplo,HSBC,
+HSBC Bank Malaysia,HSBC,
+Hahn Brewery,Lion,
+Hanon Systems,Hankook Tire & Technology,
+Hanon Systems,National Pension Service,
+Hanon Systems,Hahn & Company,
+Hang Ten,Li & Fung,
+Harbour Plaza Hotel Management,CK Asset Holdings,
+Airtel,Vodafone,
+Harris Scarfe,Pepkor,
+Tandem Bank,Qatar Investment Authority,
+Americatel,Platinum Equity,
+Hart and Cooley,Johnson Controls,
+Harvey Films,Comcast,
+Hawk Model Company,"Round 2 Corp, LLC",
+Hayneedle,Q483551,
+HealthMarkets,Blackstone Inc.,
+Henderson Investment,KOLOUR,
+Galicia Bank,Galicia Financial Group,
+Bardel Entertainment,Rainbow S.p.A.,
+Herberger's,The Bon-Ton,
+Highbridge Capital Management,JPMorgan Chase,
+Hills Brothers Coffee,Massimo Zanetti Beverage Group,
+Enel Distribución Chile,Enel Chile,
+Dikar,Mondragon Corporation,
+Canal+,Telefónica,
+Viesgo,Macquarie Group,
+Viesgo,Energias de Portugal,
+Entel Phone,Entel Chile,
+TIM Peru,TIM Group,
+Corning Inc.,BlackRock,
+Corning Inc.,The Vanguard Group,
+Eurovegas,Las Vegas Sands,
+Insight Investment,The Bank of New York Mellon,
+Intelig Telecom,TIM Brasil,2009-01-01
+Pacific Drums and Percussion,Drum Workshop,
+Koza Altın,Koza İpek Holding Company,
+Investopedia,IAC,
+Iranian Offshore Oil Company,National Iranian Oil Company,
+Türkiye Finans,The Saudi National Bank,
+Q6073605,Lanxess,
+Producciones Mandarina,Mediaset España,
+Publiespaña,Mediaset España,
+Jacob Fruitfield Food Group,Valeo Foods,
+Jaguar Land Rover,Tata Motors Ltd,
+Proactiv Solution,Guthy-Renker,
+Servicio de Trenes Regionales Terra S.A.,Empresa de los Ferrocarriles del Estado,
+Yuyuan Tourist Mart,Fosun International Limited,
+Odeon Cinemas,AMC Theatres,
+Q6128704,March Bank,1963-01-01
+Q6128704,DFI Retail Group,1963-01-01
+Q6128704,March Bank,1990-01-01
+Q6128704,DFI Retail Group,1990-01-01
+Q6128704,March Bank,1986-01-01
+Q6128704,DFI Retail Group,1986-01-01
+Q6128704,March Bank,1997-10-01
+Q6128704,DFI Retail Group,1997-10-01
+Rawlings,Jarden,
+Media Asia Entertainment Group,Lai Sun Group,
+Q6140519,Telefónica,
+The Walt Disney Company Iberia,The Walt Disney Company,
+Canon Medical Systems Corporation,Canon Inc.,
+EFE Central,Empresa de los Ferrocarriles del Estado,
+TRYP by Wyndham,Wyndham Hotels & Resorts,2018-01-01
+Japan Steel Works,Mitsui Group,
+Vía Digital,Telefónica,
+Jayco,Thor Industries,
+Jays Foods,Snyder's-Lance,
+Jensen Electronics,Dual,
+Jiffy Lube,Shell,
+John Menzies,Agility Logistics,
+John West Foods,Thai Union Group,
+Jones Radio Networks,Triton Digital,
+Jumbo,Cencosud,
+Jumbo Video,Québecor Média,
+JustSystems,Keyence,
+KOS Media,Archant,
+KP Snacks,Intersnack,
+Kaleida Labs,Apple Inc.,
+Kaleida Labs,IBM,
+Kalgoorlie Brewing and Ice Company,Swan Brewery,
+Kalyan Jewellers,Kalyan Group,
+Kalyan Silks,Kalyan Group,
+Karaikal port,MARG,
+Karen Millen,Kaupthing Bank,
+Katanga Mining,Glencore,
+Kellwood Company,Sun Capital Partners,
+Yara Suomi,Yara International,
+Kettle Foods,Diamond Foods,
+Keyence Corporation of America,Keyence,
+Kingdom Breweries,Leopard Capital,
+Kings Food Markets,TPG Angelo Gordon,
+Kinh Do Corporation,Mondelez International,2016-01-01
+Kirby Building Systems,Q4724196,
+Kleinwort Benson,BHF Kleinwort Benson Group,
+Vega Telecommunications Group,SCM Holdings,
+Klocwork,Perforce Software,
+Kochi Refineries,Bharat Petroleum,
+Kolynos,Colgate-Palmolive Company,
+NLB Banka Podgorica,NLB Komercijalna banka,
+Korea Hydro & Nuclear Power,Korea Electric Power Corporation,
+Kronospan,Betuva Stiftung,
+LIN Media,HM Capital Partners,
+Ladybird,The Very Group,
+Lakeport Brewing Company,Anheuser-Busch InBev,
+Aperam,Prudential plc,
+Aperam,Value Holdings II,
+FCA Srbija,Fiat Chrysler Automobiles,2021-01-01
+FCA Srbija,Stellantis,2021-01-01
+HitDynamics,Hitwise,
+Hitachi-LG Data Storage,Hitachi,
+GasAtacama,Enel Generación Chile,
+Home Bargains,TJ Morris,
+Home Outfitters,NRDC Equity Partners,
+Hong Kong Air Cargo Terminals Limited,Jardine Matheson,
+Hong Kong Property Services,Midland Holdings,
+HKT,PCCW Limited,
+Shenzhen Investment Holdings Bay Area Development,Shenzhen Investment Holdings,
+Horizon Organic,Danone North America,
+HotPads.com,Zillow,
+Hot 'n Now,Burger Time,
+Hot Air,Salem Media Group,
+Infinitum,América Móvil,
+Hovis,The Gores Group,
+Yeo Hiap Seng,Far East Orchard,
+Hub International,Hellman & Friedman,
+Hudson's Bay Trading Company,NRDC Equity Partners,
+Hudsons Coffee,The Emirates Group,
+Hungry Horse,Greene King,
+Hunt's,"Conagra Brands, Inc.",
+Hunt Construction Group,AECOM,
+Hutchison Asia Telecom Group,Hutchison Whampoa,
+Hutchison Telecommunications Hong Kong Holdings,Hutchison Asia Telecom Group,2009-01-01
+Unifi,Telekom Malaysia,
+Hysan Development Company Limited,Hysan Estates Limited,
+National Iranian South Oil Company,National Iranian Oil Company,
+Clearstream,Deutsche Börse,
+"IArchives, Inc.",Ancestry.com Inc.,
+iBiquity,"DTS, Inc.",
+ICICI Lombard,Fairfax Asia,
+Marco Polo Hotels Group,The Wharf (Holdings) Limited,
+IGM Financial,Power Corporation of Canada,
+INRIX,Porsche Automobil Holding SE,
+iQor,Huntsman Gay Global Capital,
+ISCAR Metalworking,Berkshire Hathaway,2006-01-01
+iSold estate agents,Spicerhaart,
+I Want One of Those,THG,
+iWireless,T-Mobile US,
+Iasis Healthcare,TPG,
+IdeaPocket,WILL,
+ihug,One NZ,
+BioMar Group,Schouw & Co.,
+Ikon Office Solutions,Ricoh,
+Il Fornaio,Roark Capital Group,
+Incapsula,Imperva,
+Incomes Data Services,Thomson Reuters,
+Index,Littlewoods,
+IndiaFirst Life Insurance Company,Bank of Baroda,
+İZULAŞ,İzdeniz,
+Indus Towers,Vodafone India,
+Indus Towers,Idea Cellular,
+Indus Towers,Bharti Infratel,
+"CRRC Tangshan Co., Ltd.",CRRC,
+Jat Tehnika,Avia Prime,
+Jihostroj,JAWAUNION,2010-01-01
+Abu Dhabi National Energy Company,Abu Dhabi Power Corporation,
+Nanbu Bus,Northern Iwate Transportation,
+Kibbles 'n Bits,Big Heart Pet Brands,
+Kimo,SYSTEX Corporation,
+Leblanc,Conn-Selmer,2004-01-01
+Narvesen,Reitan AS,
+Norges Televisjon,Norwegian Broadcasting Corporation,
+Left/Right Productions,ProSiebenSat.1 Media SE,
+Lender's Bagels,Pinnacle Foods,
+LendingTree,QVC Group,
+Leslie's Poolmart,Leonard Green & Partners,
+Lexington Brewing and Distilling Company,Alltech,
+QVC Group,Liberty Media,
+Life Time,Leonard Green & Partners,
+Limmareds glasbruk,Ardagh Group,
+Lincare Holdings Inc.,Linde Group,
+Lincoln Financial Media,Lincoln National Corporation,
+Lionel Kiddie City,Lionel Corporation,
+DFI Retail Group,Jardine Matheson,
+Yamato Transport,Yamato Holdings,
+Little Creatures Brewery,Little World Beverages,
+Littlewoods,The Very Group,
+Hearst Media Production Group,Hearst Communications,
+General Cable,Prysmian Group,
+Lloyds Pharmacy,McKesson Europe AG,
+Logan's Roadhouse,Kelso & Company,
+Lojas Riachuelo,Grupo Guararapes,
+Lokalavisene Oslo,Edda Media,
+London Clubs International,Caesars Entertainment Corporation,
+London Fog,Iconix Brand Group,
+Lonestar Cell,MTN Group,
+LoopNet,CoStar Group,2012-04-01
+Lufkin,Apex Tool Group,
+Luka Rijeka,Port Acquisitions,
+Luminant,Vistra,
+Lutheran Health Network,Community Health Systems,
+MAB Paints,Sherwin-Williams,
+MACTEC,Nautic Partners,
+MAFRA,Kaprain Chemical,2024-01-01
+MAFRA,Kaprain Chemical,2013-01-01
+MBC Networks,Capital Maharaja,
+Mega Brands America,Mattel,
+METRANS Rail,Metrans,
+ME by Meliá,Meliá Hotels International,
+MGM Interactive,MGM Holdings,
+MGS Mobile Gaming,Microsoft,
+MG XPower,MG Sports and Racing Europe,
+MIGI Clothing,Takeover Group,
+MWH Global,Stantec,
+MacFarlan Smith,Johnson Matthey,
+Mackeson Stout,Anheuser-Busch InBev,
+Macquarie Generation,AGL Energy,
+Madonna,WILL,
+Maduro & Curiel's Bank,Scotiabank,
+Maersk Drilling,Maersk Drilling Holding,
+MagCloud,"Blurb, Inc.",
+Magazine Management,Cadence Industries,
+Magma Fincorp,Kohlberg Kravis Roberts,
+Magnolia,San Miguel Corporation,
+Maidenform,Hanesbrands,
+Mailchimp,Intuit,
+Majestic Athletic,"Fanatics, Inc.",
+Makani Technologies,Alphabet Inc.,
+Malakoff,MMC Corporation Berhad,
+Manischewitz,Bain Capital,
+Marconi Communications,General Electric Company plc,
+Marex Spectron International Limited OTF,Trilantic Capital Partners,
+Maribo Bryghus,Royal Unibrew,
+Marine Current Turbines,Siemens,
+Marketwire,OMERS,
+Marmon Group,Berkshire Hathaway,
+Marukai Corporation U.S.A.,Don Quijote,
+Massive Incorporated,Microsoft,
+Matas,Danske Bank,
+Matas,Brightfolk A/S,
+Matches Fashion,Apax Partners,
+Maxi,Ahold Delhaize,
+Maxim's Catering,DFI Retail Group,
+McEwan's,Wells & Young's Brewery,
+Medeco,Assa Abloy,1998-01-01
+MediaWorks New Zealand,Oaktree Capital Management,
+Media Capital,Grupo PRISA,
+Mediehuset Østfold,Edda Media,
+Meineke Car Care Center,Roark Capital Group,
+Meka Robotics,Alphabet Inc.,
+Meow Mix,The J.M. Smucker Company,
+Meraker Brug,Statskog,
+Yield10 Bioscience,Fidelity Investments,
+Metalfrio,BSH Hausgeräte GmbH,
+Metallo Belgium,Aurubis,
+Metalmark Capital,Citigroup,
+Metaswitch,Sequoia Capital,2008-01-01
+Metaswitch,Francisco Partners,2008-01-01
+Metaswitch,Sequoia Capital,2008-01-01
+Metaswitch,Francisco Partners,2008-01-01
+Metinvest,SCM Holdings,
+Midnite Movies,Metro-Goldwyn-Mayer,
+MindSpring,EarthLink,2000-01-01
+Mindspark Interactive Network,IAC,
+Miramar Hotel and Investment,KOLOUR,
+Miss Selfridge,ASOS,
+Mitsubishi UFJ Trust and Banking Corporation,Mitsubishi UFJ Financial Group,
+Mitsui Engineering & Shipbuilding,Mitsui Group,
+MobiFone,Vietnam Posts and Telecommunications Group,
+Mobily,e&,
+Aero 2,Polkomtel,
+Model Products Corporation,"Round 2 Corp, LLC",
+Modern Terminals Limited,The Wharf (Holdings) Limited,
+Moneycorp,Bridgepoint Capital,
+Mortein,Reckitt,
+Mother's Cookies,Kellanova,
+Move inc.,News Corp,
+Movicel,Angola Telecom,
+MovieTickets.com,Fandango,
+MovieWeb,"Valnet, Inc",
+Multiplay UK,Game Digital plc,
+Music and Video Club,Kingfisher plc,
+My.T,Mauritius Telecom,
+MyFitnessPal,Under Armour,
+N.S. Bienstock,United Talent Agency,
+NBCUniversal Syndication Studios,Comcast,
+NBC Owned Television Stations,NBCUniversal Media Group,
+NCO Group,One Equity Partners,
+NEC Group,Lloyds Banking Group,
+NEC Mobile Communications,Hitachi,
+NEC Mobile Communications,NEC,
+NEXTV,Ethnic Channels Group,
+NKT,BlackRock,
+NNIT,Novo Nordisk,
+NNIT,Chr. Augustinus Fabrikker,
+NNIT,Novo Holdings,
+CTF Services Limited,Chow Tai Fook,
+Nadex,IG Group,
+"CRRC Nanjing Puzhen Co., Ltd.",CRRC,
+NANOSENSORS™,NanoWorld,
+Nordkraft,Jämtkraft,
+Nordkraft,Trollfjord Kraft AS,
+National Car Parks,"Park24 Co., Ltd.",
+Navarro Discount Pharmacies,CVS Pharmacy,
+NaviSite,Accenture,2024-01-11
+NaviSite,Charter Communications,2024-01-11
+NaviSite,Accenture,2016-08-26
+NaviSite,Charter Communications,2016-08-26
+Navini Networks,Cisco,
+Nebraska Furniture Mart,Berkshire Hathaway,
+Necco,American Capital,
+Neotonic Software,Google,
+Net4Mobility,Tele2,
+Netshoes,Magazine Luiza,
+New Era Tickets,Comcast,
+New Holland Construction,CNH Industrial,
+New Line Television,WarnerMedia,
+Vision Values Holdings Limited,New World Development Company Limited,2004-01-01
+Newport Television,Providence Equity Partners,
+Nexstar Media Group,BlackRock,
+Nexstar Media Group,The Vanguard Group,
+Nextgen Networks,Ontario Teachers' Pension Plan,
+Nicira,VMware,
+Nickelodeon Kids & Family Virtual Worlds Group,Viacom,
+Ninemsn,Mi9,
+NordicTrack,Icon Health & Fitness,
+Norkom,BAE Systems,
+Northern Gas Networks,CK Infrastructure Holdings,
+Noxzema,Unilever,
+NuScale,Fluor Corporation,
+Nuveen Investments,TIAA,
+Tesco,Telefónica,
+OKK Koksovny,MTX Group,2006-01-01
+OKK Koksovny,MTX Group,2014-01-01
+OKK Koksovny,MTX Group,2001-01-01
+OKK Koksovny,MTX Group,2013-01-01
+OLCO Petroleum Group,Morgan Stanley,
+OPEL Networks,Elders Limited,
+OPSM,Luxottica,
+ORC International,Lake Capital,
+Cosmote TV,OTE,
+Vojvođanska banka,OTP Bank,
+O Boticário,Grupo Boticário,
+Ocarina Networks,Dell,
+Ocean Shores Video,Win's Entertainment,
+Oliver Peoples,Luxottica,
+Olympia Entertainment,Ilitch Holdings,
+Oman Oil Marketing Company,OQ Company,
+Omnicare,CVS Health,
+OneLink Communications,Liberty Global,
+One,Telekom Slovenije,
+Onefinestay,Accor,
+Ontera,Ontario Northland Transportation Commission,
+Opel Wien,General Motors,
+Oras,Oras Invest,
+Oriental Trading Company,Berkshire Hathaway,
+Original Musical Instrument Company,Gibson Brands,1993-01-01
+9 Story USA,9 Story Media Group,
+Outright,GoDaddy,
+Overland Storage,Sphere 3D,
+PerSay,Nuance Communications,
+DAZN Group,Vista Equity Partners,
+Petco,CVC Capital Partners,
+PetroVietnam Insurance,Petrovietnam,
+Petromidia Refinery,Rompetrol,
+Petrotel Lukoil Refinery,Lukoil,
+Phase Linear,Pioneer Corporation,1970-01-01
+Phase Linear,Jensen Electronics,1970-01-01
+Phase Linear,Pioneer Corporation,1979-01-01
+Phase Linear,Jensen Electronics,1979-01-01
+Phase Linear,Pioneer Corporation,1982-01-01
+Phase Linear,Jensen Electronics,1982-01-01
+Phones 4u,BC Partners,
+Rocawear,Iconix Brand Group,
+Play,Novator Partners,
+Plusnet,BT Group,
+Wärtsilä Marine,Wärtsilä,
+Wärtsilä Marine,Valmet,
+Polly-O,Kraft Heinz,
+Polygon,"Valnet, Inc",2012-10-01
+Polygon,"Valnet, Inc",2025-05-01
+Port Pipavav,Maersk,
+Port Talbot Steelworks,Tata Steel,
+365.bank,J&T Finance Group,
+Prague Steamboat Company,Evropská vodní doprava,http://www
+Prague Steamboat Company,Evropská vodní doprava,2002-01-01
+Prairie Mountain Publishing,Digital First Media,
+Precision Castparts Corp.,Berkshire Hathaway,2016-01-01
+Premiere Networks,iHeartMedia,
+Pricing Partners Cie,Thomson Reuters,
+Princes,NewPrinces,
+Principal Hayley Group,Starwood Capital Group,2013-01-01
+Pro Plus,Central European Media Enterprises,
+Proctor Silex,NACCO Industries,
+Progard Securitas,G4S,
+Protécréa,Groupe TF1,
+Psagot Investment House,Apax Partners,
+Hui Xian REIT,ARA Asset Management Limited,
+Public Bank,Q10937052,
+Puget Sound Energy,Macquarie Group,
+Puppet,Perforce Software,
+Puregold,Capital Group Companies,
+Purina One,Nestlé Purina PetCare,
+Purolator,Canada Post,
+"CRRC Qishuyan Co., Ltd.",CRRC,
+Quadra FNX Mining,KGHM Polska Miedź,
+Quanta Technology,Quanta Services,
+Quattor,Petrobras,
+Froneri,PAI Partners,
+RAC Limited,CVC Capital Partners,
+RCTV International,Empresas 1BC,
+RKA Records,Sony Music,
+RTÉ News and Current Affairs,Raidió Teilifís Éireann,
+RTÉ Television,Raidió Teilifís Éireann,
+Radica Games,Mattel,2006-10-03
+Rakuten Anshin Torihiki,NTT DoCoMo,
+Rakuten Anshin Torihiki,"Rakuten Group, Inc.",
+Rapid Bus,Prasarana Malaysia,
+RateMyProfessors,Viacom,
+Razorline,Marvel Entertainment,
+Reata Pharmaceuticals,Invesco,
+Reata Pharmaceuticals,The Vanguard Group,
+Reata Pharmaceuticals,Wellington Management Company,
+Red Rose Tea,Teekanne,
+Red Star Yeast,Lesaffre,
+Rede Energia,CPFL Energia,
+Reedy Creek Energy Services,Disney Experiences,
+Reef,VF Corporation,
+Regal Musical Instrument Company,Fender Musical Instruments Corporation,1987-01-01
+Regal Musical Instrument Company,Fender Musical Instruments Corporation,1954-01-01
+Regal Musical Instrument Company,Fender Musical Instruments Corporation,1960-01-01
+Rentrak,Comscore,
+Respironics,Koninklijke Philips NV,
+Richelieu Foods,Centerview Partners,
+Riddell Sports Group,Easton-Bell Sports,
+Ridley's Brewery,Greene King,
+RightsFlow,Google,
+Rimac Automobili,Bugatti Rimac,
+River Trade Terminal,CK Hutchison Holdings,
+Rivian Automotive,Amazon,
+Rivian Automotive,Ford Motor Company,
+Rivian Automotive,Volkswagen Group,
+Rivian Automotive,Abdul Latif Jameel,
+Roadchef,Antin Infrastructure Partners,
+Yazd Tire,Goldstone Tires,
+Robi Axiata,Axiata,
+Robi Axiata,NTT DoCoMo,
+Rock Radio,Real and Smooth,
+Rockhopper Exploration,FIL Investment Services (UK) Limited,
+Rockhopper Exploration,Majedie Asset Management,
+Rodeway Inn,Choice Hotels,
+Rodilla,S.A. Damm,
+Rogers Hi-Speed Internet,Rogers Communications,
+Rogers Plus,Rogers Communications,
+Rogers Radio,Rogers Communications,
+Rome Refinery,TotalErg,2010-01-01
+Rosetta Stone,ABS Capital Partners,
+Roundy's,Kroger,
+Royal Brierley,Dartington Crystal,
+Rural Metro,American Medical Response,
+"Ryerson, Inc.",Platinum Equity,
+SA Power Networks,CK Infrastructure Holdings,
+SBI Life Insurance Company Limited,SBI,
+SDI Media Czech Republic,SDI Media Group,
+Iyuno Hungary,Elevation Partners,
+SDI Media Polska,SDI Media Group,
+SDI Media Russia,SDI Media Group,
+SDI Media Sweden,SDI Media Group,
+SDI Media Sweden,SDI Media Denmark,
+SF Broadcasting,News Corporation,
+SMEC Holdings,Surbana Corporation Pte Ltd,
+SM Department Store,SM Investments Corporation,
+SM Supermarket,SM Investments Corporation,
+SN Power,Scatec Solar,
+Akana,Perforce Software,
+SPICA,TRW Inc.,
+AusNet Services,RARE Infrastructure,
+SYS Technologies,Kratos Defense & Security Solutions,
+Safaricom,Vodacom,
+Saint Honore Cake Shop,Convenience Retail Asia,
+Saks Incorporated,NRDC Equity Partners,
+Salling,Salling Group,
+Samsung SDS,Samsung Electronics,
+Samsung SDS,Samsung C&T Corporation,
+Samsung SDS,National Pension Service,
+Sabah Electricity,Tenaga Nasional,
+Sass & Bide,Myer,
+Kalashnikov Concern,Rostec,
+Savers Health & Beauty,A.S. Watson Group,
+Savored,Groupon,
+Scene7,Adobe,
+Science Diet,Colgate-Palmolive Company,
+Scream Pubs,Stonegate Pub Company,
+SeaCat,Sea Containers,
+Sector No Limits,Morellato Group,
+Seculert,Radware,
+"Securus, Inc.",BrickHouse Security,
+Segway Inc.,Ninebot,2015-01-01
+"Select Portfolio Servicing, Inc.",Credit Suisse,
+Sellier & Bellot,CBC Europe,2009-01-01
+Sellier & Bellot,CBC Europe,2012-01-01
+Semafo,Endeavour Mining,2020-07-01
+Lotte Chemical Titan,Lotte Chemical,
+Sente Technologies,Midway Games,
+Sequenom,LabCorp,
+SBB,Kohlberg Kravis Roberts,
+Serco-Abellio,Serco Group,
+Slavutych Brewery,Carlsberg Group,
+Slim Devices,Logitech,2006-10-18
+Smaalenene Medier,Amedia,
+SmartPost,Posti Group,
+So Television,ITV plc,
+OTP banka Srbija,OTP Bank,
+Thunderbird Releasing,Thunderbird Entertainment,
+Software Creations,Acclaim Entertainment,
+Sogn og Fjordane Energi AS,Eviny,
+Sognekraft,Eviny,
+Sognekraft,Luster Energiverk,
+Sogou,Tencent,2021-01-01
+Sogou,Sohu,2021-01-01
+Sogou,Tencent,2004-01-01
+Sogou,Sohu,2004-01-01
+SolarCity,"Tesla, Inc.",2016-11-21
+Sold-Out Software,Mastertronic,
+Songza,Alphabet Inc.,
+Soundelux,CSS Studios,
+South African Breweries,SABMiller,
+South Cameroon Company,Schantung Handels-AG,
+Southern Nuclear,Southern Company,
+Spectra Energy,Enbridge,
+Spring,Fremantle Australia,
+St. John Knits International Inc.,Fosun International Limited,
+St. Louis Car Company,General Steel Industries,1960-06-01
+Standard Register Inc.,Taylor Corporation,
+Staples Argentina,Staples Inc.,
+Star in the Hood,Takeover Group,
+Starblaze Graphics,The Donning Company,
+Starz Distribution,Starz Inc.,
+Steak 'n Shake,Biglari Holdings Inc.,
+Steward Health Care System,Cerberus Capital Management,
+Stewart Enterprises,Service Corporation International,
+Stibo,STIBO HOLDING A/S,
+Sun Products,Q276507,
+Sunshine Biscuits,Kellanova,
+SuperValu,Musgrave Group,
+Superior Air Parts,Superior Aviation Beijing,
+Sur La Table,Investcorp,
+Susquehanna Radio Corporation,Susquehanna Pfaltzgraff,
+Swan Brewery,Lion,
+Swebus Express,Nobina,
+Swire Hotels,Swire Properties,
+SwissSign,Die Schweizerische Post,
+Sybase iAnywhere,Sybase,
+Symphogen,Novo Holdings,
+SymphonyIRI Group,New Mountain Capital,
+SynBio,Rusnano,
+Syniverse,Carlyle Group,
+Sytner Group,Penske Corporation,
+TCW Group,Carlyle Group,
+TD Ameritrade,Toronto-Dominion Bank,
+TD Auto Finance,Toronto-Dominion Bank,
+TIML Radio Limited,The Times Group,
+TOM Group,Cheung Kong Holdings,
+TPG Telecom,TPG Telecom,
+TSheets,Intuit,
+FanDuel TV,betfair,
+T J Hughes,Lewis's,
+Takeover/Cloud 9,Takeover Group,
+Takeover Entertainment,Takeover Group,
+Taleo,Oracle Corporation,
+Talkmobile,Vodafone UK,
+Taste,A.S. Watson Group,
+Tata Swach,Tata Chemicals,
+Team Durango,Hobbico,
+Teekay Petrojarl,Teekay,
+Teilifís na Gaeilge,Raidió Teilifís Éireann,
+iconectiv,Koch Equity Development,2024-01-01
+Telemach Bosnia and Herzegovina,BC Partners,
+Telepictures,WarnerMedia,
+Telespazio VEGA UK,Telespazio,
+Terrapin Beer Company,MillerCoors,
+Eggplant,Keysight Technologies,
+Texperts,Knowledge Generation Bureau,
+Thames River Services,Crown River Cruises,
+Thames River Services,Viscount Cruises,
+Thames River Services,Westminster Party Boats,
+The Container Store,Leonard Green & Partners,
+The Daily Courier,Western Newspapers,
+Yuexiu Property,Yuexiu Enterprises,
+The Emirates Group,Investment Corporation of Dubai,
+The Gamers,Multi-Man Publishing,2001-01-01
+The Keg,Fairfax Financial,
+"The Leela Palaces, Hotels and Resorts",The Leela Group,
+The Original Factory Shop,Duke Street Capital,
+The Perfume Shop,A.S. Watson Group,
+The World,WWE,
+Attackers,WILL,
+Thomas Guide,Rand McNally,1999-01-01
+3hreeSixty,DFI Retail Group,
+Tianjin Port Development,Tianjin Development,
+Tickets.com,Major League Baseball Advanced Media,
+Time Life,Time Inc.,
+Toca Boca,Spin Master,
+Tomkins plc,Onex Corporation,
+Tooheys Brewery,Mitsubishi,
+Toolstation,Travis Perkins,
+Towngas Smart Energy,The Hong Kong and China Gas Company Limited,
+Toyota Canada Inc.,Mitsui & Co.,
+TradeCard,Warburg Pincus,
+Transpetro,Petrobras,
+Tri Polyta,Siam Cement,
+Tri Polyta,Barito Pacific,
+Tri Polyta,Marigold Resources Pte,
+Trigger Street Productions,Yuuzoo,
+Tripwire,Belden Incorporated,
+Troms Kraft,Q135652922,
+Tsim Sha Tsui Properties Limited,Sino Group,
+Tube Products of India,Murugappa Group,
+TurboSquid,Shutterstock,2021-01-01
+Warner Bros. Discovery Arabic,Warner Bros. Discovery,
+Turner Broadcasting System Denmark,WarnerMedia,
+Turner Broadcasting System Europe,WarnerMedia,
+Turner Broadcasting System Asia Pacific,WarnerMedia,
+Warner Bros. Discovery Hungary,Warner Bros. Discovery,
+Turner Broadcasting System France,WarnerMedia,
+Warner Bros. Discovery Germany,WarnerMedia,
+Turner Broadcasting System Norway,WarnerMedia,
+Turner Broadcasting System Poland,WarnerMedia,
+Warner Bros. Discovery Netherlands,Warner Bros. Discovery,
+Warner Bros. Discovery Russia,Warner Bros. Discovery,
+Turner Broadcasting System,WarnerMedia,
+Warner Bros. Discovery Romania,Warner Bros. Discovery,
+Warner Bros. Discovery Sweden,Warner Bros. Discovery,
+Warner Bros. Discovery Spain,Warner Bros. Discovery,
+Warner Bros. Discovery Argentina,Warner Bros. Discovery,
+Turner International Australia,WarnerMedia,
+TNT Sports,Warner Bros. Discovery,
+Twofour,ITV plc,
+UOB-Kay Hian,UOB-Kay Hian,
+UPC Poland,UPC Broadband,
+UPL,Universal Entertainment,
+USC,Frasers Group,
+US West,AT&T Corporation,
+News Broadcasting,News Corp,
+U Car Share,U-Haul,
+Ufone,e&,
+UniCare,"Elevance Health, Inc.",
+UniCredit Bank Serbia,UniCredit,
+United Furniture Warehouse,Leon's,
+Disney Publishing Worldwide,The Walt Disney Company,
+Upper Canada Brewing Company,Sleeman Breweries,
+VECO Corporation,CH2M Hill,
+VTNZ,Dekra SE,
+VWR International,Avantor,
+Vale Fertilizantes,Vale,
+Valitor,Arion Bank,
+Worldpay,Fidelity National Information Services,2009-01-01
+Worldpay,GTCR,2009-01-01
+Worldpay,Fidelity National Information Services,1971-01-01
+Worldpay,GTCR,1971-01-01
+Worldpay,Fidelity National Information Services,2024-02-01
+Worldpay,GTCR,2024-02-01
+Worldpay,Fidelity National Information Services,2024-02-01
+Worldpay,GTCR,2024-02-01
+Varsity,Stonegate Pub Company,
+Vemex,Securing Energy for Europe,
+Vemex,Centrex Europe Energy & Gas,
+Vemex,MND Group,
+Venda Inc,NetSuite,
+Veracode,Thoma Bravo,
+Billerud,Apollo Global Management,
+ViacomCBS International,Viacom,
+Vigor S.A.,Group Lala,
+Virgin Care,Virgin Group,
+Virgin Experience Days,Virgin Group,
+Virgin Holidays Cruises,Virgin Group,
+Virgin Mobile UK,Liberty Global,
+Virgin Money US,Virgin Group,
+Energia Group,I Squared Capital,
+Telemig Celular,Q10379175,
+Vlasic Pickles,Pinnacle Foods,
+Cision,GTCR,
+Vodafone Albania,Vodafone Greece,
+Vodafone Albania,Vodafone Europe,
+TPG Telecom,Vodafone,2020-01-01
+TPG Telecom,Vodafone,2020-01-01
+Vodafone Hungary,Vodafone,2023-01-31
+Vodafone Hungary,Vodafone,2023-01-31
+Epic Malta,Monaco Telecom,2020-01-01
+Vodafone UK,VodafoneThree,
+Vodafone Spain,Zegona Communications PLC,2024-01-01
+Vodafone Spain,Zegona Communications PLC,2001-01-01
+Naša AIK Banka,AikBank,
+Skoda Auto Volkswagen India,Škoda Auto,
+Volkswagen Group of America,Volkswagen Group,
+Vopium,Q98539444,
+Votorantim Siderurgia,Votorantim Group,
+Nexa Resources,Votorantim Group,
+Vuzix,Intel,
+"Founder BEA Trust Co., Ltd.",Bank of East Asia,
+"Founder BEA Trust Co., Ltd.",Founder Group,
+WSB,Cox Media Group,
+Wainwright Bank,Eastern Bank,
+Wales & West Utilities,CK Infrastructure Holdings,
+Want Want China,Want Want,
+Wanz Factory,WILL,
+Warhorse Studios,Plaion,2019-01-01
+Warner Bros. Domestic Television Distribution,Warner Bros. Discovery,
+Wateen Telecom,Warid Telecom,
+Watson's Wine Cellar,A.S. Watson Group,
+Watson's Personal Care Stores,A.S. Watson Group,
+Weetabix Limited,Post Holdings,
+Wei-Chuan,Ting Hsin International Group,
+Weis,Unilever,
+Welltec,Exor,
+Wellworths,Fitzwilton,

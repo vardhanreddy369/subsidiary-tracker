@@ -14,7 +14,7 @@ An AI-powered research platform for tracking corporate subsidiary timelines usin
 ## Key Paths
 - `backend/app.py` — FastAPI entry, serves static files from `frontend/`
 - `backend/database.py` — SQLite schema + queries
-- `backend/data_loader.py` — SAS dataset → SQLite pipeline (source: `data/subs_all_new.sas7bdat`)
+- `backend/data_loader.py` — SAS dataset → SQLite pipeline (source: `data/subs_all_latest.sas7bdat`)
 - `backend/rebuild_db.py` — Reconstructs DB from `data/*.csv.gz` on deploy
 - `backend/agent/` — Gemini + EDGAR + Wikipedia enrichment (REST API, not SDK)
 - `backend/agent/gemini_client.py` — Gemini REST API with retry logic, JSON parsing, type inference heuristics
@@ -64,16 +64,58 @@ Bug fix history:
 
 Confidence scoring: Entity suffix detection (LLC, Inc, Corp, Ltd, GmbH, etc.) → HIGH. Otherwise uses TimeIn/TimeOut filing bracket logic.
 
-## Future Enrichment Improvements (Research)
-Priority improvements to push accuracy beyond current heuristic level:
-1. **EDGAR 8-K Item 2.01 search** — Query `https://efts.sec.gov/LATEST/search-index?q="SUB_NAME" "Item 2.01"&forms=8-K` for uncertain cases. Rate: 10 req/sec.
-2. **EDGAR filing cessation** — If a sub has its own CIK and stopped filing 10-K/10-Q, it was acquired. Check via `https://data.sec.gov/submissions/CIK{padded}.json` → `filings.recent`.
-3. **EDGAR formerNames** — CIK JSON has `formerNames[]` array. Name changes signal acquisition/rebranding.
-4. **Wikidata SPARQL** — Bulk query P127 ("owned by") property for structured M&A ground truth.
-5. **Wikipedia API** — Search for "acquired by" language for notable companies.
-6. **ML classifier** — Train on ground truth from above sources. Features: name similarity, cross-CIK, 8-K hits, batch_size, filing cessation. Even logistic regression should hit 85%+.
+## Enrichment Accuracy Research
 
-Academic paper targets: ICAIF 2026 (Jun-Jul deadline), JFDS (rolling), KDD ADS Track.
+### Current Accuracy (~70%)
+Heuristic v3 achieves ~70% on known acquisitions, 100% on known internals. Distribution: 47.5% Acq, 49.6% Internal (target: ~35% Acq, ~55% Internal).
+
+Remaining failures: Instagram (only 1 CIK, no cross-CIK signal), some Merrill Lynch entities (post-acquisition rebranding), Enron SPEs (creative names trigger false acquisition).
+
+### Validated External APIs (all confirmed working, all free)
+1. **EDGAR EFTS 8-K Search** — `efts.sec.gov/LATEST/search-index?q="SUB_NAME" "Item 2.01"&forms=8-K`
+   - Confirmed: Found LinkedIn→Microsoft (2016-12-08), Whole Foods→Amazon (2017-08-28)
+   - Rate: 10 req/sec. Catches ~70-80% of material acquisitions.
+2. **Wikidata SPARQL** — `query.wikidata.org/sparql` with P31=Q4830453 + P127 (owned by)
+   - Downloaded 5,000 M&A records, 1,195 with dates → `data/wikidata_ma_ground_truth.csv`
+3. **EDGAR Submissions JSON** — `data.sec.gov/submissions/CIK{padded}.json`
+   - `formerNames` array + filing history for cessation detection
+
+### Roadmap to 90%+ Accuracy
+
+**Phase 1: Ground Truth Dataset (1-2 days)**
+- Cross-reference Wikidata 5K M&A records with our 1.19M subs
+- EDGAR 8-K Item 2.01 bulk scrape for uncertain subs
+- Build labeled training set of ~5-10K confirmed acquisitions + internals
+
+**Phase 2: Feature Engineering (1 day)**
+9 features ranked by importance:
+1. cross_cik_flag (binary) — strongest signal
+2. name_similarity_to_parent (Jaccard on meaningful words)
+3. entity_suffix_type (Inc/Corp vs LLC/LP vs Ltd)
+4. first_seen_lag (days after parent's first filing)
+5. batch_size (# subs appearing same date)
+6. has_functional_keywords (trust, funding, properties)
+7. has_geographic_tokens
+8. 8K_item_2_01_match (from EDGAR EFTS)
+9. active_divested_status
+
+**Phase 3: ML Classifier (2-3 days)**
+- XGBoost/LightGBM on tabular features → 80-88% accuracy
+- Optional: FinBERT (ProsusAI/finbert) embeddings on sub names → 88-93%
+- Rule overrides (cross-CIK + 8-K match) → 90-95%
+
+**Phase 4: Validation**
+- Test against known M&A: LinkedIn, Instagram, Whole Foods, Countrywide, DreamWorks
+- Test against known internal: AWS, Apple Sales International, Goldman Sachs International
+
+### Key Academic References
+- Dyreng, Lindsey, Thornock (2013) — Exhibit 21 parsing for subsidiary research
+- Cohen, Malloy, Nguyen (2020) — "Lazy Prices" textual change detection in SEC filings
+- Grinsztajn et al. (2022) — tree models beat deep learning on tabular data
+- FinBERT (ProsusAI/finbert) — financial domain BERT model
+
+### Paper Targets
+- ICAIF 2026 (Jun-Jul deadline), JFDS (rolling), KDD ADS Track
 
 ## Conventions
 - Frontend uses IIFE pattern to avoid global namespace pollution

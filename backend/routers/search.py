@@ -53,14 +53,31 @@ async def turbo_enrich_stream(cik: str = ""):
                 batch_sizes[(bcik, bdate)] = bcnt
 
         # Pre-compute cross-CIK subs (same name under multiple parents = acquisition signal)
+        # Uses exact name match + first-word brand match for better coverage
         cross_cik_subs = set()
+        cross_cik_brands = set()  # first meaningful word appearing under multiple CIKs
         with get_db() as conn:
+            # Exact name matches
             multi_parent = conn.execute("""
                 SELECT sub_name FROM subsidiaries
                 GROUP BY sub_name HAVING COUNT(DISTINCT cik) > 1
             """).fetchall()
             for (name,) in multi_parent:
                 cross_cik_subs.add(name.lower().strip())
+
+            # Brand-level matches: first word of sub_name under multiple CIKs
+            # This catches "LinkedIn Corporation" under Microsoft when "LinkedIn Ireland"
+            # existed under LinkedIn's own CIK
+            brand_rows = conn.execute("""
+                SELECT LOWER(SUBSTR(sub_name, 1, INSTR(sub_name || ' ', ' ') - 1)) as brand,
+                       COUNT(DISTINCT cik) as cik_count
+                FROM subsidiaries
+                WHERE LENGTH(sub_name) > 3
+                GROUP BY brand
+                HAVING cik_count > 1 AND LENGTH(brand) >= 4
+            """).fetchall()
+            for brand, _ in brand_rows:
+                cross_cik_brands.add(brand.strip())
 
         # Process in chunks and write to DB
         CHUNK = 5000
@@ -73,7 +90,29 @@ async def turbo_enrich_stream(cik: str = ""):
             updates = []
             for rid, sub_name, company_name, first_seen, first_filing, row_cik in chunk:
                 bs = batch_sizes.get((row_cik, first_seen), 0) if row_cik else 0
-                is_cross_cik = sub_name.lower().strip() in cross_cik_subs
+                sub_lower = sub_name.lower().strip()
+                first_word = sub_lower.split()[0] if sub_lower else ""
+                # Exact name match is strong signal; brand match only if
+                # the brand is a distinctive proper noun (not a generic word)
+                _generic_brands = {"american", "national", "united", "general",
+                                   "first", "new", "great", "golden", "western",
+                                   "eastern", "northern", "southern", "central",
+                                   "pacific", "atlantic", "international", "global",
+                                   "company", "consolidated", "development",
+                                   "corporate", "capital", "standard", "premier",
+                                   "advanced", "north", "south", "east", "west",
+                                   "fashion", "cole", "universal", "shanghai",
+                                   "beijing", "hong", "royal", "imperial",
+                                   "liberty", "heritage", "summit", "eagle",
+                                   "harbor", "horizon", "phoenix", "alpine",
+                                   "silver", "diamond", "emerald", "sapphire",
+                                   "plaza", "tower", "bridge", "river", "lake",
+                                   "valley", "mountain", "island", "metro",
+                                   "trans", "tri", "mid", "star", "blue", "red",
+                                   "green", "black", "white", "crown", "cross"}
+                is_cross_cik = (sub_lower in cross_cik_subs or
+                                (len(first_word) >= 5 and first_word in cross_cik_brands
+                                 and first_word not in _generic_brands))
                 inferred = _infer_type_from_name(sub_name, company_name,
                                                   first_seen or "", first_filing or "", bs,
                                                   is_cross_cik)
@@ -237,6 +276,68 @@ async def batch_enrich(cik: str):
 
 
 # --- Dynamic routes (must come AFTER static routes) ---
+
+@router.get("/8k-check/{cik}/stream")
+async def check_8k_stream(cik: str, limit: int = 50):
+    """Check subsidiaries against EDGAR 8-K Item 2.01 filings via SSE."""
+    from backend.agent.edgar_8k import search_8k_acquisition
+    from backend.routers.subsidiaries import invalidate_stats_cache
+
+    with get_db() as conn:
+        subs = conn.execute("""
+            SELECT s.id, s.sub_name, s.type, s.cik
+            FROM subsidiaries s
+            WHERE s.cik = ? AND s.type != 'External Acquisition'
+            ORDER BY s.first_seen DESC LIMIT ?
+        """, (cik, limit)).fetchall()
+
+    total = len(subs)
+
+    async def event_generator():
+        yield {"event": "start", "data": json.dumps({"total": total, "cik": cik})}
+
+        if total == 0:
+            yield {"event": "done", "data": json.dumps({"status": "complete", "found": 0})}
+            return
+
+        found = 0
+        import aiohttp
+        async with aiohttp.ClientSession() as session:
+            for i, sub in enumerate(subs):
+                sub_dict = dict(sub)
+                result = await search_8k_acquisition(
+                    sub_dict["sub_name"], cik, session
+                )
+
+                if result.get("found") and result.get("is_parent_filing"):
+                    found += 1
+                    with get_db() as conn:
+                        conn.execute(
+                            "UPDATE subsidiaries SET type=?, source=? WHERE id=?",
+                            ("External Acquisition", "SEC 8-K Item 2.01", sub_dict["id"])
+                        )
+
+                yield {
+                    "event": "progress",
+                    "data": json.dumps({
+                        "current": i + 1,
+                        "total": total,
+                        "sub_name": sub_dict["sub_name"],
+                        "found": result.get("found", False),
+                        "is_parent": result.get("is_parent_filing", False),
+                        "filing_date": result.get("filing_date", ""),
+                        "acquisitions_found": found,
+                    }),
+                }
+
+        invalidate_stats_cache()
+        yield {
+            "event": "done",
+            "data": json.dumps({"status": "complete", "found": found, "total": total}),
+        }
+
+    return EventSourceResponse(event_generator())
+
 
 @router.get("/{sub_id}/stream")
 async def trigger_search(sub_id: int):
