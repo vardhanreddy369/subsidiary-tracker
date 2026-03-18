@@ -7,9 +7,10 @@ An AI-powered research platform for tracking corporate subsidiary timelines usin
 - **Backend**: FastAPI (Python 3.11) + SQLite WAL mode (~500MB, rebuilt from CSV.gz on deploy)
 - **Frontend**: Vanilla HTML/CSS/JS (no build step), Chart.js for visualizations, GSAP for animations
 - **AI Agent**: Google Gemini 2.0 Flash free tier for on-demand subsidiary enrichment
-- **Deployment**: Render (render.yaml configured, self-ping keepalive every 14 min)
+- **Deployment**: Railway (railway.toml, always-on, no cold starts) + Render (backup)
 - **GitHub**: vardhanreddy369/subsidiary-tracker
-- **Live**: https://subsidiary-tracker.onrender.com
+- **Live**: https://subsidiary-tracker-production.up.railway.app
+- **Backup**: https://subsidiary-tracker.onrender.com
 
 ## Key Paths
 - `backend/app.py` — FastAPI entry, serves static files from `frontend/`
