@@ -42,7 +42,7 @@ Search across 1.19M records by name, view enrichment results with source links f
   - **Turbo** (~9 seconds for all 1.19M) — Pure heuristic classification, no API calls
   - **Fast** (~1-2s per sub) — EDGAR + Wikipedia cross-referencing with heuristics
   - **Full AI** (~6-8s per sub) — Google Gemini reasoning on top of EDGAR + Wikipedia evidence
-- **Independently Evaluated Classification** — Measured against 278 Wikidata-verified acquisitions (leakage-free): heuristic recall 50%, XGBoost ROC-AUC 0.77 — see [docs/EVALUATION.md](docs/EVALUATION.md)
+- **Independently Evaluated Classification** — Measured against 324 Wikidata-verified acquisitions (leakage-free): heuristic recall 52%, XGBoost ROC-AUC 0.82, 51% recall at ≤10% FPR — see [docs/EVALUATION.md](docs/EVALUATION.md)
 - **Algorithmic Timeline Computation** — TimeIn/TimeOut for every subsidiary by diffing filings across years
 - **Interactive Dashboard** — Real-time stats, charts, search, and enrichment controls
 - **Company Comparison** — Side-by-side analysis of up to 4 companies
@@ -93,7 +93,7 @@ Each row in the SEC Exhibit 21 dataset represents a subsidiary listed in a speci
 
 | Mode | Speed | Method | Measured performance |
 |------|-------|--------|----------------------|
-| Turbo | ~9s for 1.19M | Name heuristics + filing patterns | 50% recall / 24% precision on 278 Wikidata-verified acquisitions ([details](docs/EVALUATION.md)) |
+| Turbo | ~9s for 1.19M | Name heuristics + filing patterns | 52% recall / 25% precision on 324 Wikidata-verified acquisitions ([details](docs/EVALUATION.md)) |
 | Fast | ~1-2s/sub | EDGAR + Wikipedia + heuristics | not independently measured |
 | Full AI | ~6-8s/sub | Gemini reasoning on EDGAR + Wiki evidence | not independently measured |
 
