@@ -183,9 +183,13 @@ def build_acquirer_index(companies):
     by_set = defaultdict(list)
     by_init = defaultdict(list)
     comp_words = {}
-    for c in companies.values():
+    comp_wsets = {}
+    comp_list = list(companies.values())
+    by_token = defaultdict(list)   # token -> company positions (file order)
+    for pos, c in enumerate(comp_list):
         w = norm_words(c["company_name"])
         comp_words[c["cik"]] = w
+        comp_wsets[c["cik"]] = set(w)
         if not w:
             continue
         by_tuple[tuple(w)].append(c)
@@ -193,11 +197,13 @@ def build_acquirer_index(companies):
         ini = initialism(w)
         if ini and len(ini) >= 3:
             by_init[ini].append(c)
-    return by_tuple, by_set, by_init, comp_words
+        for t in set(w):
+            by_token[t].append(pos)
+    return by_tuple, by_set, by_init, comp_words, comp_list, comp_wsets, by_token
 
 
 def acquirer_candidates(name, idx, companies, tok_df):
-    by_tuple, by_set, by_init, comp_words = idx
+    by_tuple, by_set, by_init, comp_words, comp_list, comp_wsets, by_token = idx
     w = norm_words(name)
     if not w:
         return [], "none"
@@ -209,15 +215,37 @@ def acquirer_candidates(name, idx, companies, tok_df):
         return by_init[w[0]], "initialism"
     aw = set(w)
     if min((tok_df[t] for t in aw), default=10 ** 9) <= RARE_DF:
-        hits = [c for c in companies.values()
-                if aw <= set(comp_words[c["cik"]])
-                and len(set(comp_words[c["cik"]])) - len(aw) <= 1]
+        # Candidate blocking: aw <= company words requires every acquirer
+        # token to appear in the company name, so only the (shortest) posting
+        # list of one acquirer token needs scanning -- not all companies.
+        # Posting lists are in file order, so hit order is unchanged.
+        postings = min((by_token.get(t, ()) for t in aw), key=len)
+        hits = [comp_list[p] for p in postings
+                if aw <= comp_wsets[comp_list[p]["cik"]]
+                and len(comp_wsets[comp_list[p]["cik"]]) - len(aw) <= 1]
         if hits:
             return hits, "subset"
     return [], "none"
 
 
-def match_acquired(g_company, g_acquirer, cands, subs_by_cik, comp_words, tok_df):
+def _cik_sub_index(cik, subs_by_cik, cache):
+    """Lazily built per-company subsidiary index, memoized in ``cache``:
+    (rows, per-row normalized word sets, token -> row positions)."""
+    entry = cache.get(cik)
+    if entry is None:
+        rows = subs_by_cik.get(cik, [])
+        wsets = [set(norm_words(s["sub_name"])) for s in rows]
+        tok2rows = defaultdict(list)
+        for i, sw in enumerate(wsets):
+            for t in sw:
+                tok2rows[t].append(i)
+        entry = (rows, wsets, tok2rows)
+        cache[cik] = entry
+    return entry
+
+
+def match_acquired(g_company, g_acquirer, cands, subs_by_cik, comp_wsets,
+                   tok_df, sub_cache):
     """Best (company, sub, jaccard, rule) for one Wikidata pair, or None."""
     aw = set(norm_words(g_company))
     qw = set(norm_words(g_acquirer))
@@ -225,9 +253,18 @@ def match_acquired(g_company, g_acquirer, cands, subs_by_cik, comp_words, tok_df
         return None
     best = None
     for c in cands:
-        pw = set(comp_words.get(c["cik"], []))
-        for s in subs_by_cik.get(c["cik"], []):
-            sw = set(norm_words(s["sub_name"]))
+        pw = comp_wsets.get(c["cik"], set())
+        rows, wsets, tok2rows = _cik_sub_index(c["cik"], subs_by_cik, sub_cache)
+        # Candidate blocking: a sub sharing no token with the acquired name
+        # always fails the ``not inter`` check below, so only scan subs that
+        # share at least one meaningful token.  Scanning positions in sorted
+        # order preserves the original first-wins tie-breaking.
+        cand_rows = set()
+        for t in aw:
+            cand_rows.update(tok2rows.get(t, ()))
+        for i in sorted(cand_rows):
+            s = rows[i]
+            sw = wsets[i]
             if not sw or sw <= pw:    # sub is just the parent's own brand
                 continue
             inter = aw & sw
@@ -251,7 +288,8 @@ def match_acquired(g_company, g_acquirer, cands, subs_by_cik, comp_words, tok_df
 
 def match_positives(companies, subs_by_cik, tok_df):
     idx = build_acquirer_index(companies)
-    comp_words = idx[3]
+    comp_wsets = idx[5]
+    sub_cache = {}
     stats = Counter()
     positives = {}
     with open(WIKIDATA_CSV) as f:
@@ -265,7 +303,7 @@ def match_positives(companies, subs_by_cik, tok_df):
         stats["acquirer_in_dataset"] += 1
         stats[f"acquirer_via_{how}"] += 1
         m = match_acquired(g["company"], g["acquirer"], cands,
-                           subs_by_cik, comp_words, tok_df)
+                           subs_by_cik, comp_wsets, tok_df, sub_cache)
         if m is None:
             continue
         c, s, j, rule = m

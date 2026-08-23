@@ -202,3 +202,25 @@ perfect.
 
 Environment: xgboost 3.4.1, scikit-learn 1.9.0, numpy 2.5.2. Deterministic
 (seeds 42/0).
+
+### Performance
+
+The Wikidata → subsidiary matching stage (5,000 pairs against 22,297
+companies / 1,189,794 subsidiary rows) was optimized with token inverted
+indexes: a token → company posting list for the acquirer subset rule, and a
+lazily built per-company token → subsidiary-row index so each acquired name
+only scores subsidiaries sharing at least one meaningful token (candidate
+blocking). The output is byte-identical to the pre-optimization
+`ground_truth_labeled.csv` (verified with `cmp`); first-wins tie-breaking is
+preserved by scanning blocked rows in original file order.
+
+Measured with `time.perf_counter` on the same machine, matching stage only
+(CSV load excluded — `load_raw` is unchanged at ~7–12 s):
+
+| Matching stage | before | after | speedup |
+|---|---|---|---|
+| best of repeated runs | 13.14 s | 0.26 s | ~50× |
+| median of repeated runs | 14.58 s | 0.64 s | ~23× |
+
+Candidate blocking reduces the average number of subsidiary rows scored per
+Wikidata query from 645 to 30 (21× fewer; 675k → 32k total comparisons).
