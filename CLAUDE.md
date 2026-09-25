@@ -80,7 +80,7 @@ Confidence scoring: Entity suffix detection (LLC, Inc, Corp, Ltd, GmbH, etc.) â†
 - Feature importance: cross_cik=0.83, name_similarity=0.16
 - Training data built from Wikidata M&A ground truth + cross-CIK labels + parent name match
 - Model stored at `data/classifier_model.joblib` (gitignored)
-- Estimated accuracy: ~85-90% with ML, ~70% with heuristics alone
+- Measured (leakage-free, docs/EVALUATION.md): XGBoost 0.60 recall / 0.37 precision / 0.77 AUC; heuristic 0.50 recall / 0.24 precision on 278 Wikidata-verified acquisitions. NOTE: training_data.csv labels come from cross_cik/name_match heuristics that are also features â€” never quote accuracy measured on it.
 
 ## Dashboard Features
 - **M&A Timeline Chart**: Stacked bar chart showing subsidiary type distribution by year (1994-2025)
@@ -96,8 +96,8 @@ Confidence scoring: Entity suffix detection (LLC, Inc, Corp, Ltd, GmbH, etc.) â†
 
 ## Enrichment Accuracy Research
 
-### Current Accuracy (~70%)
-Heuristic v3 achieves ~70% on known acquisitions, 100% on known internals. Distribution: 47.5% Acq, 49.6% Internal (target: ~35% Acq, ~55% Internal).
+### Current Accuracy (measured)
+Heuristic recall is 50% on the 278 Wikidata-verified acquisitions, with a 32.5% false-positive rate on presumed internals (docs/EVALUATION.md). Distribution: 47.5% Acq, 49.6% Internal (target: ~35% Acq, ~55% Internal).
 
 Remaining failures: Instagram (only 1 CIK, no cross-CIK signal), some Merrill Lynch entities (post-acquisition rebranding), Enron SPEs (creative names trigger false acquisition).
 
